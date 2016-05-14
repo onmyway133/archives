@@ -1,0 +1,14 @@
+PODS:
+  - LeftPad (0.1.0)
+
+DEPENDENCIES:
+  - LeftPad (from `../../`)
+
+EXTERNAL SOURCES:
+  LeftPad:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  LeftPad: 88ff0dd6165a0a1f1432764ab8ab1d1b34675007
+
+COCOAPODS: 0.39.0

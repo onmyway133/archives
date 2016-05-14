@@ -11,6 +11,7 @@
 - [StripForm](/StripeForm) Practise making Stripe Checkout form
 - [SwiftyPodspec](/SwiftyPodspec) Podspec in Swift
 - [SwiftyMonad](/SwiftyMonad) Monad in Swift
+- [LeftPad.swift](/LeftPad.swift) Leftpad in Swift
 
 ## Author
 
