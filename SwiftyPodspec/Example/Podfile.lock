@@ -1,0 +1,17 @@
+PODS:
+  - Configurable (0.1.0)
+  - SwiftyPodspec (0.1.0):
+    - Configurable
+
+DEPENDENCIES:
+  - SwiftyPodspec (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyPodspec:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Configurable: 48f71232fd9d13be5d657390eff301881a7b02b6
+  SwiftyPodspec: d7c8adb58acd478742ad9b5e47c08a9b6486d10a
+
+COCOAPODS: 0.39.0

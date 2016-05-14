@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="StripeForm" customModule="StripeForm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="401" height="230"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cA0-mJ-osa" userLabel="Header">
+                    <rect key="frame" x="20" y="10" width="361" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remember me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xja-4G-xic">
+                            <rect key="frame" x="69" y="13" width="272" height="24"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HoF-zO-a19">
+                            <rect key="frame" x="10" y="10" width="51" height="31"/>
+                            <connections>
+                                <action selector="switchValueChanged:" destination="iN0-l3-epB" eventType="valueChanged" id="k4p-hC-8fQ"/>
+                            </connections>
+                        </switch>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="6xG-8E-Kiq"/>
+                        <constraint firstItem="Xja-4G-xic" firstAttribute="leading" secondItem="HoF-zO-a19" secondAttribute="trailing" constant="10" id="Ktf-OW-zoL"/>
+                        <constraint firstAttribute="trailing" secondItem="Xja-4G-xic" secondAttribute="trailing" constant="20" id="RQ3-Sm-X6H"/>
+                        <constraint firstItem="Xja-4G-xic" firstAttribute="centerY" secondItem="cA0-mJ-osa" secondAttribute="centerY" id="bGe-Xg-JxM"/>
+                        <constraint firstItem="HoF-zO-a19" firstAttribute="leading" secondItem="cA0-mJ-osa" secondAttribute="leading" constant="10" id="kib-pA-FIe"/>
+                        <constraint firstItem="HoF-zO-a19" firstAttribute="centerY" secondItem="cA0-mJ-osa" secondAttribute="centerY" id="oGx-Y1-Xie"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LHT-St-hgX" userLabel="Fold">
+                    <rect key="frame" x="20" y="62" width="361" height="100"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For security, please enter your mobile phone number:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ef-OZ-z4J">
+                            <rect key="frame" x="10" y="10" width="341" height="41"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(65) 123-1234" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HFQ-0D-OMJ">
+                            <rect key="frame" x="10" y="61" width="341" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad"/>
+                            <connections>
+                                <outlet property="delegate" destination="iN0-l3-epB" id="rwv-nk-m6R"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="9TN-Qt-wqK"/>
+                        <constraint firstItem="HFQ-0D-OMJ" firstAttribute="top" secondItem="7Ef-OZ-z4J" secondAttribute="bottom" constant="10" id="CR1-nU-ySe"/>
+                        <constraint firstAttribute="trailing" secondItem="7Ef-OZ-z4J" secondAttribute="trailing" constant="10" id="DKQ-7L-0Vy"/>
+                        <constraint firstAttribute="trailing" secondItem="HFQ-0D-OMJ" secondAttribute="trailing" constant="10" id="OlU-Ev-5ap"/>
+                        <constraint firstItem="7Ef-OZ-z4J" firstAttribute="leading" secondItem="LHT-St-hgX" secondAttribute="leading" constant="10" id="eZ5-Om-B0o"/>
+                        <constraint firstItem="7Ef-OZ-z4J" firstAttribute="top" secondItem="LHT-St-hgX" secondAttribute="top" constant="10" id="l0f-2r-DEW"/>
+                        <constraint firstItem="HFQ-0D-OMJ" firstAttribute="leading" secondItem="LHT-St-hgX" secondAttribute="leading" constant="10" id="n4X-gd-qx6"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRz-Vy-eGe">
+                    <rect key="frame" x="20" y="172" width="361" height="48"/>
+                    <color key="backgroundColor" red="0.28235294117647058" green="0.49019607843137253" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="7Qf-S6-LOz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <state key="normal" title="Pay $5">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="payButtonTouched:" destination="iN0-l3-epB" eventType="touchUpInside" id="oCN-mF-zWS"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="LHT-St-hgX" firstAttribute="top" secondItem="cA0-mJ-osa" secondAttribute="bottom" constant="2" id="CRC-9M-3aT"/>
+                <constraint firstItem="CRz-Vy-eGe" firstAttribute="leading" secondItem="cA0-mJ-osa" secondAttribute="leading" id="CxJ-2e-YqN"/>
+                <constraint firstItem="cA0-mJ-osa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="Tsd-2e-ul1"/>
+                <constraint firstItem="LHT-St-hgX" firstAttribute="leading" secondItem="cA0-mJ-osa" secondAttribute="leading" id="V4T-xa-LU4"/>
+                <constraint firstItem="CRz-Vy-eGe" firstAttribute="trailing" secondItem="cA0-mJ-osa" secondAttribute="trailing" id="YWz-XL-aQb"/>
+                <constraint firstAttribute="trailing" secondItem="cA0-mJ-osa" secondAttribute="trailing" constant="20" id="fAj-lu-cfB"/>
+                <constraint firstAttribute="bottom" secondItem="CRz-Vy-eGe" secondAttribute="bottom" constant="10" id="kgt-jd-ot7"/>
+                <constraint firstItem="cA0-mJ-osa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="spy-7u-JDu"/>
+                <constraint firstItem="LHT-St-hgX" firstAttribute="trailing" secondItem="cA0-mJ-osa" secondAttribute="trailing" id="vyN-Id-aii"/>
+                <constraint firstItem="CRz-Vy-eGe" firstAttribute="top" secondItem="LHT-St-hgX" secondAttribute="bottom" constant="10" id="w1O-tK-GD0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="foldView" destination="LHT-St-hgX" id="TJd-p1-h38"/>
+                <outlet property="foldViewHeightConstraint" destination="9TN-Qt-wqK" id="ggP-1a-rAy"/>
+                <outlet property="headerView" destination="cA0-mJ-osa" id="sIq-2I-Rc1"/>
+                <outlet property="payButton" destination="CRz-Vy-eGe" id="cx1-VD-R1S"/>
+                <outlet property="textField" destination="HFQ-0D-OMJ" id="koj-Sh-elM"/>
+            </connections>
+            <point key="canvasLocation" x="-52.5" y="244.5"/>
+        </view>
+    </objects>
+</document>

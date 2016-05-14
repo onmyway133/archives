@@ -1,0 +1,14 @@
+PODS:
+  - SwiftyMonad (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyMonad (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyMonad:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SwiftyMonad: cbef4ba89fd747825b425ffb52931643aa14b63d
+
+COCOAPODS: 0.38.2

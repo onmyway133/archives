@@ -1,0 +1,14 @@
+PODS:
+  - StripeForm (0.1.0)
+
+DEPENDENCIES:
+  - StripeForm (from `../`)
+
+EXTERNAL SOURCES:
+  StripeForm:
+    :path: ../
+
+SPEC CHECKSUMS:
+  StripeForm: aaa9e4c583b773eacc1e60011d423cb4bf642adc
+
+COCOAPODS: 0.39.0
