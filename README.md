@@ -8,7 +8,7 @@
 # Contents
 
 - [Piano](/Piano) How to create a Piano using NSLayoutAnchor, UILayoutGuide and UIStackView
-- [StripForm](/Stripe) Practise making Stripe Checkout form
+- [StripForm](/StripeForm) Practise making Stripe Checkout form
 - [SwiftyPodspec](/SwiftyPodspec) Podspec in Swift
 - [SwiftyMonad](/SwiftyMonad) Monad in Swift
 
