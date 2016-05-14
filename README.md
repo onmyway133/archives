@@ -12,6 +12,7 @@
 - [SwiftyPodspec](/SwiftyPodspec) Podspec in Swift
 - [SwiftyMonad](/SwiftyMonad) Monad in Swift
 - [LeftPad.swift](/LeftPad.swift) Leftpad in Swift
+- [Signal](/Signal) Signal in Swift
 
 ## Author
 

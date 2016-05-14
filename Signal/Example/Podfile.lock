@@ -1,0 +1,17 @@
+PODS:
+  - Signal (0.1.0):
+    - Throttle
+  - Throttle (0.1.0)
+
+DEPENDENCIES:
+  - Signal (from `../`)
+
+EXTERNAL SOURCES:
+  Signal:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Signal: 08f3831324937b605cee2c503faf90701af4c590
+  Throttle: 0b251a03f75cbdabcfac9ceaa9a2c1c02cb6d826
+
+COCOAPODS: 0.39.0
