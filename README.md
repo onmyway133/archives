@@ -13,6 +13,7 @@
 - [SwiftyMonad](/SwiftyMonad) Monad in Swift
 - [LeftPad.swift](/LeftPad.swift) Leftpad in Swift
 - [Signal](/Signal) Signal in Swift
+- [StretchyHeader](/StretchyHeader) Stretchy header using Auto Layout
 
 ## Author
 
