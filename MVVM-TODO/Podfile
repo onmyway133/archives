@@ -1,0 +1,11 @@
+source "https://github.com/CocoaPods/Specs.git"
+
+platform :ios, '7.0'
+
+target :"MVVM-TODO", :exclusive => true do
+  pod 'ReactiveCocoa', '~> 2.0'
+end
+
+target :"MVVM-TODOTests", :exclusive => true do
+  pod 'Kiwi', '~> 2.3'
+end

@@ -1,0 +1,917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99A0612C1ABB1F0F002BDEB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0612B1ABB1F0F002BDEB0 /* main.m */; };
+		99A0612F1ABB1F0F002BDEB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0612E1ABB1F0F002BDEB0 /* AppDelegate.m */; };
+		99A0613A1ABB1F0F002BDEB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99A061381ABB1F0F002BDEB0 /* LaunchScreen.xib */; };
+		99A061461ABB1F11002BDEB0 /* MVVM_TODOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A061451ABB1F11002BDEB0 /* MVVM_TODOTests.m */; };
+		99A061531ABB22DA002BDEB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A061511ABB22DA002BDEB0 /* Images.xcassets */; };
+		99A061541ABB22DA002BDEB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A061521ABB22DA002BDEB0 /* Main.storyboard */; };
+		99A061711ABB3257002BDEB0 /* NSArray+HOM.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0615A1ABB3257002BDEB0 /* NSArray+HOM.m */; };
+		99A061721ABB3257002BDEB0 /* NSCalendar+CalendarAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0615C1ABB3257002BDEB0 /* NSCalendar+CalendarAdditions.m */; };
+		99A061731ABB3257002BDEB0 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0615E1ABB3257002BDEB0 /* UIImage+ImageEffects.m */; };
+		99A061741ABB3257002BDEB0 /* VTDTodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A061621ABB3257002BDEB0 /* VTDTodoItem.m */; };
+		99A061751ABB3257002BDEB0 /* VTDManagedTodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A061661ABB3257002BDEB0 /* VTDManagedTodoItem.m */; };
+		99A061761ABB3257002BDEB0 /* TODO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99A061671ABB3257002BDEB0 /* TODO.xcdatamodeld */; };
+		99A061771ABB3257002BDEB0 /* VTDCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0616A1ABB3257002BDEB0 /* VTDCoreDataStore.m */; };
+		99A061861ABB3477002BDEB0 /* VTDDeviceClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A061851ABB3477002BDEB0 /* VTDDeviceClock.m */; };
+		99A061A51ABB3FF5002BDEB0 /* UIStoryboard+FTGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A061A41ABB3FF5002BDEB0 /* UIStoryboard+FTGAdditions.m */; };
+		A9B57AFD0125BFE9618B1C15 /* libPods-MVVM-TODOTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4F59D0AC4B410E3389816C /* libPods-MVVM-TODOTests.a */; };
+		D2CF6CB21ABBE698005449DC /* ListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6C9C1ABBE698005449DC /* ListInteractor.m */; };
+		D2CF6CB31ABBE698005449DC /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CA11ABBE698005449DC /* ListViewController.m */; };
+		D2CF6CB81ABBE698005449DC /* ListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CAD1ABBE698005449DC /* ListViewModel.m */; };
+		D2CF6CB91ABBE698005449DC /* ListWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CB01ABBE698005449DC /* ListWireframe.m */; };
+		D2CF6CBC1ABBE6B6005449DC /* VTDListDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CBB1ABBE6B6005449DC /* VTDListDataManager.m */; };
+		D2CF6CC61ABBFAE0005449DC /* VTDUpcomingDisplayData.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CBF1ABBFAE0005449DC /* VTDUpcomingDisplayData.m */; };
+		D2CF6CC71ABBFAE0005449DC /* VTDUpcomingDisplayDataCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CC11ABBFAE0005449DC /* VTDUpcomingDisplayDataCollector.m */; };
+		D2CF6CC81ABBFAE0005449DC /* VTDUpcomingDisplayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CC31ABBFAE0005449DC /* VTDUpcomingDisplayItem.m */; };
+		D2CF6CC91ABBFAE0005449DC /* VTDUpcomingDisplaySection.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CC51ABBFAE0005449DC /* VTDUpcomingDisplaySection.m */; };
+		D2CF6CCD1ABBFAE7005449DC /* VTDUpcomingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CCC1ABBFAE7005449DC /* VTDUpcomingItem.m */; };
+		D2CF6CE51ABBFFA0005449DC /* AddInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CD31ABBFFA0005449DC /* AddInteractor.m */; };
+		D2CF6CE61ABBFFA0005449DC /* VTDAddDismissalTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CD81ABBFFA0005449DC /* VTDAddDismissalTransition.m */; };
+		D2CF6CE71ABBFFA0005449DC /* VTDAddPresentationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CDA1ABBFFA0005449DC /* VTDAddPresentationTransition.m */; };
+		D2CF6CE81ABBFFA0005449DC /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CDD1ABBFFA0005449DC /* AddViewController.m */; };
+		D2CF6CE91ABBFFA0005449DC /* AddViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CE01ABBFFA0005449DC /* AddViewModel.m */; };
+		D2CF6CEA1ABBFFA0005449DC /* AddWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CE31ABBFFA0005449DC /* AddWireframe.m */; };
+		D2CF6CED1ABBFFC6005449DC /* VTDAddDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF6CEC1ABBFFC6005449DC /* VTDAddDataManager.m */; };
+		F905AE228A2F0E405FF01F36 /* libPods-MVVM-TODO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3FE9DDA5D4C8CF636000E /* libPods-MVVM-TODO.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99A061401ABB1F11002BDEB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99A0611E1ABB1F0F002BDEB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A061251ABB1F0F002BDEB0;
+			remoteInfo = "MVVM-TODO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010AA0EC2F4FAA7538548F23 /* Pods-MVVM-TODO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-TODO.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM-TODO/Pods-MVVM-TODO.release.xcconfig"; sourceTree = "<group>"; };
+		4998274585ED16C49E27CBEF /* Pods-MVVM-TODOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-TODOTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM-TODOTests/Pods-MVVM-TODOTests.release.xcconfig"; sourceTree = "<group>"; };
+		99A061261ABB1F0F002BDEB0 /* MVVM-TODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-TODO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A0612A1ABB1F0F002BDEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A0612B1ABB1F0F002BDEB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99A0612D1ABB1F0F002BDEB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99A0612E1ABB1F0F002BDEB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99A061391ABB1F0F002BDEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		99A0613F1ABB1F11002BDEB0 /* MVVM-TODOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-TODOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A061441ABB1F11002BDEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A061451ABB1F11002BDEB0 /* MVVM_TODOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVM_TODOTests.m; sourceTree = "<group>"; };
+		99A061511ABB22DA002BDEB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99A061521ABB22DA002BDEB0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		99A061591ABB3257002BDEB0 /* NSArray+HOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HOM.h"; sourceTree = "<group>"; };
+		99A0615A1ABB3257002BDEB0 /* NSArray+HOM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HOM.m"; sourceTree = "<group>"; };
+		99A0615B1ABB3257002BDEB0 /* NSCalendar+CalendarAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+CalendarAdditions.h"; sourceTree = "<group>"; };
+		99A0615C1ABB3257002BDEB0 /* NSCalendar+CalendarAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+CalendarAdditions.m"; sourceTree = "<group>"; };
+		99A0615D1ABB3257002BDEB0 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		99A0615E1ABB3257002BDEB0 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		99A061601ABB3257002BDEB0 /* VTDNearTermDateRelation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDNearTermDateRelation.h; sourceTree = "<group>"; };
+		99A061611ABB3257002BDEB0 /* VTDTodoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDTodoItem.h; sourceTree = "<group>"; };
+		99A061621ABB3257002BDEB0 /* VTDTodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDTodoItem.m; sourceTree = "<group>"; };
+		99A061651ABB3257002BDEB0 /* VTDManagedTodoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDManagedTodoItem.h; sourceTree = "<group>"; };
+		99A061661ABB3257002BDEB0 /* VTDManagedTodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDManagedTodoItem.m; sourceTree = "<group>"; };
+		99A061681ABB3257002BDEB0 /* TODO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TODO.xcdatamodel; sourceTree = "<group>"; };
+		99A061691ABB3257002BDEB0 /* VTDCoreDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDCoreDataStore.h; sourceTree = "<group>"; };
+		99A0616A1ABB3257002BDEB0 /* VTDCoreDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDCoreDataStore.m; sourceTree = "<group>"; };
+		99A061831ABB3477002BDEB0 /* VTDClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDClock.h; sourceTree = "<group>"; };
+		99A061841ABB3477002BDEB0 /* VTDDeviceClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDDeviceClock.h; sourceTree = "<group>"; };
+		99A061851ABB3477002BDEB0 /* VTDDeviceClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDDeviceClock.m; sourceTree = "<group>"; };
+		99A061A31ABB3FF5002BDEB0 /* UIStoryboard+FTGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+FTGAdditions.h"; sourceTree = "<group>"; };
+		99A061A41ABB3FF5002BDEB0 /* UIStoryboard+FTGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+FTGAdditions.m"; sourceTree = "<group>"; };
+		AA4F59D0AC4B410E3389816C /* libPods-MVVM-TODOTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM-TODOTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE352232798F3411B5CCC67 /* Pods-MVVM-TODOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-TODOTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM-TODOTests/Pods-MVVM-TODOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2CF6C9B1ABBE698005449DC /* ListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListInteractor.h; sourceTree = "<group>"; };
+		D2CF6C9C1ABBE698005449DC /* ListInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListInteractor.m; sourceTree = "<group>"; };
+		D2CF6C9D1ABBE698005449DC /* ListInteractorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListInteractorProtocol.h; sourceTree = "<group>"; };
+		D2CF6CA01ABBE698005449DC /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		D2CF6CA11ABBE698005449DC /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		D2CF6CAC1ABBE698005449DC /* ListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewModel.h; sourceTree = "<group>"; };
+		D2CF6CAD1ABBE698005449DC /* ListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewModel.m; sourceTree = "<group>"; };
+		D2CF6CAF1ABBE698005449DC /* ListWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListWireframe.h; sourceTree = "<group>"; };
+		D2CF6CB01ABBE698005449DC /* ListWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListWireframe.m; sourceTree = "<group>"; };
+		D2CF6CBA1ABBE6B6005449DC /* VTDListDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDListDataManager.h; sourceTree = "<group>"; };
+		D2CF6CBB1ABBE6B6005449DC /* VTDListDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDListDataManager.m; sourceTree = "<group>"; };
+		D2CF6CBE1ABBFAE0005449DC /* VTDUpcomingDisplayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDUpcomingDisplayData.h; sourceTree = "<group>"; };
+		D2CF6CBF1ABBFAE0005449DC /* VTDUpcomingDisplayData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDUpcomingDisplayData.m; sourceTree = "<group>"; };
+		D2CF6CC01ABBFAE0005449DC /* VTDUpcomingDisplayDataCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDUpcomingDisplayDataCollector.h; sourceTree = "<group>"; };
+		D2CF6CC11ABBFAE0005449DC /* VTDUpcomingDisplayDataCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDUpcomingDisplayDataCollector.m; sourceTree = "<group>"; };
+		D2CF6CC21ABBFAE0005449DC /* VTDUpcomingDisplayItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDUpcomingDisplayItem.h; sourceTree = "<group>"; };
+		D2CF6CC31ABBFAE0005449DC /* VTDUpcomingDisplayItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDUpcomingDisplayItem.m; sourceTree = "<group>"; };
+		D2CF6CC41ABBFAE0005449DC /* VTDUpcomingDisplaySection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDUpcomingDisplaySection.h; sourceTree = "<group>"; };
+		D2CF6CC51ABBFAE0005449DC /* VTDUpcomingDisplaySection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDUpcomingDisplaySection.m; sourceTree = "<group>"; };
+		D2CF6CCB1ABBFAE7005449DC /* VTDUpcomingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDUpcomingItem.h; sourceTree = "<group>"; };
+		D2CF6CCC1ABBFAE7005449DC /* VTDUpcomingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDUpcomingItem.m; sourceTree = "<group>"; };
+		D2CF6CD21ABBFFA0005449DC /* AddInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddInteractor.h; sourceTree = "<group>"; };
+		D2CF6CD31ABBFFA0005449DC /* AddInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddInteractor.m; sourceTree = "<group>"; };
+		D2CF6CD41ABBFFA0005449DC /* AddInteractorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddInteractorProtocol.h; sourceTree = "<group>"; };
+		D2CF6CD71ABBFFA0005449DC /* VTDAddDismissalTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDAddDismissalTransition.h; sourceTree = "<group>"; };
+		D2CF6CD81ABBFFA0005449DC /* VTDAddDismissalTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDAddDismissalTransition.m; sourceTree = "<group>"; };
+		D2CF6CD91ABBFFA0005449DC /* VTDAddPresentationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDAddPresentationTransition.h; sourceTree = "<group>"; };
+		D2CF6CDA1ABBFFA0005449DC /* VTDAddPresentationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDAddPresentationTransition.m; sourceTree = "<group>"; };
+		D2CF6CDC1ABBFFA0005449DC /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		D2CF6CDD1ABBFFA0005449DC /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		D2CF6CDF1ABBFFA0005449DC /* AddViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewModel.h; sourceTree = "<group>"; };
+		D2CF6CE01ABBFFA0005449DC /* AddViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewModel.m; sourceTree = "<group>"; };
+		D2CF6CE21ABBFFA0005449DC /* AddWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddWireframe.h; sourceTree = "<group>"; };
+		D2CF6CE31ABBFFA0005449DC /* AddWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddWireframe.m; sourceTree = "<group>"; };
+		D2CF6CEB1ABBFFC6005449DC /* VTDAddDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDAddDataManager.h; sourceTree = "<group>"; };
+		D2CF6CEC1ABBFFC6005449DC /* VTDAddDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDAddDataManager.m; sourceTree = "<group>"; };
+		E1C3FE9DDA5D4C8CF636000E /* libPods-MVVM-TODO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM-TODO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F292503054F9547B6CB64BA7 /* Pods-MVVM-TODO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-TODO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM-TODO/Pods-MVVM-TODO.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99A061231ABB1F0F002BDEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F905AE228A2F0E405FF01F36 /* libPods-MVVM-TODO.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A0613C1ABB1F11002BDEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B57AFD0125BFE9618B1C15 /* libPods-MVVM-TODOTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FEC2E2E10393147793FA329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1C3FE9DDA5D4C8CF636000E /* libPods-MVVM-TODO.a */,
+				AA4F59D0AC4B410E3389816C /* libPods-MVVM-TODOTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99A0611D1ABB1F0F002BDEB0 = {
+			isa = PBXGroup;
+			children = (
+				99A061281ABB1F0F002BDEB0 /* MVVM-TODO */,
+				99A061421ABB1F11002BDEB0 /* MVVM-TODOTests */,
+				99A061271ABB1F0F002BDEB0 /* Products */,
+				BFA276E1ED5C230E0FCB96A2 /* Pods */,
+				6FEC2E2E10393147793FA329 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99A061271ABB1F0F002BDEB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99A061261ABB1F0F002BDEB0 /* MVVM-TODO.app */,
+				99A0613F1ABB1F11002BDEB0 /* MVVM-TODOTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99A061281ABB1F0F002BDEB0 /* MVVM-TODO */ = {
+			isa = PBXGroup;
+			children = (
+				99A0614F1ABB22DA002BDEB0 /* Classes */,
+				99A061501ABB22DA002BDEB0 /* Resources */,
+				99A0612D1ABB1F0F002BDEB0 /* AppDelegate.h */,
+				99A0612E1ABB1F0F002BDEB0 /* AppDelegate.m */,
+				99A061381ABB1F0F002BDEB0 /* LaunchScreen.xib */,
+				99A061291ABB1F0F002BDEB0 /* Supporting Files */,
+			);
+			path = "MVVM-TODO";
+			sourceTree = "<group>";
+		};
+		99A061291ABB1F0F002BDEB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99A0612A1ABB1F0F002BDEB0 /* Info.plist */,
+				99A0612B1ABB1F0F002BDEB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99A061421ABB1F11002BDEB0 /* MVVM-TODOTests */ = {
+			isa = PBXGroup;
+			children = (
+				99A061451ABB1F11002BDEB0 /* MVVM_TODOTests.m */,
+				99A061431ABB1F11002BDEB0 /* Supporting Files */,
+			);
+			path = "MVVM-TODOTests";
+			sourceTree = "<group>";
+		};
+		99A061431ABB1F11002BDEB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99A061441ABB1F11002BDEB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99A0614F1ABB22DA002BDEB0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				99A061561ABB23D2002BDEB0 /* Common */,
+				D2CF6C5C1ABBC93F005449DC /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		99A061501ABB22DA002BDEB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99A061511ABB22DA002BDEB0 /* Images.xcassets */,
+				99A061521ABB22DA002BDEB0 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		99A061561ABB23D2002BDEB0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				99A061821ABB3477002BDEB0 /* Clock */,
+				99A061581ABB3257002BDEB0 /* Categories */,
+				99A0615F1ABB3257002BDEB0 /* Model */,
+				99A061631ABB3257002BDEB0 /* Store */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		99A061581ABB3257002BDEB0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				99A061591ABB3257002BDEB0 /* NSArray+HOM.h */,
+				99A0615A1ABB3257002BDEB0 /* NSArray+HOM.m */,
+				99A0615B1ABB3257002BDEB0 /* NSCalendar+CalendarAdditions.h */,
+				99A0615C1ABB3257002BDEB0 /* NSCalendar+CalendarAdditions.m */,
+				99A0615D1ABB3257002BDEB0 /* UIImage+ImageEffects.h */,
+				99A0615E1ABB3257002BDEB0 /* UIImage+ImageEffects.m */,
+				99A061A31ABB3FF5002BDEB0 /* UIStoryboard+FTGAdditions.h */,
+				99A061A41ABB3FF5002BDEB0 /* UIStoryboard+FTGAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		99A0615F1ABB3257002BDEB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99A061601ABB3257002BDEB0 /* VTDNearTermDateRelation.h */,
+				99A061611ABB3257002BDEB0 /* VTDTodoItem.h */,
+				99A061621ABB3257002BDEB0 /* VTDTodoItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99A061631ABB3257002BDEB0 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				99A061641ABB3257002BDEB0 /* Entities */,
+				99A061671ABB3257002BDEB0 /* TODO.xcdatamodeld */,
+				99A061691ABB3257002BDEB0 /* VTDCoreDataStore.h */,
+				99A0616A1ABB3257002BDEB0 /* VTDCoreDataStore.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		99A061641ABB3257002BDEB0 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				99A061651ABB3257002BDEB0 /* VTDManagedTodoItem.h */,
+				99A061661ABB3257002BDEB0 /* VTDManagedTodoItem.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		99A061821ABB3477002BDEB0 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				99A061831ABB3477002BDEB0 /* VTDClock.h */,
+				99A061841ABB3477002BDEB0 /* VTDDeviceClock.h */,
+				99A061851ABB3477002BDEB0 /* VTDDeviceClock.m */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		BFA276E1ED5C230E0FCB96A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F292503054F9547B6CB64BA7 /* Pods-MVVM-TODO.debug.xcconfig */,
+				010AA0EC2F4FAA7538548F23 /* Pods-MVVM-TODO.release.xcconfig */,
+				ACE352232798F3411B5CCC67 /* Pods-MVVM-TODOTests.debug.xcconfig */,
+				4998274585ED16C49E27CBEF /* Pods-MVVM-TODOTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2CF6C5C1ABBC93F005449DC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CCE1ABBFFA0005449DC /* Add */,
+				D2CF6C971ABBE698005449DC /* List */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D2CF6C971ABBE698005449DC /* List */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6C981ABBE698005449DC /* data */,
+				D2CF6C991ABBE698005449DC /* domain */,
+				D2CF6C9E1ABBE698005449DC /* presentation */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		D2CF6C981ABBE698005449DC /* data */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CBA1ABBE6B6005449DC /* VTDListDataManager.h */,
+				D2CF6CBB1ABBE6B6005449DC /* VTDListDataManager.m */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		D2CF6C991ABBE698005449DC /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CCA1ABBFAE7005449DC /* model */,
+				D2CF6C9A1ABBE698005449DC /* interactor */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		D2CF6C9A1ABBE698005449DC /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6C9B1ABBE698005449DC /* ListInteractor.h */,
+				D2CF6C9C1ABBE698005449DC /* ListInteractor.m */,
+				D2CF6C9D1ABBE698005449DC /* ListInteractorProtocol.h */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		D2CF6C9E1ABBE698005449DC /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CBD1ABBFAE0005449DC /* model */,
+				D2CF6C9F1ABBE698005449DC /* view */,
+				D2CF6CA21ABBE698005449DC /* viewmodel */,
+				D2CF6CAE1ABBE698005449DC /* wireframe */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		D2CF6C9F1ABBE698005449DC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CA01ABBE698005449DC /* ListViewController.h */,
+				D2CF6CA11ABBE698005449DC /* ListViewController.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D2CF6CA21ABBE698005449DC /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CAC1ABBE698005449DC /* ListViewModel.h */,
+				D2CF6CAD1ABBE698005449DC /* ListViewModel.m */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		D2CF6CAE1ABBE698005449DC /* wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CAF1ABBE698005449DC /* ListWireframe.h */,
+				D2CF6CB01ABBE698005449DC /* ListWireframe.m */,
+			);
+			path = wireframe;
+			sourceTree = "<group>";
+		};
+		D2CF6CBD1ABBFAE0005449DC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CBE1ABBFAE0005449DC /* VTDUpcomingDisplayData.h */,
+				D2CF6CBF1ABBFAE0005449DC /* VTDUpcomingDisplayData.m */,
+				D2CF6CC01ABBFAE0005449DC /* VTDUpcomingDisplayDataCollector.h */,
+				D2CF6CC11ABBFAE0005449DC /* VTDUpcomingDisplayDataCollector.m */,
+				D2CF6CC21ABBFAE0005449DC /* VTDUpcomingDisplayItem.h */,
+				D2CF6CC31ABBFAE0005449DC /* VTDUpcomingDisplayItem.m */,
+				D2CF6CC41ABBFAE0005449DC /* VTDUpcomingDisplaySection.h */,
+				D2CF6CC51ABBFAE0005449DC /* VTDUpcomingDisplaySection.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D2CF6CCA1ABBFAE7005449DC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CCB1ABBFAE7005449DC /* VTDUpcomingItem.h */,
+				D2CF6CCC1ABBFAE7005449DC /* VTDUpcomingItem.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D2CF6CCE1ABBFFA0005449DC /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CCF1ABBFFA0005449DC /* data */,
+				D2CF6CD01ABBFFA0005449DC /* domain */,
+				D2CF6CD51ABBFFA0005449DC /* presentation */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		D2CF6CCF1ABBFFA0005449DC /* data */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CEB1ABBFFC6005449DC /* VTDAddDataManager.h */,
+				D2CF6CEC1ABBFFC6005449DC /* VTDAddDataManager.m */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		D2CF6CD01ABBFFA0005449DC /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CD11ABBFFA0005449DC /* interactor */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		D2CF6CD11ABBFFA0005449DC /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CD21ABBFFA0005449DC /* AddInteractor.h */,
+				D2CF6CD31ABBFFA0005449DC /* AddInteractor.m */,
+				D2CF6CD41ABBFFA0005449DC /* AddInteractorProtocol.h */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		D2CF6CD51ABBFFA0005449DC /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CD61ABBFFA0005449DC /* transition */,
+				D2CF6CDB1ABBFFA0005449DC /* view */,
+				D2CF6CDE1ABBFFA0005449DC /* viewmodel */,
+				D2CF6CE11ABBFFA0005449DC /* wireframe */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		D2CF6CD61ABBFFA0005449DC /* transition */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CD71ABBFFA0005449DC /* VTDAddDismissalTransition.h */,
+				D2CF6CD81ABBFFA0005449DC /* VTDAddDismissalTransition.m */,
+				D2CF6CD91ABBFFA0005449DC /* VTDAddPresentationTransition.h */,
+				D2CF6CDA1ABBFFA0005449DC /* VTDAddPresentationTransition.m */,
+			);
+			path = transition;
+			sourceTree = "<group>";
+		};
+		D2CF6CDB1ABBFFA0005449DC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CDC1ABBFFA0005449DC /* AddViewController.h */,
+				D2CF6CDD1ABBFFA0005449DC /* AddViewController.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D2CF6CDE1ABBFFA0005449DC /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CDF1ABBFFA0005449DC /* AddViewModel.h */,
+				D2CF6CE01ABBFFA0005449DC /* AddViewModel.m */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		D2CF6CE11ABBFFA0005449DC /* wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF6CE21ABBFFA0005449DC /* AddWireframe.h */,
+				D2CF6CE31ABBFFA0005449DC /* AddWireframe.m */,
+			);
+			path = wireframe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99A061251ABB1F0F002BDEB0 /* MVVM-TODO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A061491ABB1F11002BDEB0 /* Build configuration list for PBXNativeTarget "MVVM-TODO" */;
+			buildPhases = (
+				63B81E2FE9003707879C90BC /* Check Pods Manifest.lock */,
+				99A061221ABB1F0F002BDEB0 /* Sources */,
+				99A061231ABB1F0F002BDEB0 /* Frameworks */,
+				99A061241ABB1F0F002BDEB0 /* Resources */,
+				A532F256203B684F6FF0DA83 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MVVM-TODO";
+			productName = "MVVM-TODO";
+			productReference = 99A061261ABB1F0F002BDEB0 /* MVVM-TODO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99A0613E1ABB1F11002BDEB0 /* MVVM-TODOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A0614C1ABB1F11002BDEB0 /* Build configuration list for PBXNativeTarget "MVVM-TODOTests" */;
+			buildPhases = (
+				72F7133D6AAA0391FD8E27EF /* Check Pods Manifest.lock */,
+				99A0613B1ABB1F11002BDEB0 /* Sources */,
+				99A0613C1ABB1F11002BDEB0 /* Frameworks */,
+				99A0613D1ABB1F11002BDEB0 /* Resources */,
+				11EE799F7500B8CFAD0C1B6A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99A061411ABB1F11002BDEB0 /* PBXTargetDependency */,
+			);
+			name = "MVVM-TODOTests";
+			productName = "MVVM-TODOTests";
+			productReference = 99A0613F1ABB1F11002BDEB0 /* MVVM-TODOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99A0611E1ABB1F0F002BDEB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Fantageek;
+				TargetAttributes = {
+					99A061251ABB1F0F002BDEB0 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					99A0613E1ABB1F11002BDEB0 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 99A061251ABB1F0F002BDEB0;
+					};
+				};
+			};
+			buildConfigurationList = 99A061211ABB1F0F002BDEB0 /* Build configuration list for PBXProject "MVVM-TODO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99A0611D1ABB1F0F002BDEB0;
+			productRefGroup = 99A061271ABB1F0F002BDEB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99A061251ABB1F0F002BDEB0 /* MVVM-TODO */,
+				99A0613E1ABB1F11002BDEB0 /* MVVM-TODOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99A061241ABB1F0F002BDEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A061541ABB22DA002BDEB0 /* Main.storyboard in Resources */,
+				99A0613A1ABB1F0F002BDEB0 /* LaunchScreen.xib in Resources */,
+				99A061531ABB22DA002BDEB0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A0613D1ABB1F11002BDEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11EE799F7500B8CFAD0C1B6A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM-TODOTests/Pods-MVVM-TODOTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63B81E2FE9003707879C90BC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72F7133D6AAA0391FD8E27EF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A532F256203B684F6FF0DA83 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM-TODO/Pods-MVVM-TODO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99A061221ABB1F0F002BDEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CF6CCD1ABBFAE7005449DC /* VTDUpcomingItem.m in Sources */,
+				99A061741ABB3257002BDEB0 /* VTDTodoItem.m in Sources */,
+				D2CF6CE91ABBFFA0005449DC /* AddViewModel.m in Sources */,
+				D2CF6CC71ABBFAE0005449DC /* VTDUpcomingDisplayDataCollector.m in Sources */,
+				99A061A51ABB3FF5002BDEB0 /* UIStoryboard+FTGAdditions.m in Sources */,
+				D2CF6CE51ABBFFA0005449DC /* AddInteractor.m in Sources */,
+				D2CF6CB31ABBE698005449DC /* ListViewController.m in Sources */,
+				99A0612F1ABB1F0F002BDEB0 /* AppDelegate.m in Sources */,
+				99A061861ABB3477002BDEB0 /* VTDDeviceClock.m in Sources */,
+				D2CF6CC91ABBFAE0005449DC /* VTDUpcomingDisplaySection.m in Sources */,
+				99A061731ABB3257002BDEB0 /* UIImage+ImageEffects.m in Sources */,
+				D2CF6CE81ABBFFA0005449DC /* AddViewController.m in Sources */,
+				D2CF6CBC1ABBE6B6005449DC /* VTDListDataManager.m in Sources */,
+				99A0612C1ABB1F0F002BDEB0 /* main.m in Sources */,
+				D2CF6CED1ABBFFC6005449DC /* VTDAddDataManager.m in Sources */,
+				D2CF6CB81ABBE698005449DC /* ListViewModel.m in Sources */,
+				99A061711ABB3257002BDEB0 /* NSArray+HOM.m in Sources */,
+				99A061721ABB3257002BDEB0 /* NSCalendar+CalendarAdditions.m in Sources */,
+				D2CF6CE71ABBFFA0005449DC /* VTDAddPresentationTransition.m in Sources */,
+				D2CF6CC81ABBFAE0005449DC /* VTDUpcomingDisplayItem.m in Sources */,
+				99A061761ABB3257002BDEB0 /* TODO.xcdatamodeld in Sources */,
+				99A061751ABB3257002BDEB0 /* VTDManagedTodoItem.m in Sources */,
+				D2CF6CC61ABBFAE0005449DC /* VTDUpcomingDisplayData.m in Sources */,
+				D2CF6CE61ABBFFA0005449DC /* VTDAddDismissalTransition.m in Sources */,
+				D2CF6CB21ABBE698005449DC /* ListInteractor.m in Sources */,
+				D2CF6CEA1ABBFFA0005449DC /* AddWireframe.m in Sources */,
+				99A061771ABB3257002BDEB0 /* VTDCoreDataStore.m in Sources */,
+				D2CF6CB91ABBE698005449DC /* ListWireframe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A0613B1ABB1F11002BDEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A061461ABB1F11002BDEB0 /* MVVM_TODOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99A061411ABB1F11002BDEB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99A061251ABB1F0F002BDEB0 /* MVVM-TODO */;
+			targetProxy = 99A061401ABB1F11002BDEB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99A061381ABB1F0F002BDEB0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99A061391ABB1F0F002BDEB0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99A061471ABB1F11002BDEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99A061481ABB1F11002BDEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99A0614A1ABB1F11002BDEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F292503054F9547B6CB64BA7 /* Pods-MVVM-TODO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MVVM-TODO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99A0614B1ABB1F11002BDEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010AA0EC2F4FAA7538548F23 /* Pods-MVVM-TODO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MVVM-TODO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		99A0614D1ABB1F11002BDEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE352232798F3411B5CCC67 /* Pods-MVVM-TODOTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MVVM-TODOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM-TODO.app/MVVM-TODO";
+			};
+			name = Debug;
+		};
+		99A0614E1ABB1F11002BDEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4998274585ED16C49E27CBEF /* Pods-MVVM-TODOTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MVVM-TODOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM-TODO.app/MVVM-TODO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99A061211ABB1F0F002BDEB0 /* Build configuration list for PBXProject "MVVM-TODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A061471ABB1F11002BDEB0 /* Debug */,
+				99A061481ABB1F11002BDEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A061491ABB1F11002BDEB0 /* Build configuration list for PBXNativeTarget "MVVM-TODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A0614A1ABB1F11002BDEB0 /* Debug */,
+				99A0614B1ABB1F11002BDEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A0614C1ABB1F11002BDEB0 /* Build configuration list for PBXNativeTarget "MVVM-TODOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A0614D1ABB1F11002BDEB0 /* Debug */,
+				99A0614E1ABB1F11002BDEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		99A061671ABB3257002BDEB0 /* TODO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				99A061681ABB3257002BDEB0 /* TODO.xcdatamodel */,
+			);
+			currentVersion = 99A061681ABB3257002BDEB0 /* TODO.xcdatamodel */;
+			path = TODO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 99A0611E1ABB1F0F002BDEB0 /* Project object */;
+}
