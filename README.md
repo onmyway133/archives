@@ -20,6 +20,7 @@
 - [Cine](/Cine) Interacting with AVPlayer
 - [AskBoard](/AskBoard) A simple real time Q&A app using Firebase
 - [DotReactiveCocoa](/DotReactiveCocoa) ReactiveCocoa with dot syntax 
+- [FTGCircularTuner](/FTGCircularTuner) A simple tuner 
 
 
 ## Author
