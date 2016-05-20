@@ -27,6 +27,7 @@
 - [FTGAppstoreVersionChecker](/FTGAppstoreVersionChecker) Simple way to check Appstore version
 - [FTGValueTransformer](/FTGValueTransformer) Custom value transformer additions for Mantle
 - [SQLiteStack](/SQLiteStack) A simple SQLite Stack :star:
+- [thinning](thinning) All about App Thinning
 
 
 ## Author
