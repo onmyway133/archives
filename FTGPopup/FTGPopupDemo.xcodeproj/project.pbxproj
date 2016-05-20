@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9937B91B19B62BF00000EE0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9937B91A19B62BF00000EE0C /* Foundation.framework */; };
+		9937B91D19B62BF00000EE0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9937B91C19B62BF00000EE0C /* CoreGraphics.framework */; };
+		9937B91F19B62BF00000EE0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9937B91E19B62BF00000EE0C /* UIKit.framework */; };
+		9937B92519B62BF00000EE0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9937B92319B62BF00000EE0C /* InfoPlist.strings */; };
+		9937B92719B62BF00000EE0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937B92619B62BF00000EE0C /* main.m */; };
+		9937B92B19B62BF00000EE0C /* FTGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937B92A19B62BF00000EE0C /* FTGAppDelegate.m */; };
+		9937B92E19B62BF00000EE0C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9937B92C19B62BF00000EE0C /* Main_iPhone.storyboard */; };
+		9937B93119B62BF00000EE0C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9937B92F19B62BF00000EE0C /* Main_iPad.storyboard */; };
+		9937B93419B62BF00000EE0C /* FTGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937B93319B62BF00000EE0C /* FTGViewController.m */; };
+		9937B93619B62BF00000EE0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9937B93519B62BF00000EE0C /* Images.xcassets */; };
+		9937B93D19B62BF00000EE0C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9937B93C19B62BF00000EE0C /* XCTest.framework */; };
+		9937B93E19B62BF00000EE0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9937B91A19B62BF00000EE0C /* Foundation.framework */; };
+		9937B93F19B62BF00000EE0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9937B91E19B62BF00000EE0C /* UIKit.framework */; };
+		9937B94719B62BF00000EE0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9937B94519B62BF00000EE0C /* InfoPlist.strings */; };
+		9937B94919B62BF00000EE0C /* FTGPopupDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937B94819B62BF00000EE0C /* FTGPopupDemoTests.m */; };
+		9937B95519B62C360000EE0C /* FTGPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937B95419B62C350000EE0C /* FTGPopupWindow.m */; };
+		9937B95819B62C430000EE0C /* FTGPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937B95719B62C430000EE0C /* FTGPopupViewController.m */; };
+		9937B95B19B62C4E0000EE0C /* FTGPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937B95A19B62C4E0000EE0C /* FTGPopup.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9937B94019B62BF00000EE0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9937B90F19B62BF00000EE0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9937B91619B62BF00000EE0C;
+			remoteInfo = FTGPopupDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9937B91719B62BF00000EE0C /* FTGPopupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTGPopupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9937B91A19B62BF00000EE0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9937B91C19B62BF00000EE0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9937B91E19B62BF00000EE0C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9937B92219B62BF00000EE0C /* FTGPopupDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTGPopupDemo-Info.plist"; sourceTree = "<group>"; };
+		9937B92419B62BF00000EE0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9937B92619B62BF00000EE0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9937B92819B62BF00000EE0C /* FTGPopupDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTGPopupDemo-Prefix.pch"; sourceTree = "<group>"; };
+		9937B92919B62BF00000EE0C /* FTGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTGAppDelegate.h; sourceTree = "<group>"; };
+		9937B92A19B62BF00000EE0C /* FTGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTGAppDelegate.m; sourceTree = "<group>"; };
+		9937B92D19B62BF00000EE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9937B93019B62BF00000EE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9937B93219B62BF00000EE0C /* FTGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTGViewController.h; sourceTree = "<group>"; };
+		9937B93319B62BF00000EE0C /* FTGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTGViewController.m; sourceTree = "<group>"; };
+		9937B93519B62BF00000EE0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9937B93B19B62BF00000EE0C /* FTGPopupDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTGPopupDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9937B93C19B62BF00000EE0C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9937B94419B62BF00000EE0C /* FTGPopupDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTGPopupDemoTests-Info.plist"; sourceTree = "<group>"; };
+		9937B94619B62BF00000EE0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9937B94819B62BF00000EE0C /* FTGPopupDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTGPopupDemoTests.m; sourceTree = "<group>"; };
+		9937B95319B62C350000EE0C /* FTGPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGPopupWindow.h; sourceTree = "<group>"; };
+		9937B95419B62C350000EE0C /* FTGPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGPopupWindow.m; sourceTree = "<group>"; };
+		9937B95619B62C430000EE0C /* FTGPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGPopupViewController.h; sourceTree = "<group>"; };
+		9937B95719B62C430000EE0C /* FTGPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGPopupViewController.m; sourceTree = "<group>"; };
+		9937B95919B62C4E0000EE0C /* FTGPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGPopup.h; sourceTree = "<group>"; };
+		9937B95A19B62C4E0000EE0C /* FTGPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGPopup.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9937B91419B62BF00000EE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9937B91D19B62BF00000EE0C /* CoreGraphics.framework in Frameworks */,
+				9937B91F19B62BF00000EE0C /* UIKit.framework in Frameworks */,
+				9937B91B19B62BF00000EE0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9937B93819B62BF00000EE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9937B93D19B62BF00000EE0C /* XCTest.framework in Frameworks */,
+				9937B93F19B62BF00000EE0C /* UIKit.framework in Frameworks */,
+				9937B93E19B62BF00000EE0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9937B90E19B62BF00000EE0C = {
+			isa = PBXGroup;
+			children = (
+				9937B95219B62BFE0000EE0C /* FTGPopup */,
+				9937B92019B62BF00000EE0C /* FTGPopupDemo */,
+				9937B94219B62BF00000EE0C /* FTGPopupDemoTests */,
+				9937B91919B62BF00000EE0C /* Frameworks */,
+				9937B91819B62BF00000EE0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9937B91819B62BF00000EE0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9937B91719B62BF00000EE0C /* FTGPopupDemo.app */,
+				9937B93B19B62BF00000EE0C /* FTGPopupDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9937B91919B62BF00000EE0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9937B91A19B62BF00000EE0C /* Foundation.framework */,
+				9937B91C19B62BF00000EE0C /* CoreGraphics.framework */,
+				9937B91E19B62BF00000EE0C /* UIKit.framework */,
+				9937B93C19B62BF00000EE0C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9937B92019B62BF00000EE0C /* FTGPopupDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9937B92919B62BF00000EE0C /* FTGAppDelegate.h */,
+				9937B92A19B62BF00000EE0C /* FTGAppDelegate.m */,
+				9937B92C19B62BF00000EE0C /* Main_iPhone.storyboard */,
+				9937B92F19B62BF00000EE0C /* Main_iPad.storyboard */,
+				9937B93219B62BF00000EE0C /* FTGViewController.h */,
+				9937B93319B62BF00000EE0C /* FTGViewController.m */,
+				9937B93519B62BF00000EE0C /* Images.xcassets */,
+				9937B92119B62BF00000EE0C /* Supporting Files */,
+			);
+			path = FTGPopupDemo;
+			sourceTree = "<group>";
+		};
+		9937B92119B62BF00000EE0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9937B92219B62BF00000EE0C /* FTGPopupDemo-Info.plist */,
+				9937B92319B62BF00000EE0C /* InfoPlist.strings */,
+				9937B92619B62BF00000EE0C /* main.m */,
+				9937B92819B62BF00000EE0C /* FTGPopupDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9937B94219B62BF00000EE0C /* FTGPopupDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9937B94819B62BF00000EE0C /* FTGPopupDemoTests.m */,
+				9937B94319B62BF00000EE0C /* Supporting Files */,
+			);
+			path = FTGPopupDemoTests;
+			sourceTree = "<group>";
+		};
+		9937B94319B62BF00000EE0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9937B94419B62BF00000EE0C /* FTGPopupDemoTests-Info.plist */,
+				9937B94519B62BF00000EE0C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9937B95219B62BFE0000EE0C /* FTGPopup */ = {
+			isa = PBXGroup;
+			children = (
+				9937B95319B62C350000EE0C /* FTGPopupWindow.h */,
+				9937B95419B62C350000EE0C /* FTGPopupWindow.m */,
+				9937B95619B62C430000EE0C /* FTGPopupViewController.h */,
+				9937B95719B62C430000EE0C /* FTGPopupViewController.m */,
+				9937B95919B62C4E0000EE0C /* FTGPopup.h */,
+				9937B95A19B62C4E0000EE0C /* FTGPopup.m */,
+			);
+			path = FTGPopup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9937B91619B62BF00000EE0C /* FTGPopupDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9937B94C19B62BF00000EE0C /* Build configuration list for PBXNativeTarget "FTGPopupDemo" */;
+			buildPhases = (
+				9937B91319B62BF00000EE0C /* Sources */,
+				9937B91419B62BF00000EE0C /* Frameworks */,
+				9937B91519B62BF00000EE0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTGPopupDemo;
+			productName = FTGPopupDemo;
+			productReference = 9937B91719B62BF00000EE0C /* FTGPopupDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9937B93A19B62BF00000EE0C /* FTGPopupDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9937B94F19B62BF00000EE0C /* Build configuration list for PBXNativeTarget "FTGPopupDemoTests" */;
+			buildPhases = (
+				9937B93719B62BF00000EE0C /* Sources */,
+				9937B93819B62BF00000EE0C /* Frameworks */,
+				9937B93919B62BF00000EE0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9937B94119B62BF00000EE0C /* PBXTargetDependency */,
+			);
+			name = FTGPopupDemoTests;
+			productName = FTGPopupDemoTests;
+			productReference = 9937B93B19B62BF00000EE0C /* FTGPopupDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9937B90F19B62BF00000EE0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FTG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Fantageek;
+				TargetAttributes = {
+					9937B93A19B62BF00000EE0C = {
+						TestTargetID = 9937B91619B62BF00000EE0C;
+					};
+				};
+			};
+			buildConfigurationList = 9937B91219B62BF00000EE0C /* Build configuration list for PBXProject "FTGPopupDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9937B90E19B62BF00000EE0C;
+			productRefGroup = 9937B91819B62BF00000EE0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9937B91619B62BF00000EE0C /* FTGPopupDemo */,
+				9937B93A19B62BF00000EE0C /* FTGPopupDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9937B91519B62BF00000EE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9937B93119B62BF00000EE0C /* Main_iPad.storyboard in Resources */,
+				9937B93619B62BF00000EE0C /* Images.xcassets in Resources */,
+				9937B92E19B62BF00000EE0C /* Main_iPhone.storyboard in Resources */,
+				9937B92519B62BF00000EE0C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9937B93919B62BF00000EE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9937B94719B62BF00000EE0C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9937B91319B62BF00000EE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9937B95B19B62C4E0000EE0C /* FTGPopup.m in Sources */,
+				9937B95519B62C360000EE0C /* FTGPopupWindow.m in Sources */,
+				9937B95819B62C430000EE0C /* FTGPopupViewController.m in Sources */,
+				9937B92B19B62BF00000EE0C /* FTGAppDelegate.m in Sources */,
+				9937B92719B62BF00000EE0C /* main.m in Sources */,
+				9937B93419B62BF00000EE0C /* FTGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9937B93719B62BF00000EE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9937B94919B62BF00000EE0C /* FTGPopupDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9937B94119B62BF00000EE0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9937B91619B62BF00000EE0C /* FTGPopupDemo */;
+			targetProxy = 9937B94019B62BF00000EE0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9937B92319B62BF00000EE0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9937B92419B62BF00000EE0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9937B92C19B62BF00000EE0C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9937B92D19B62BF00000EE0C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9937B92F19B62BF00000EE0C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9937B93019B62BF00000EE0C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9937B94519B62BF00000EE0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9937B94619B62BF00000EE0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9937B94A19B62BF00000EE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9937B94B19B62BF00000EE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9937B94D19B62BF00000EE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGPopupDemo/FTGPopupDemo-Prefix.pch";
+				INFOPLIST_FILE = "FTGPopupDemo/FTGPopupDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9937B94E19B62BF00000EE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGPopupDemo/FTGPopupDemo-Prefix.pch";
+				INFOPLIST_FILE = "FTGPopupDemo/FTGPopupDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9937B95019B62BF00000EE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTGPopupDemo.app/FTGPopupDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGPopupDemo/FTGPopupDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FTGPopupDemoTests/FTGPopupDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9937B95119B62BF00000EE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTGPopupDemo.app/FTGPopupDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGPopupDemo/FTGPopupDemo-Prefix.pch";
+				INFOPLIST_FILE = "FTGPopupDemoTests/FTGPopupDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9937B91219B62BF00000EE0C /* Build configuration list for PBXProject "FTGPopupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9937B94A19B62BF00000EE0C /* Debug */,
+				9937B94B19B62BF00000EE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9937B94C19B62BF00000EE0C /* Build configuration list for PBXNativeTarget "FTGPopupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9937B94D19B62BF00000EE0C /* Debug */,
+				9937B94E19B62BF00000EE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9937B94F19B62BF00000EE0C /* Build configuration list for PBXNativeTarget "FTGPopupDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9937B95019B62BF00000EE0C /* Debug */,
+				9937B95119B62BF00000EE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9937B90F19B62BF00000EE0C /* Project object */;
+}
