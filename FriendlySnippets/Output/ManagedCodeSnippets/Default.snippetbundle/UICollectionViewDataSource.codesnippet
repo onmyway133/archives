@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cvds</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - UICollectionViewDataSource
+	
+	- (NSInteger)collectionView:(UICollectionView *)collectionView
+	     numberOfItemsInSection:(NSInteger)section
+	{
+	    return &lt;#numberOfItemsInSection#&gt;;
+	}
+	
+	- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
+	                  cellForItemAtIndexPath:(NSIndexPath *)indexPath
+	{
+	    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:&lt;#reuseIdentifier#&gt; forIndexPath:indexPath];
+	
+	    [self configureCell:cell forItemAtIndexPath:indexPath];
+	
+	    return cell;
+	}
+	
+	- (void)configureCell:(UICollectionViewCell *)cell
+	   forItemAtIndexPath:(NSIndexPath *)indexPath
+	{
+	    &lt;# statements #&gt;
+	}
+	</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E4963673-2F4C-4A88-AEAD-6F4255BA4470</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollectionViewDataSource</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

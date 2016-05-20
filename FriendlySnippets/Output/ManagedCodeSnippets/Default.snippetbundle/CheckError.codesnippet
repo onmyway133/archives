@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>checkerror</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>static void CheckError(OSStatus error, const char *operation) {
+	    if (error == noErr) {
+	      return;
+	    }
+	    
+	    char str[20];
+	    *(UInt32 *) (str + 1) = CFSwapInt32HostToBig(error);
+	    if (isprint(str[1]) &amp;&amp; isprint(str[2]) &amp;&amp; isprint(str[3]) &amp;&amp; isprint(str[4])) {
+	        str[0] = str[5] = &#39;\&#39;&#39;;
+	        str[6] = &#39;\0&#39;;
+	    } else {
+	        sprintf(str, &quot;%d&quot;, (int)error);
+	    }
+	    
+	    fprintf(stderr, &quot;[Error] %s (%s)\n&quot;, operation, str);
+	    exit(1);
+	}
+	</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>42334656-2C31-454F-93F2-D9712D499F38</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>CheckError</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

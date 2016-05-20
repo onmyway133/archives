@@ -22,6 +22,7 @@
 - [DotReactiveCocoa](/DotReactiveCocoa) ReactiveCocoa with dot syntax 
 - [FTGCircularTuner](/FTGCircularTuner) A simple tuner 
 - [FTGValidator](/FTGValidator) A DSL validator for Objective C
+- [FriendlySnippets](/FriendlySnippets) Use and share Xcode snippets the easy way
 
 
 ## Author

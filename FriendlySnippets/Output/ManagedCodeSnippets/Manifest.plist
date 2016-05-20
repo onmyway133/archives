@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Default.snippetbundle/#pragma Mark.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/09F2CFB7-0301-4B5D-84AD-1AF5DFCB2E34.codesnippet</string>
+	<key>Default.snippetbundle/CheckError.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/42334656-2C31-454F-93F2-D9712D499F38.codesnippet</string>
+	<key>Default.snippetbundle/Class Continuation.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/229652C8-BF13-46C5-861E-8E61786B079E.codesnippet</string>
+	<key>Default.snippetbundle/Core Data Fetch.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/36A26B63-EABA-4FE0-A31C-BD0488B5D571.codesnippet</string>
+	<key>Default.snippetbundle/Documents Directory Path.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/6EA7D195-DCA4-4072-8997-F50BDD25C1B8.codesnippet</string>
+	<key>Default.snippetbundle/ImageView.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/8A21D3C2-47A4-483F-9DA6-6583F285A153.codesnippet</string>
+	<key>Default.snippetbundle/Library Directory Path.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/25A20375-003D-4C18-91E0-13C6E3A7EB43.codesnippet</string>
+	<key>Default.snippetbundle/Log Stack Trace.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/363CCD7E-56F9-4509-BC1D-E6C77F6A7E65.codesnippet</string>
+	<key>Default.snippetbundle/MFMailComposeViewController Initialization &amp; Delegate.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/E4E565DA-8230-49C9-BB67-3D6A283DF6BD.codesnippet</string>
+	<key>Default.snippetbundle/My Code Snippet.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/CF68D4A1-9958-44E9-B61E-729368280144.codesnippet</string>
+	<key>Default.snippetbundle/NSCoding Protocol Methods.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/06E8DEC9-C036-4721-BA70-0F985C8C2C76.codesnippet</string>
+	<key>Default.snippetbundle/NSFetchedResultsController.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/B91F2291-CB7D-4288-8838-381C6077080F.codesnippet</string>
+	<key>Default.snippetbundle/NSFetchedResultsControllerDelegate.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/611FCA18-58E4-4F2A-8EEB-EEFF6AF2E9D6.codesnippet</string>
+	<key>Default.snippetbundle/NSLocalizedString.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/3D46B590-2BC1-4A3A-8D76-1829CE7F277D.codesnippet</string>
+	<key>Default.snippetbundle/Set Frame.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/C83728C3-78DD-4C69-8D2C-758EF451EE95.codesnippet</string>
+	<key>Default.snippetbundle/Shared Singleton.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/99F45356-FE3E-4D72-A1A9-28885A62E156.codesnippet</string>
+	<key>Default.snippetbundle/UICollectionViewDataSource.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/E4963673-2F4C-4A88-AEAD-6F4255BA4470.codesnippet</string>
+	<key>Default.snippetbundle/UIControlEventTouchUpInside.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/DA636EA7-A35A-46C3-8478-F823BE35022B.codesnippet</string>
+	<key>Default.snippetbundle/UIPickerViewDataSource.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/903F9975-A42D-4CBB-98D6-BB93DBE6C69E.codesnippet</string>
+	<key>Default.snippetbundle/UIPickerViewDelegate.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/850E1F45-89C0-4150-BCD4-DB183D5D26F0.codesnippet</string>
+	<key>Default.snippetbundle/UITableViewDataSource.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/AA695DD3-E579-4B4A-8893-B8236848E31C.codesnippet</string>
+	<key>Default.snippetbundle/UITableViewDelegate.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/597F62FC-889D-4B17-AAF6-94923E73E038.codesnippet</string>
+	<key>Default.snippetbundle/UIViewController Lifecycle.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/B2BF0A9B-C908-4070-BE4B-948141187224.codesnippet</string>
+	<key>Default.snippetbundle/XCT Assert Equals.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/D4002039-FB54-4E2B-9840-BE170CEDBA25.codesnippet</string>
+	<key>Default.snippetbundle/XCT Assert False.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/031636DB-270E-48D6-A402-A9F71E37672D.codesnippet</string>
+	<key>Default.snippetbundle/XCT Assert Nil.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/E01CCAF1-A8F1-4B25-9D5B-76996694291D.codesnippet</string>
+	<key>Default.snippetbundle/XCT Assert Not Nil.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/77BA29C8-5F21-4C73-8DE7-AC8817E77BE6.codesnippet</string>
+	<key>Default.snippetbundle/XCT Assert True.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/CEACD701-5737-4966-AAD3-597C261CBA2C.codesnippet</string>
+	<key>Default.snippetbundle/__strong self.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/2C705E7D-5BC8-427A-BFC2-6C7AFA066E96.codesnippet</string>
+	<key>Default.snippetbundle/__weak self.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/F9DA2C46-8E8C-4785-B95E-25D416E020A9.codesnippet</string>
+	<key>Default.snippetbundle/dispatch_async Pattern for Background Processing.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/4A0404D7-A758-4BDD-8205-0666D85A4494.codesnippet</string>
+	<key>Default.snippetbundle/init.codesnippet</key>
+	<string>/Users/entropy/Library/Developer/Xcode/UserData/CodeSnippets/567A4DD1-D65E-4207-9B9C-58EEBB4DDDB6.codesnippet</string>
+</dict>
+</plist>

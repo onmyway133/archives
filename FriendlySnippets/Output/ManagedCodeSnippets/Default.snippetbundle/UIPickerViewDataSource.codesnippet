@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pds</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - UIPickerDataSource
+	
+	- (NSInteger)pickerView:(UIPickerView *)pickerView
+	numberOfRowsInComponent:(NSInteger)component
+	{
+	  return &lt;#number#&gt;
+	}
+	
+	- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+	  return &lt;#number#&gt;
+	}
+	</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>903F9975-A42D-4CBB-98D6-BB93DBE6C69E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIPickerViewDataSource</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

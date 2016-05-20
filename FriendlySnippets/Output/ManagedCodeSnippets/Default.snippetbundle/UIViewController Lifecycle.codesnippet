@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lifecycle</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - UIViewController
+	
+	- (void)viewDidLoad {
+	    [super viewDidLoad];
+	}
+	
+	- (void)viewDidUnload {
+	    [super viewDidUnload];
+	}
+	
+	- (void)viewWillAppear:(BOOL)animated {
+	    [super viewWillAppear:animated];
+	}
+	
+	- (void)viewDidAppear:(BOOL)animated {
+	    [super viewDidAppear:animated];
+	}
+	
+	- (void)viewWillDisappear:(BOOL)animated {
+	    [super viewWillDisappear:animated];
+	}
+	
+	- (void)viewDidDisappear:(BOOL)animated {
+	    [super viewDidDisappear:animated];
+	}
+	</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B2BF0A9B-C908-4070-BE4B-948141187224</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIViewController Lifecycle</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

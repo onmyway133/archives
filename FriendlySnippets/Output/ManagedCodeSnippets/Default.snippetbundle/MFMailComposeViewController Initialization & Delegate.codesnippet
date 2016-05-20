@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mailcomp</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#import &lt;MessageUI/MessageUI.h&gt;
+	
+	- (void)presentModalMailComposerViewController:(BOOL)animated {
+	    if ([MFMailComposeViewController canSendMail]) {
+	        MFMailComposeViewController *composeViewController = [[MFMailComposeViewController alloc] init];
+	        composeViewController.mailComposeDelegate = self;
+	
+	        [composeViewController setSubject:&lt;#Subject#&gt;];
+	        [composeViewController setMessageBody:&lt;#Body#&gt; isHTML:YES];
+	        [composeViewController setToRecipients:@[&lt;#Recipients#&gt;]];
+	
+	        [self presentViewController:composeViewController animated:animated completion:nil];
+	    } else {
+	        [[[UIAlertView alloc] initWithTitle:NSLocalizedString(@&quot;Error&quot;, nil) message:NSLocalizedString(@&quot;&lt;#Cannot Send Mail Message#&gt;&quot;, nil) delegate:nil cancelButtonTitle:NSLocalizedString(@&quot;OK&quot;, nil) otherButtonTitles:nil] show];
+	    }
+	}
+	
+	#pragma mark - MFMailComposeViewControllerDelegate
+	
+	- (void)mailComposeController:(MFMailComposeViewController *)controller
+	          didFinishWithResult:(MFMailComposeResult)result
+	                        error:(NSError *)error
+	{
+	    if (error) {
+	        NSLog(@&quot;%@&quot;, error);
+	    }
+	
+	    [self dismissViewControllerAnimated:YES completion:nil];
+	}
+	</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E4E565DA-8230-49C9-BB67-3D6A283DF6BD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>MFMailComposeViewController Initialization &amp; Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
