@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Cine_Example', :exclusive => true do
+  pod "Cine", :path => "../"
+  pod 'SnapKit', '~> 0.15'
+  pod 'ReactiveCocoa', '4.0.2-alpha-1'
+end
+
+target 'Cine_Tests', :exclusive => true do
+  pod "Cine", :path => "../"
+
+#  pod 'Quick', '~> 0.3.1'
+#  pod 'Nimble'
+end

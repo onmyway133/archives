@@ -1,0 +1,35 @@
+PODS:
+  - Cine (0.1.0):
+    - KVOController (~> 1.0)
+  - KVOController (1.0.3)
+  - ReactiveCocoa (4.0.2-alpha-1):
+    - ReactiveCocoa/UI (= 4.0.2-alpha-1)
+    - Result (~> 0.6-beta.1)
+  - ReactiveCocoa/Core (4.0.2-alpha-1):
+    - ReactiveCocoa/no-arc
+    - Result (~> 0.6-beta.1)
+  - ReactiveCocoa/no-arc (4.0.2-alpha-1):
+    - Result (~> 0.6-beta.1)
+  - ReactiveCocoa/UI (4.0.2-alpha-1):
+    - ReactiveCocoa/Core
+    - Result (~> 0.6-beta.1)
+  - Result (0.6.0-beta.3)
+  - SnapKit (0.15.0)
+
+DEPENDENCIES:
+  - Cine (from `../`)
+  - ReactiveCocoa (= 4.0.2-alpha-1)
+  - SnapKit (~> 0.15)
+
+EXTERNAL SOURCES:
+  Cine:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Cine: 2cc389f425ebc1405b2b90206f4f7a0b96523145
+  KVOController: 9fd8f0343670994e4b6f9f0b31f5a45663f3e1cf
+  ReactiveCocoa: 652cf90e5de65708e7e2111f77405756da21aabe
+  Result: b80bca7becdda9a2e44c4fd65b4b4a7b5db4cf9a
+  SnapKit: 4962eed2ee18e48cbd2b2292fffc57efe7235f87
+
+COCOAPODS: 0.38.2
