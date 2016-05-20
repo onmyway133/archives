@@ -1,0 +1,54 @@
+PODS:
+  - Firebase (2.2.2)
+  - Mantle (2.0):
+    - Mantle/extobjc (= 2.0)
+  - Mantle/extobjc (2.0)
+  - Masonry (0.6.1)
+  - MEDCategories (1.0):
+    - Mantle
+    - Masonry
+  - PSTAlertController (1.1.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - SVProgressHUD (1.1.3)
+  - SZTextView (1.2.1)
+
+DEPENDENCIES:
+  - Firebase (~> 2.2)
+  - Mantle (~> 2.0)
+  - MEDCategories (from `https://github.com/2359media/MEDCategories.git`)
+  - PSTAlertController
+  - ReactiveCocoa (~> 2.0)
+  - SDWebImage
+  - SVProgressHUD
+  - SZTextView
+
+EXTERNAL SOURCES:
+  MEDCategories:
+    :git: https://github.com/2359media/MEDCategories.git
+
+CHECKOUT OPTIONS:
+  MEDCategories:
+    :commit: ce0b683cb41187701640835cf663fc2a3e5b13e2
+    :git: https://github.com/2359media/MEDCategories.git
+
+SPEC CHECKSUMS:
+  Firebase: e35cdd2561bf4fea9c1e384e9400a9c173d19e47
+  Mantle: 17de73ef929db2234d76fde2aacfb89ab11c61e8
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
+  MEDCategories: 521a7cade2f01561c985ec0a99b9fff0569f9107
+  PSTAlertController: cb21afcfa76c3229feec7db044afd4f60dab5892
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  SZTextView: 906df45afd3c1b24fc5252088d5ef8061513c238
+
+COCOAPODS: 0.36.4

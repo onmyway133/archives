@@ -1,0 +1,14 @@
+platform :ios, '7.0'
+source "https://github.com/Cocoapods/Specs"
+inhibit_all_warnings!
+
+target :'AskBoard', :exclusive => true do
+  pod 'SDWebImage'
+  pod 'MEDCategories', :git => 'https://github.com/2359media/MEDCategories.git'
+  pod 'ReactiveCocoa', '~> 2.0'
+  pod 'Mantle', '~> 2.0'
+  pod 'SZTextView'
+  pod 'Firebase', '~> 2.2'
+  pod 'PSTAlertController'
+  pod 'SVProgressHUD'
+end
