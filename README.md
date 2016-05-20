@@ -25,6 +25,7 @@
 - [FriendlySnippets](/FriendlySnippets) Use and share Xcode snippets the easy way
 - [FTGShorthand](/FTGShorthand) Allows your category methods to be in shorthand form, like MagicalRecord MR_SHORTHAND
 - [FTGAppstoreVersionChecker](/FTGAppstoreVersionChecker) Simple way to check Appstore version
+- [FTGValueTransformer](/FTGValueTransformer) Custom value transformer additions for Mantle
 
 
 ## Author

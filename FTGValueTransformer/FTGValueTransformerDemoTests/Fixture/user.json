@@ -1,0 +1,19 @@
+{
+    "username": "user1",
+    "name": "Iron Man",
+    "score": "10",
+    "books": [
+              {
+              "name": "iOS Programming",
+              "price": "30"
+              },
+              {
+              "name": "The Pragmatic Programmer",
+              "price": "20"
+              },
+              {
+              "name": "Don't make me think",
+              "price": "35"
+              }
+              ]
+}
