@@ -21,6 +21,7 @@
 - [AskBoard](/AskBoard) A simple real time Q&A app using Firebase
 - [DotReactiveCocoa](/DotReactiveCocoa) ReactiveCocoa with dot syntax 
 - [FTGCircularTuner](/FTGCircularTuner) A simple tuner 
+- [FTGValidator](/FTGValidator) A DSL validator for Objective C
 
 
 ## Author
