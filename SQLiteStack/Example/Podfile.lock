@@ -1,0 +1,27 @@
+PODS:
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - FTGPropertyMaestro (1.0)
+  - ObjectiveSugar (1.1.0)
+  - SQLiteStack (0.1.0):
+    - FMDB (~> 2.5)
+    - FTGPropertyMaestro (~> 1.0)
+    - ObjectiveSugar (~> 1.1)
+
+DEPENDENCIES:
+  - SQLiteStack (from `../`)
+
+EXTERNAL SOURCES:
+  SQLiteStack:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  FTGPropertyMaestro: 8b950ec739e2141c9bc0da707c7f899024c01594
+  ObjectiveSugar: a6a25f23d657c19df0a0b972466d5b5ca9f5295c
+  SQLiteStack: 05abad6649cdeda6179bfa33b04d76de0aa5faad
+
+COCOAPODS: 0.39.0

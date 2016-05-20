@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SQLiteStack_Example', :exclusive => true do
+  pod "SQLiteStack", :path => "../"
+end
+
+target 'SQLiteStack_Tests', :exclusive => true do
+  pod "SQLiteStack", :path => "../"
+
+  
+end
