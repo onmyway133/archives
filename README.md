@@ -29,6 +29,7 @@
 - [SQLiteStack](/SQLiteStack) A simple SQLite Stack :star:
 - [ios-app-thinning](/ios-app-thinning) All about App Thinning
 - [FTGNotificationController](/FTGNotificationController) Similar to KVOController, but for NSNotification :star:
+- [SwiftFramework](/SwiftFramework) An example Swift framework :star:
 
 
 ## Author
