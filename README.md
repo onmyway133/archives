@@ -28,7 +28,7 @@
 - [FTGValueTransformer](/FTGValueTransformer) Custom value transformer additions for Mantle
 - [SQLiteStack](/SQLiteStack) A simple SQLite Stack :star:
 - [ios-app-thinning](/ios-app-thinning) All about App Thinning
-- [FTGNotificationController](/FTGNotificationController) Similar to KVOController, but for NSNotification
+- [FTGNotificationController](/FTGNotificationController) Similar to KVOController, but for NSNotification :star:
 
 
 ## Author
