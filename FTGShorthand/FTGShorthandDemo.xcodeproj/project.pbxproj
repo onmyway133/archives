@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		998E7A6D19A76B81006E9A2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998E7A6C19A76B81006E9A2F /* Foundation.framework */; };
+		998E7A6F19A76B81006E9A2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998E7A6E19A76B81006E9A2F /* CoreGraphics.framework */; };
+		998E7A7119A76B81006E9A2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998E7A7019A76B81006E9A2F /* UIKit.framework */; };
+		998E7A7719A76B81006E9A2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 998E7A7519A76B81006E9A2F /* InfoPlist.strings */; };
+		998E7A7919A76B81006E9A2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 998E7A7819A76B81006E9A2F /* main.m */; };
+		998E7A7D19A76B81006E9A2F /* FTGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 998E7A7C19A76B81006E9A2F /* FTGAppDelegate.m */; };
+		998E7A8019A76B81006E9A2F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998E7A7E19A76B81006E9A2F /* Main_iPhone.storyboard */; };
+		998E7A8319A76B81006E9A2F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998E7A8119A76B81006E9A2F /* Main_iPad.storyboard */; };
+		998E7A8619A76B81006E9A2F /* FTGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 998E7A8519A76B81006E9A2F /* FTGViewController.m */; };
+		998E7A8819A76B81006E9A2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998E7A8719A76B81006E9A2F /* Images.xcassets */; };
+		998E7A8F19A76B81006E9A2F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998E7A8E19A76B81006E9A2F /* XCTest.framework */; };
+		998E7A9019A76B81006E9A2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998E7A6C19A76B81006E9A2F /* Foundation.framework */; };
+		998E7A9119A76B81006E9A2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998E7A7019A76B81006E9A2F /* UIKit.framework */; };
+		998E7A9919A76B81006E9A2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 998E7A9719A76B81006E9A2F /* InfoPlist.strings */; };
+		998E7A9B19A76B81006E9A2F /* FTGShorthandDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 998E7A9A19A76B81006E9A2F /* FTGShorthandDemoTests.m */; };
+		998E7AA719A7A154006E9A2F /* FTGShorthand.m in Sources */ = {isa = PBXBuildFile; fileRef = 998E7AA619A7A154006E9A2F /* FTGShorthand.m */; };
+		998E7AAA19A7A62F006E9A2F /* NSString+FTGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 998E7AA919A7A62F006E9A2F /* NSString+FTGAdditions.m */; };
+		998E7AB019A7A984006E9A2F /* NSNumber+FTGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 998E7AAF19A7A984006E9A2F /* NSNumber+FTGAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		998E7A9219A76B81006E9A2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 998E7A6119A76B81006E9A2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 998E7A6819A76B81006E9A2F;
+			remoteInfo = FTGShorthandDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		998E7A6919A76B81006E9A2F /* FTGShorthandDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTGShorthandDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		998E7A6C19A76B81006E9A2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		998E7A6E19A76B81006E9A2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		998E7A7019A76B81006E9A2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		998E7A7419A76B81006E9A2F /* FTGShorthandDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTGShorthandDemo-Info.plist"; sourceTree = "<group>"; };
+		998E7A7619A76B81006E9A2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		998E7A7819A76B81006E9A2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		998E7A7A19A76B81006E9A2F /* FTGShorthandDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTGShorthandDemo-Prefix.pch"; sourceTree = "<group>"; };
+		998E7A7B19A76B81006E9A2F /* FTGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTGAppDelegate.h; sourceTree = "<group>"; };
+		998E7A7C19A76B81006E9A2F /* FTGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTGAppDelegate.m; sourceTree = "<group>"; };
+		998E7A7F19A76B81006E9A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		998E7A8219A76B81006E9A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		998E7A8419A76B81006E9A2F /* FTGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTGViewController.h; sourceTree = "<group>"; };
+		998E7A8519A76B81006E9A2F /* FTGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTGViewController.m; sourceTree = "<group>"; };
+		998E7A8719A76B81006E9A2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		998E7A8D19A76B81006E9A2F /* FTGShorthandDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTGShorthandDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		998E7A8E19A76B81006E9A2F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		998E7A9619A76B81006E9A2F /* FTGShorthandDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTGShorthandDemoTests-Info.plist"; sourceTree = "<group>"; };
+		998E7A9819A76B81006E9A2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		998E7A9A19A76B81006E9A2F /* FTGShorthandDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTGShorthandDemoTests.m; sourceTree = "<group>"; };
+		998E7AA519A7A154006E9A2F /* FTGShorthand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGShorthand.h; sourceTree = "<group>"; };
+		998E7AA619A7A154006E9A2F /* FTGShorthand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGShorthand.m; sourceTree = "<group>"; };
+		998E7AA819A7A62F006E9A2F /* NSString+FTGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FTGAdditions.h"; sourceTree = "<group>"; };
+		998E7AA919A7A62F006E9A2F /* NSString+FTGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FTGAdditions.m"; sourceTree = "<group>"; };
+		998E7AAB19A7A63D006E9A2F /* NSString+FTGShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FTGShorthandAdditions.h"; sourceTree = "<group>"; };
+		998E7AAE19A7A984006E9A2F /* NSNumber+FTGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+FTGAdditions.h"; sourceTree = "<group>"; };
+		998E7AAF19A7A984006E9A2F /* NSNumber+FTGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+FTGAdditions.m"; sourceTree = "<group>"; };
+		998E7AB119A7A998006E9A2F /* NSNumber+FTGShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+FTGShorthandAdditions.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		998E7A6619A76B81006E9A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998E7A6F19A76B81006E9A2F /* CoreGraphics.framework in Frameworks */,
+				998E7A7119A76B81006E9A2F /* UIKit.framework in Frameworks */,
+				998E7A6D19A76B81006E9A2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998E7A8A19A76B81006E9A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998E7A8F19A76B81006E9A2F /* XCTest.framework in Frameworks */,
+				998E7A9119A76B81006E9A2F /* UIKit.framework in Frameworks */,
+				998E7A9019A76B81006E9A2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		998E7A6019A76B81006E9A2F = {
+			isa = PBXGroup;
+			children = (
+				998E7AA419A76BA4006E9A2F /* FTGShorthand */,
+				998E7A7219A76B81006E9A2F /* FTGShorthandDemo */,
+				998E7A9419A76B81006E9A2F /* FTGShorthandDemoTests */,
+				998E7A6B19A76B81006E9A2F /* Frameworks */,
+				998E7A6A19A76B81006E9A2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		998E7A6A19A76B81006E9A2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				998E7A6919A76B81006E9A2F /* FTGShorthandDemo.app */,
+				998E7A8D19A76B81006E9A2F /* FTGShorthandDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		998E7A6B19A76B81006E9A2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				998E7A6C19A76B81006E9A2F /* Foundation.framework */,
+				998E7A6E19A76B81006E9A2F /* CoreGraphics.framework */,
+				998E7A7019A76B81006E9A2F /* UIKit.framework */,
+				998E7A8E19A76B81006E9A2F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		998E7A7219A76B81006E9A2F /* FTGShorthandDemo */ = {
+			isa = PBXGroup;
+			children = (
+				998E7A7B19A76B81006E9A2F /* FTGAppDelegate.h */,
+				998E7A7C19A76B81006E9A2F /* FTGAppDelegate.m */,
+				998E7A7E19A76B81006E9A2F /* Main_iPhone.storyboard */,
+				998E7A8119A76B81006E9A2F /* Main_iPad.storyboard */,
+				998E7A8419A76B81006E9A2F /* FTGViewController.h */,
+				998E7A8519A76B81006E9A2F /* FTGViewController.m */,
+				998E7A8719A76B81006E9A2F /* Images.xcassets */,
+				998E7A7319A76B81006E9A2F /* Supporting Files */,
+				998E7AA819A7A62F006E9A2F /* NSString+FTGAdditions.h */,
+				998E7AA919A7A62F006E9A2F /* NSString+FTGAdditions.m */,
+				998E7AAB19A7A63D006E9A2F /* NSString+FTGShorthandAdditions.h */,
+				998E7AAE19A7A984006E9A2F /* NSNumber+FTGAdditions.h */,
+				998E7AAF19A7A984006E9A2F /* NSNumber+FTGAdditions.m */,
+				998E7AB119A7A998006E9A2F /* NSNumber+FTGShorthandAdditions.h */,
+			);
+			path = FTGShorthandDemo;
+			sourceTree = "<group>";
+		};
+		998E7A7319A76B81006E9A2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				998E7A7419A76B81006E9A2F /* FTGShorthandDemo-Info.plist */,
+				998E7A7519A76B81006E9A2F /* InfoPlist.strings */,
+				998E7A7819A76B81006E9A2F /* main.m */,
+				998E7A7A19A76B81006E9A2F /* FTGShorthandDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		998E7A9419A76B81006E9A2F /* FTGShorthandDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				998E7A9A19A76B81006E9A2F /* FTGShorthandDemoTests.m */,
+				998E7A9519A76B81006E9A2F /* Supporting Files */,
+			);
+			path = FTGShorthandDemoTests;
+			sourceTree = "<group>";
+		};
+		998E7A9519A76B81006E9A2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				998E7A9619A76B81006E9A2F /* FTGShorthandDemoTests-Info.plist */,
+				998E7A9719A76B81006E9A2F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		998E7AA419A76BA4006E9A2F /* FTGShorthand */ = {
+			isa = PBXGroup;
+			children = (
+				998E7AA519A7A154006E9A2F /* FTGShorthand.h */,
+				998E7AA619A7A154006E9A2F /* FTGShorthand.m */,
+			);
+			path = FTGShorthand;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		998E7A6819A76B81006E9A2F /* FTGShorthandDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 998E7A9E19A76B81006E9A2F /* Build configuration list for PBXNativeTarget "FTGShorthandDemo" */;
+			buildPhases = (
+				998E7A6519A76B81006E9A2F /* Sources */,
+				998E7A6619A76B81006E9A2F /* Frameworks */,
+				998E7A6719A76B81006E9A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTGShorthandDemo;
+			productName = FTGShorthandDemo;
+			productReference = 998E7A6919A76B81006E9A2F /* FTGShorthandDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		998E7A8C19A76B81006E9A2F /* FTGShorthandDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 998E7AA119A76B81006E9A2F /* Build configuration list for PBXNativeTarget "FTGShorthandDemoTests" */;
+			buildPhases = (
+				998E7A8919A76B81006E9A2F /* Sources */,
+				998E7A8A19A76B81006E9A2F /* Frameworks */,
+				998E7A8B19A76B81006E9A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				998E7A9319A76B81006E9A2F /* PBXTargetDependency */,
+			);
+			name = FTGShorthandDemoTests;
+			productName = FTGShorthandDemoTests;
+			productReference = 998E7A8D19A76B81006E9A2F /* FTGShorthandDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		998E7A6119A76B81006E9A2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FTG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Fantageek;
+				TargetAttributes = {
+					998E7A8C19A76B81006E9A2F = {
+						TestTargetID = 998E7A6819A76B81006E9A2F;
+					};
+				};
+			};
+			buildConfigurationList = 998E7A6419A76B81006E9A2F /* Build configuration list for PBXProject "FTGShorthandDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 998E7A6019A76B81006E9A2F;
+			productRefGroup = 998E7A6A19A76B81006E9A2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				998E7A6819A76B81006E9A2F /* FTGShorthandDemo */,
+				998E7A8C19A76B81006E9A2F /* FTGShorthandDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		998E7A6719A76B81006E9A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998E7A8319A76B81006E9A2F /* Main_iPad.storyboard in Resources */,
+				998E7A8819A76B81006E9A2F /* Images.xcassets in Resources */,
+				998E7A8019A76B81006E9A2F /* Main_iPhone.storyboard in Resources */,
+				998E7A7719A76B81006E9A2F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998E7A8B19A76B81006E9A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998E7A9919A76B81006E9A2F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		998E7A6519A76B81006E9A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998E7AAA19A7A62F006E9A2F /* NSString+FTGAdditions.m in Sources */,
+				998E7A7D19A76B81006E9A2F /* FTGAppDelegate.m in Sources */,
+				998E7AA719A7A154006E9A2F /* FTGShorthand.m in Sources */,
+				998E7AB019A7A984006E9A2F /* NSNumber+FTGAdditions.m in Sources */,
+				998E7A7919A76B81006E9A2F /* main.m in Sources */,
+				998E7A8619A76B81006E9A2F /* FTGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998E7A8919A76B81006E9A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998E7A9B19A76B81006E9A2F /* FTGShorthandDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		998E7A9319A76B81006E9A2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 998E7A6819A76B81006E9A2F /* FTGShorthandDemo */;
+			targetProxy = 998E7A9219A76B81006E9A2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		998E7A7519A76B81006E9A2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				998E7A7619A76B81006E9A2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		998E7A7E19A76B81006E9A2F /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				998E7A7F19A76B81006E9A2F /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		998E7A8119A76B81006E9A2F /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				998E7A8219A76B81006E9A2F /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		998E7A9719A76B81006E9A2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				998E7A9819A76B81006E9A2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		998E7A9C19A76B81006E9A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		998E7A9D19A76B81006E9A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		998E7A9F19A76B81006E9A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGShorthandDemo/FTGShorthandDemo-Prefix.pch";
+				INFOPLIST_FILE = "FTGShorthandDemo/FTGShorthandDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		998E7AA019A76B81006E9A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGShorthandDemo/FTGShorthandDemo-Prefix.pch";
+				INFOPLIST_FILE = "FTGShorthandDemo/FTGShorthandDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		998E7AA219A76B81006E9A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTGShorthandDemo.app/FTGShorthandDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGShorthandDemo/FTGShorthandDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FTGShorthandDemoTests/FTGShorthandDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		998E7AA319A76B81006E9A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTGShorthandDemo.app/FTGShorthandDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGShorthandDemo/FTGShorthandDemo-Prefix.pch";
+				INFOPLIST_FILE = "FTGShorthandDemoTests/FTGShorthandDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		998E7A6419A76B81006E9A2F /* Build configuration list for PBXProject "FTGShorthandDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998E7A9C19A76B81006E9A2F /* Debug */,
+				998E7A9D19A76B81006E9A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		998E7A9E19A76B81006E9A2F /* Build configuration list for PBXNativeTarget "FTGShorthandDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998E7A9F19A76B81006E9A2F /* Debug */,
+				998E7AA019A76B81006E9A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		998E7AA119A76B81006E9A2F /* Build configuration list for PBXNativeTarget "FTGShorthandDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998E7AA219A76B81006E9A2F /* Debug */,
+				998E7AA319A76B81006E9A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 998E7A6119A76B81006E9A2F /* Project object */;
+}

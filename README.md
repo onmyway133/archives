@@ -23,6 +23,7 @@
 - [FTGCircularTuner](/FTGCircularTuner) A simple tuner 
 - [FTGValidator](/FTGValidator) A DSL validator for Objective C
 - [FriendlySnippets](/FriendlySnippets) Use and share Xcode snippets the easy way
+- [FTGShorthand](/FTGShorthand) Allows your category methods to be in shorthand form, like MagicalRecord MR_SHORTHAND
 
 
 ## Author
