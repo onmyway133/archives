@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36960EB9A8A14EE5A71A21F4 /* libPods-FTGNotificationControllerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC793FA88A149CCABC97457 /* libPods-FTGNotificationControllerDemoTests.a */; };
+		99D67AE51951FDF000EA2DBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D67AE41951FDF000EA2DBA /* Foundation.framework */; };
+		99D67AE71951FDF000EA2DBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D67AE61951FDF000EA2DBA /* CoreGraphics.framework */; };
+		99D67AE91951FDF000EA2DBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D67AE81951FDF000EA2DBA /* UIKit.framework */; };
+		99D67AEF1951FDF000EA2DBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99D67AED1951FDF000EA2DBA /* InfoPlist.strings */; };
+		99D67AF11951FDF000EA2DBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D67AF01951FDF000EA2DBA /* main.m */; };
+		99D67AF51951FDF000EA2DBA /* FTGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D67AF41951FDF000EA2DBA /* FTGAppDelegate.m */; };
+		99D67AF81951FDF000EA2DBA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D67AF61951FDF000EA2DBA /* Main_iPhone.storyboard */; };
+		99D67AFB1951FDF000EA2DBA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D67AF91951FDF000EA2DBA /* Main_iPad.storyboard */; };
+		99D67AFE1951FDF000EA2DBA /* FTGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D67AFD1951FDF000EA2DBA /* FTGViewController.m */; };
+		99D67B001951FDF000EA2DBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D67AFF1951FDF000EA2DBA /* Images.xcassets */; };
+		99D67B071951FDF000EA2DBA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D67B061951FDF000EA2DBA /* XCTest.framework */; };
+		99D67B081951FDF000EA2DBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D67AE41951FDF000EA2DBA /* Foundation.framework */; };
+		99D67B091951FDF000EA2DBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D67AE81951FDF000EA2DBA /* UIKit.framework */; };
+		99D67B111951FDF000EA2DBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99D67B0F1951FDF000EA2DBA /* InfoPlist.strings */; };
+		99D67B131951FDF000EA2DBA /* FTGNotificationControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D67B121951FDF000EA2DBA /* FTGNotificationControllerDemoTests.m */; };
+		99D67B1F1951FE2100EA2DBA /* FTGNotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D67B1E1951FE2100EA2DBA /* FTGNotificationController.m */; };
+		99E5B3C71954B2E5006CF3F3 /* FTGTestObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E5B3C61954B2E5006CF3F3 /* FTGTestObserver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99D67B0A1951FDF000EA2DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D67AD91951FDEF00EA2DBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99D67AE01951FDF000EA2DBA;
+			remoteInfo = FTGNotificationControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		721CDDD3E8FC43FA96A3D563 /* Pods-FTGNotificationControllerDemoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTGNotificationControllerDemoTests.xcconfig"; path = "Pods/Pods-FTGNotificationControllerDemoTests.xcconfig"; sourceTree = "<group>"; };
+		99D67AE11951FDF000EA2DBA /* FTGNotificationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTGNotificationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D67AE41951FDF000EA2DBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99D67AE61951FDF000EA2DBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99D67AE81951FDF000EA2DBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99D67AEC1951FDF000EA2DBA /* FTGNotificationControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTGNotificationControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		99D67AEE1951FDF000EA2DBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99D67AF01951FDF000EA2DBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99D67AF21951FDF000EA2DBA /* FTGNotificationControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTGNotificationControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		99D67AF31951FDF000EA2DBA /* FTGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTGAppDelegate.h; sourceTree = "<group>"; };
+		99D67AF41951FDF000EA2DBA /* FTGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTGAppDelegate.m; sourceTree = "<group>"; };
+		99D67AF71951FDF000EA2DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		99D67AFA1951FDF000EA2DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		99D67AFC1951FDF000EA2DBA /* FTGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTGViewController.h; sourceTree = "<group>"; };
+		99D67AFD1951FDF000EA2DBA /* FTGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTGViewController.m; sourceTree = "<group>"; };
+		99D67AFF1951FDF000EA2DBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99D67B051951FDF000EA2DBA /* FTGNotificationControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTGNotificationControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D67B061951FDF000EA2DBA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		99D67B0E1951FDF000EA2DBA /* FTGNotificationControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTGNotificationControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		99D67B101951FDF000EA2DBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99D67B121951FDF000EA2DBA /* FTGNotificationControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTGNotificationControllerDemoTests.m; sourceTree = "<group>"; };
+		99D67B1D1951FE2100EA2DBA /* FTGNotificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGNotificationController.h; sourceTree = "<group>"; };
+		99D67B1E1951FE2100EA2DBA /* FTGNotificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGNotificationController.m; sourceTree = "<group>"; };
+		99E5B3C51954B2E5006CF3F3 /* FTGTestObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGTestObserver.h; sourceTree = "<group>"; };
+		99E5B3C61954B2E5006CF3F3 /* FTGTestObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGTestObserver.m; sourceTree = "<group>"; };
+		CDC793FA88A149CCABC97457 /* libPods-FTGNotificationControllerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FTGNotificationControllerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99D67ADE1951FDF000EA2DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D67AE71951FDF000EA2DBA /* CoreGraphics.framework in Frameworks */,
+				99D67AE91951FDF000EA2DBA /* UIKit.framework in Frameworks */,
+				99D67AE51951FDF000EA2DBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D67B021951FDF000EA2DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D67B071951FDF000EA2DBA /* XCTest.framework in Frameworks */,
+				99D67B091951FDF000EA2DBA /* UIKit.framework in Frameworks */,
+				99D67B081951FDF000EA2DBA /* Foundation.framework in Frameworks */,
+				36960EB9A8A14EE5A71A21F4 /* libPods-FTGNotificationControllerDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99D67AD81951FDEF00EA2DBA = {
+			isa = PBXGroup;
+			children = (
+				99D67B1C1951FE0200EA2DBA /* FTGNotificationController */,
+				99D67AEA1951FDF000EA2DBA /* FTGNotificationControllerDemo */,
+				99D67B0C1951FDF000EA2DBA /* FTGNotificationControllerDemoTests */,
+				99D67AE31951FDF000EA2DBA /* Frameworks */,
+				99D67AE21951FDF000EA2DBA /* Products */,
+				721CDDD3E8FC43FA96A3D563 /* Pods-FTGNotificationControllerDemoTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		99D67AE21951FDF000EA2DBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99D67AE11951FDF000EA2DBA /* FTGNotificationControllerDemo.app */,
+				99D67B051951FDF000EA2DBA /* FTGNotificationControllerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99D67AE31951FDF000EA2DBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99D67AE41951FDF000EA2DBA /* Foundation.framework */,
+				99D67AE61951FDF000EA2DBA /* CoreGraphics.framework */,
+				99D67AE81951FDF000EA2DBA /* UIKit.framework */,
+				99D67B061951FDF000EA2DBA /* XCTest.framework */,
+				CDC793FA88A149CCABC97457 /* libPods-FTGNotificationControllerDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99D67AEA1951FDF000EA2DBA /* FTGNotificationControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				99D67AF31951FDF000EA2DBA /* FTGAppDelegate.h */,
+				99D67AF41951FDF000EA2DBA /* FTGAppDelegate.m */,
+				99D67AF61951FDF000EA2DBA /* Main_iPhone.storyboard */,
+				99D67AF91951FDF000EA2DBA /* Main_iPad.storyboard */,
+				99D67AFC1951FDF000EA2DBA /* FTGViewController.h */,
+				99D67AFD1951FDF000EA2DBA /* FTGViewController.m */,
+				99D67AFF1951FDF000EA2DBA /* Images.xcassets */,
+				99D67AEB1951FDF000EA2DBA /* Supporting Files */,
+			);
+			path = FTGNotificationControllerDemo;
+			sourceTree = "<group>";
+		};
+		99D67AEB1951FDF000EA2DBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99D67AEC1951FDF000EA2DBA /* FTGNotificationControllerDemo-Info.plist */,
+				99D67AED1951FDF000EA2DBA /* InfoPlist.strings */,
+				99D67AF01951FDF000EA2DBA /* main.m */,
+				99D67AF21951FDF000EA2DBA /* FTGNotificationControllerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99D67B0C1951FDF000EA2DBA /* FTGNotificationControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				99E5B3C51954B2E5006CF3F3 /* FTGTestObserver.h */,
+				99E5B3C61954B2E5006CF3F3 /* FTGTestObserver.m */,
+				99D67B121951FDF000EA2DBA /* FTGNotificationControllerDemoTests.m */,
+				99D67B0D1951FDF000EA2DBA /* Supporting Files */,
+			);
+			path = FTGNotificationControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		99D67B0D1951FDF000EA2DBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99D67B0E1951FDF000EA2DBA /* FTGNotificationControllerDemoTests-Info.plist */,
+				99D67B0F1951FDF000EA2DBA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99D67B1C1951FE0200EA2DBA /* FTGNotificationController */ = {
+			isa = PBXGroup;
+			children = (
+				99D67B1D1951FE2100EA2DBA /* FTGNotificationController.h */,
+				99D67B1E1951FE2100EA2DBA /* FTGNotificationController.m */,
+			);
+			name = FTGNotificationController;
+			path = ../FTGNotificationController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99D67AE01951FDF000EA2DBA /* FTGNotificationControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D67B161951FDF000EA2DBA /* Build configuration list for PBXNativeTarget "FTGNotificationControllerDemo" */;
+			buildPhases = (
+				99D67ADD1951FDF000EA2DBA /* Sources */,
+				99D67ADE1951FDF000EA2DBA /* Frameworks */,
+				99D67ADF1951FDF000EA2DBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTGNotificationControllerDemo;
+			productName = FTGNotificationControllerDemo;
+			productReference = 99D67AE11951FDF000EA2DBA /* FTGNotificationControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99D67B041951FDF000EA2DBA /* FTGNotificationControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D67B191951FDF000EA2DBA /* Build configuration list for PBXNativeTarget "FTGNotificationControllerDemoTests" */;
+			buildPhases = (
+				53BBDA3213844514A4894789 /* Check Pods Manifest.lock */,
+				99D67B011951FDF000EA2DBA /* Sources */,
+				99D67B021951FDF000EA2DBA /* Frameworks */,
+				99D67B031951FDF000EA2DBA /* Resources */,
+				389950D821D34882A6D1F1A6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99D67B0B1951FDF000EA2DBA /* PBXTargetDependency */,
+			);
+			name = FTGNotificationControllerDemoTests;
+			productName = FTGNotificationControllerDemoTests;
+			productReference = 99D67B051951FDF000EA2DBA /* FTGNotificationControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99D67AD91951FDEF00EA2DBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FTG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Fantageek;
+				TargetAttributes = {
+					99D67B041951FDF000EA2DBA = {
+						TestTargetID = 99D67AE01951FDF000EA2DBA;
+					};
+				};
+			};
+			buildConfigurationList = 99D67ADC1951FDEF00EA2DBA /* Build configuration list for PBXProject "FTGNotificationControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99D67AD81951FDEF00EA2DBA;
+			productRefGroup = 99D67AE21951FDF000EA2DBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99D67AE01951FDF000EA2DBA /* FTGNotificationControllerDemo */,
+				99D67B041951FDF000EA2DBA /* FTGNotificationControllerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99D67ADF1951FDF000EA2DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D67AFB1951FDF000EA2DBA /* Main_iPad.storyboard in Resources */,
+				99D67B001951FDF000EA2DBA /* Images.xcassets in Resources */,
+				99D67AF81951FDF000EA2DBA /* Main_iPhone.storyboard in Resources */,
+				99D67AEF1951FDF000EA2DBA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D67B031951FDF000EA2DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D67B111951FDF000EA2DBA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		389950D821D34882A6D1F1A6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-FTGNotificationControllerDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53BBDA3213844514A4894789 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99D67ADD1951FDF000EA2DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D67AF51951FDF000EA2DBA /* FTGAppDelegate.m in Sources */,
+				99D67AF11951FDF000EA2DBA /* main.m in Sources */,
+				99D67B1F1951FE2100EA2DBA /* FTGNotificationController.m in Sources */,
+				99D67AFE1951FDF000EA2DBA /* FTGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D67B011951FDF000EA2DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D67B131951FDF000EA2DBA /* FTGNotificationControllerDemoTests.m in Sources */,
+				99E5B3C71954B2E5006CF3F3 /* FTGTestObserver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99D67B0B1951FDF000EA2DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99D67AE01951FDF000EA2DBA /* FTGNotificationControllerDemo */;
+			targetProxy = 99D67B0A1951FDF000EA2DBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99D67AED1951FDF000EA2DBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D67AEE1951FDF000EA2DBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99D67AF61951FDF000EA2DBA /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D67AF71951FDF000EA2DBA /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		99D67AF91951FDF000EA2DBA /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D67AFA1951FDF000EA2DBA /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		99D67B0F1951FDF000EA2DBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D67B101951FDF000EA2DBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99D67B141951FDF000EA2DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99D67B151951FDF000EA2DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99D67B171951FDF000EA2DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGNotificationControllerDemo/FTGNotificationControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "FTGNotificationControllerDemo/FTGNotificationControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99D67B181951FDF000EA2DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGNotificationControllerDemo/FTGNotificationControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "FTGNotificationControllerDemo/FTGNotificationControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		99D67B1A1951FDF000EA2DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721CDDD3E8FC43FA96A3D563 /* Pods-FTGNotificationControllerDemoTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTGNotificationControllerDemo.app/FTGNotificationControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGNotificationControllerDemo/FTGNotificationControllerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FTGNotificationControllerDemoTests/FTGNotificationControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		99D67B1B1951FDF000EA2DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721CDDD3E8FC43FA96A3D563 /* Pods-FTGNotificationControllerDemoTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTGNotificationControllerDemo.app/FTGNotificationControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGNotificationControllerDemo/FTGNotificationControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "FTGNotificationControllerDemoTests/FTGNotificationControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99D67ADC1951FDEF00EA2DBA /* Build configuration list for PBXProject "FTGNotificationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D67B141951FDF000EA2DBA /* Debug */,
+				99D67B151951FDF000EA2DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D67B161951FDF000EA2DBA /* Build configuration list for PBXNativeTarget "FTGNotificationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D67B171951FDF000EA2DBA /* Debug */,
+				99D67B181951FDF000EA2DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D67B191951FDF000EA2DBA /* Build configuration list for PBXNativeTarget "FTGNotificationControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D67B1A1951FDF000EA2DBA /* Debug */,
+				99D67B1B1951FDF000EA2DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99D67AD91951FDEF00EA2DBA /* Project object */;
+}
