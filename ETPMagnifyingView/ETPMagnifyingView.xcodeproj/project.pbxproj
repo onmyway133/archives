@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9914447F193AE26D0023014A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9914447E193AE26D0023014A /* Foundation.framework */; };
+		99144481193AE26D0023014A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99144480193AE26D0023014A /* CoreGraphics.framework */; };
+		99144483193AE26D0023014A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99144482193AE26D0023014A /* UIKit.framework */; };
+		99144489193AE26D0023014A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99144487193AE26D0023014A /* InfoPlist.strings */; };
+		9914448B193AE26D0023014A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9914448A193AE26D0023014A /* main.m */; };
+		9914448F193AE26D0023014A /* ETPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9914448E193AE26D0023014A /* ETPAppDelegate.m */; };
+		99144492193AE26D0023014A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99144490193AE26D0023014A /* Main.storyboard */; };
+		99144495193AE26D0023014A /* ETPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99144494193AE26D0023014A /* ETPViewController.m */; };
+		99144497193AE26D0023014A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99144496193AE26D0023014A /* Images.xcassets */; };
+		9914449E193AE26D0023014A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9914449D193AE26D0023014A /* XCTest.framework */; };
+		9914449F193AE26D0023014A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9914447E193AE26D0023014A /* Foundation.framework */; };
+		991444A0193AE26D0023014A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99144482193AE26D0023014A /* UIKit.framework */; };
+		991444A8193AE26D0023014A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 991444A6193AE26D0023014A /* InfoPlist.strings */; };
+		991444AA193AE26D0023014A /* ETPMagnifyingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 991444A9193AE26D0023014A /* ETPMagnifyingViewTests.m */; };
+		991444BA193AE3660023014A /* ETPMagnifyingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991444B9193AE3660023014A /* ETPMagnifyingView.m */; };
+		991444C5193AE41F0023014A /* number0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 991444BB193AE41F0023014A /* number0.jpg */; };
+		991444C6193AE41F0023014A /* number1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 991444BC193AE41F0023014A /* number1.jpg */; };
+		991444C7193AE41F0023014A /* number2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 991444BD193AE41F0023014A /* number2.jpg */; };
+		991444C8193AE41F0023014A /* number3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 991444BE193AE41F0023014A /* number3.jpg */; };
+		991444C9193AE41F0023014A /* number4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 991444BF193AE41F0023014A /* number4.jpg */; };
+		991444CA193AE41F0023014A /* number5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 991444C0193AE41F0023014A /* number5.jpg */; };
+		991444CB193AE41F0023014A /* number6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 991444C1193AE41F0023014A /* number6.jpg */; };
+		991444CC193AE41F0023014A /* number7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 991444C2193AE41F0023014A /* number7.jpg */; };
+		991444CD193AE41F0023014A /* number8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 991444C3193AE41F0023014A /* number8.jpg */; };
+		991444CE193AE41F0023014A /* number9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 991444C4193AE41F0023014A /* number9.jpg */; };
+		991444D2193B2B520023014A /* HTDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 991444D1193B2B520023014A /* HTDelegateProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		991444A1193AE26D0023014A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99144473193AE26D0023014A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9914447A193AE26D0023014A;
+			remoteInfo = ETPMagnifyingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9914447B193AE26D0023014A /* ETPMagnifyingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETPMagnifyingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9914447E193AE26D0023014A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99144480193AE26D0023014A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99144482193AE26D0023014A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99144486193AE26D0023014A /* ETPMagnifyingView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ETPMagnifyingView-Info.plist"; sourceTree = "<group>"; };
+		99144488193AE26D0023014A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9914448A193AE26D0023014A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9914448C193AE26D0023014A /* ETPMagnifyingView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ETPMagnifyingView-Prefix.pch"; sourceTree = "<group>"; };
+		9914448D193AE26D0023014A /* ETPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETPAppDelegate.h; sourceTree = "<group>"; };
+		9914448E193AE26D0023014A /* ETPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETPAppDelegate.m; sourceTree = "<group>"; };
+		99144491193AE26D0023014A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99144493193AE26D0023014A /* ETPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETPViewController.h; sourceTree = "<group>"; };
+		99144494193AE26D0023014A /* ETPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETPViewController.m; sourceTree = "<group>"; };
+		99144496193AE26D0023014A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9914449C193AE26D0023014A /* ETPMagnifyingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETPMagnifyingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9914449D193AE26D0023014A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		991444A5193AE26D0023014A /* ETPMagnifyingViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ETPMagnifyingViewTests-Info.plist"; sourceTree = "<group>"; };
+		991444A7193AE26D0023014A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		991444A9193AE26D0023014A /* ETPMagnifyingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETPMagnifyingViewTests.m; sourceTree = "<group>"; };
+		991444B8193AE3660023014A /* ETPMagnifyingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPMagnifyingView.h; sourceTree = "<group>"; };
+		991444B9193AE3660023014A /* ETPMagnifyingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETPMagnifyingView.m; sourceTree = "<group>"; };
+		991444BB193AE41F0023014A /* number0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = number0.jpg; sourceTree = "<group>"; };
+		991444BC193AE41F0023014A /* number1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = number1.jpg; sourceTree = "<group>"; };
+		991444BD193AE41F0023014A /* number2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = number2.jpg; sourceTree = "<group>"; };
+		991444BE193AE41F0023014A /* number3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = number3.jpg; sourceTree = "<group>"; };
+		991444BF193AE41F0023014A /* number4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = number4.jpg; sourceTree = "<group>"; };
+		991444C0193AE41F0023014A /* number5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = number5.jpg; sourceTree = "<group>"; };
+		991444C1193AE41F0023014A /* number6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = number6.jpg; sourceTree = "<group>"; };
+		991444C2193AE41F0023014A /* number7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = number7.jpg; sourceTree = "<group>"; };
+		991444C3193AE41F0023014A /* number8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = number8.jpg; sourceTree = "<group>"; };
+		991444C4193AE41F0023014A /* number9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = number9.jpg; sourceTree = "<group>"; };
+		991444D0193B2B520023014A /* HTDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDelegateProxy.h; sourceTree = "<group>"; };
+		991444D1193B2B520023014A /* HTDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDelegateProxy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99144478193AE26D0023014A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99144481193AE26D0023014A /* CoreGraphics.framework in Frameworks */,
+				99144483193AE26D0023014A /* UIKit.framework in Frameworks */,
+				9914447F193AE26D0023014A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99144499193AE26D0023014A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9914449E193AE26D0023014A /* XCTest.framework in Frameworks */,
+				991444A0193AE26D0023014A /* UIKit.framework in Frameworks */,
+				9914449F193AE26D0023014A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99144472193AE26D0023014A = {
+			isa = PBXGroup;
+			children = (
+				99144484193AE26D0023014A /* ETPMagnifyingView */,
+				991444A3193AE26D0023014A /* ETPMagnifyingViewTests */,
+				9914447D193AE26D0023014A /* Frameworks */,
+				9914447C193AE26D0023014A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9914447C193AE26D0023014A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9914447B193AE26D0023014A /* ETPMagnifyingView.app */,
+				9914449C193AE26D0023014A /* ETPMagnifyingViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9914447D193AE26D0023014A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9914447E193AE26D0023014A /* Foundation.framework */,
+				99144480193AE26D0023014A /* CoreGraphics.framework */,
+				99144482193AE26D0023014A /* UIKit.framework */,
+				9914449D193AE26D0023014A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99144484193AE26D0023014A /* ETPMagnifyingView */ = {
+			isa = PBXGroup;
+			children = (
+				991444CF193B2B520023014A /* HTDelegateProxy */,
+				991444B7193AE3660023014A /* ETPMagnifyingView */,
+				991444B6193AE33A0023014A /* Resources */,
+				9914448D193AE26D0023014A /* ETPAppDelegate.h */,
+				9914448E193AE26D0023014A /* ETPAppDelegate.m */,
+				99144490193AE26D0023014A /* Main.storyboard */,
+				99144493193AE26D0023014A /* ETPViewController.h */,
+				99144494193AE26D0023014A /* ETPViewController.m */,
+				99144496193AE26D0023014A /* Images.xcassets */,
+				99144485193AE26D0023014A /* Supporting Files */,
+			);
+			path = ETPMagnifyingView;
+			sourceTree = "<group>";
+		};
+		99144485193AE26D0023014A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99144486193AE26D0023014A /* ETPMagnifyingView-Info.plist */,
+				99144487193AE26D0023014A /* InfoPlist.strings */,
+				9914448A193AE26D0023014A /* main.m */,
+				9914448C193AE26D0023014A /* ETPMagnifyingView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		991444A3193AE26D0023014A /* ETPMagnifyingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				991444A9193AE26D0023014A /* ETPMagnifyingViewTests.m */,
+				991444A4193AE26D0023014A /* Supporting Files */,
+			);
+			path = ETPMagnifyingViewTests;
+			sourceTree = "<group>";
+		};
+		991444A4193AE26D0023014A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				991444A5193AE26D0023014A /* ETPMagnifyingViewTests-Info.plist */,
+				991444A6193AE26D0023014A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		991444B6193AE33A0023014A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				991444BB193AE41F0023014A /* number0.jpg */,
+				991444BC193AE41F0023014A /* number1.jpg */,
+				991444BD193AE41F0023014A /* number2.jpg */,
+				991444BE193AE41F0023014A /* number3.jpg */,
+				991444BF193AE41F0023014A /* number4.jpg */,
+				991444C0193AE41F0023014A /* number5.jpg */,
+				991444C1193AE41F0023014A /* number6.jpg */,
+				991444C2193AE41F0023014A /* number7.jpg */,
+				991444C3193AE41F0023014A /* number8.jpg */,
+				991444C4193AE41F0023014A /* number9.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		991444B7193AE3660023014A /* ETPMagnifyingView */ = {
+			isa = PBXGroup;
+			children = (
+				991444B8193AE3660023014A /* ETPMagnifyingView.h */,
+				991444B9193AE3660023014A /* ETPMagnifyingView.m */,
+			);
+			path = ETPMagnifyingView;
+			sourceTree = "<group>";
+		};
+		991444CF193B2B520023014A /* HTDelegateProxy */ = {
+			isa = PBXGroup;
+			children = (
+				991444D0193B2B520023014A /* HTDelegateProxy.h */,
+				991444D1193B2B520023014A /* HTDelegateProxy.m */,
+			);
+			path = HTDelegateProxy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9914447A193AE26D0023014A /* ETPMagnifyingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991444AD193AE26D0023014A /* Build configuration list for PBXNativeTarget "ETPMagnifyingView" */;
+			buildPhases = (
+				99144477193AE26D0023014A /* Sources */,
+				99144478193AE26D0023014A /* Frameworks */,
+				99144479193AE26D0023014A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ETPMagnifyingView;
+			productName = ETPMagnifyingView;
+			productReference = 9914447B193AE26D0023014A /* ETPMagnifyingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9914449B193AE26D0023014A /* ETPMagnifyingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991444B0193AE26D0023014A /* Build configuration list for PBXNativeTarget "ETPMagnifyingViewTests" */;
+			buildPhases = (
+				99144498193AE26D0023014A /* Sources */,
+				99144499193AE26D0023014A /* Frameworks */,
+				9914449A193AE26D0023014A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991444A2193AE26D0023014A /* PBXTargetDependency */,
+			);
+			name = ETPMagnifyingViewTests;
+			productName = ETPMagnifyingViewTests;
+			productReference = 9914449C193AE26D0023014A /* ETPMagnifyingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99144473193AE26D0023014A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ETP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Khoa Pham";
+				TargetAttributes = {
+					9914449B193AE26D0023014A = {
+						TestTargetID = 9914447A193AE26D0023014A;
+					};
+				};
+			};
+			buildConfigurationList = 99144476193AE26D0023014A /* Build configuration list for PBXProject "ETPMagnifyingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99144472193AE26D0023014A;
+			productRefGroup = 9914447C193AE26D0023014A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9914447A193AE26D0023014A /* ETPMagnifyingView */,
+				9914449B193AE26D0023014A /* ETPMagnifyingViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99144479193AE26D0023014A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991444CE193AE41F0023014A /* number9.jpg in Resources */,
+				99144497193AE26D0023014A /* Images.xcassets in Resources */,
+				991444CB193AE41F0023014A /* number6.jpg in Resources */,
+				991444C8193AE41F0023014A /* number3.jpg in Resources */,
+				991444C6193AE41F0023014A /* number1.jpg in Resources */,
+				99144489193AE26D0023014A /* InfoPlist.strings in Resources */,
+				99144492193AE26D0023014A /* Main.storyboard in Resources */,
+				991444C5193AE41F0023014A /* number0.jpg in Resources */,
+				991444C7193AE41F0023014A /* number2.jpg in Resources */,
+				991444CC193AE41F0023014A /* number7.jpg in Resources */,
+				991444C9193AE41F0023014A /* number4.jpg in Resources */,
+				991444CA193AE41F0023014A /* number5.jpg in Resources */,
+				991444CD193AE41F0023014A /* number8.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9914449A193AE26D0023014A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991444A8193AE26D0023014A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99144477193AE26D0023014A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9914448F193AE26D0023014A /* ETPAppDelegate.m in Sources */,
+				99144495193AE26D0023014A /* ETPViewController.m in Sources */,
+				991444D2193B2B520023014A /* HTDelegateProxy.m in Sources */,
+				9914448B193AE26D0023014A /* main.m in Sources */,
+				991444BA193AE3660023014A /* ETPMagnifyingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99144498193AE26D0023014A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991444AA193AE26D0023014A /* ETPMagnifyingViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		991444A2193AE26D0023014A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9914447A193AE26D0023014A /* ETPMagnifyingView */;
+			targetProxy = 991444A1193AE26D0023014A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99144487193AE26D0023014A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99144488193AE26D0023014A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99144490193AE26D0023014A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99144491193AE26D0023014A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		991444A6193AE26D0023014A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991444A7193AE26D0023014A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		991444AB193AE26D0023014A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		991444AC193AE26D0023014A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		991444AE193AE26D0023014A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ETPMagnifyingView/ETPMagnifyingView-Prefix.pch";
+				INFOPLIST_FILE = "ETPMagnifyingView/ETPMagnifyingView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		991444AF193AE26D0023014A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ETPMagnifyingView/ETPMagnifyingView-Prefix.pch";
+				INFOPLIST_FILE = "ETPMagnifyingView/ETPMagnifyingView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		991444B1193AE26D0023014A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ETPMagnifyingView.app/ETPMagnifyingView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ETPMagnifyingView/ETPMagnifyingView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ETPMagnifyingViewTests/ETPMagnifyingViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		991444B2193AE26D0023014A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ETPMagnifyingView.app/ETPMagnifyingView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ETPMagnifyingView/ETPMagnifyingView-Prefix.pch";
+				INFOPLIST_FILE = "ETPMagnifyingViewTests/ETPMagnifyingViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99144476193AE26D0023014A /* Build configuration list for PBXProject "ETPMagnifyingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991444AB193AE26D0023014A /* Debug */,
+				991444AC193AE26D0023014A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991444AD193AE26D0023014A /* Build configuration list for PBXNativeTarget "ETPMagnifyingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991444AE193AE26D0023014A /* Debug */,
+				991444AF193AE26D0023014A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		991444B0193AE26D0023014A /* Build configuration list for PBXNativeTarget "ETPMagnifyingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991444B1193AE26D0023014A /* Debug */,
+				991444B2193AE26D0023014A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99144473193AE26D0023014A /* Project object */;
+}

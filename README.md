@@ -15,6 +15,7 @@
 - [Signal](/Signal) Signal in Swift
 - [StretchyHeader](/StretchyHeader) Stretchy header using Auto Layout
 - [MVVM-TODO](/MVVM-TODO) A mix of MVVM and VIPER
+- [ETPMagnifyingView](/ETPMagnifyingView) Custom UIView that supports magnifying paging UIScrollView
 
 ## Author
 
