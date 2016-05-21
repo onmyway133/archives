@@ -30,6 +30,7 @@
 - [ios-app-thinning](/ios-app-thinning) All about App Thinning
 - [FTGNotificationController](/FTGNotificationController) Similar to KVOController, but for NSNotification :star:
 - [SwiftFramework](/SwiftFramework) An example Swift framework :star:
+- [DynamicCard](/DynamicCard) Create effect like this http://www.nimbletank.com/news/tweets using UIKit Dynamics
 
 
 ## Author
