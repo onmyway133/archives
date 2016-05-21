@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Modal View Controller-->
+        <scene sceneID="FFM-Ms-3zp">
+            <objects>
+                <viewController storyboardIdentifier="ModalVC" id="scK-j7-7Ut" customClass="ModalViewController" customModule="PlaceholderScene_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MKP-gU-TR7"/>
+                        <viewControllerLayoutGuide type="bottom" id="vfR-aq-nZw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mND-Zh-tOS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Modal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGh-C6-P4m">
+                                <rect key="frame" x="232" y="270" width="136" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uN6-3w-gh6">
+                                <rect key="frame" x="273" y="350" width="54" height="30"/>
+                                <state key="normal" title="Dismiss"/>
+                                <connections>
+                                    <action selector="dismissButtonTouched:" destination="scK-j7-7Ut" eventType="touchUpInside" id="n29-hh-T0p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WGh-C6-P4m" firstAttribute="centerY" secondItem="mND-Zh-tOS" secondAttribute="centerY" id="BIw-wW-ZDT"/>
+                            <constraint firstItem="uN6-3w-gh6" firstAttribute="top" secondItem="WGh-C6-P4m" secondAttribute="bottom" constant="20" id="GeR-mb-ZzL"/>
+                            <constraint firstItem="uN6-3w-gh6" firstAttribute="centerX" secondItem="WGh-C6-P4m" secondAttribute="centerX" id="LDh-4c-TCg"/>
+                            <constraint firstItem="WGh-C6-P4m" firstAttribute="centerX" secondItem="mND-Zh-tOS" secondAttribute="centerX" id="gYQ-EF-wDc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Hj-3X-jPP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1325" y="-264"/>
+        </scene>
+    </scenes>
+</document>

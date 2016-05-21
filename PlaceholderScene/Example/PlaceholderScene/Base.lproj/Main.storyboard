@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pUB-r5-zh8">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Scene 2 Placeholder-->
+        <scene sceneID="1mY-Oj-HW3">
+            <objects>
+                <viewController id="c4m-Ks-evD" userLabel="Scene 2 Placeholder" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SxX-eA-jM1"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yfo-oH-e64"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lPY-Ib-Z5Y">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="CQC-Tj-qmp"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="storyboardName" value="Second"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="viewControllerIdentifier" value="SecondVC"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="ftg_storyboardName" value="Second"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="ftg_viewControllerIdentifier" value="NavigationController"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P6z-zg-4Az" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="678" y="754"/>
+        </scene>
+        <!--Scene 1 Placeholder-->
+        <scene sceneID="Y4N-22-zYV">
+            <objects>
+                <viewController id="oQy-Wc-ZMW" userLabel="Scene 1 Placeholder" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kbp-w0-SXr"/>
+                        <viewControllerLayoutGuide type="bottom" id="kGV-3N-Q85"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7NL-Ni-j6x">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="hH4-ms-agk"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="storyboardName" value="First"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="viewControllerIdentifier" value="FirstVC"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="ftg_storyboardName" value="First"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="ftg_viewControllerIdentifier" value="FirstVC"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xDV-g8-Zdl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="678" y="93"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Ew8-kq-Iwa">
+            <objects>
+                <tabBarController id="pUB-r5-zh8" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="NRD-pg-Yng">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="oQy-Wc-ZMW" kind="relationship" relationship="viewControllers" id="blG-dF-4tJ"/>
+                        <segue destination="c4m-Ks-evD" kind="relationship" relationship="viewControllers" id="r2e-cv-x54"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oY2-zW-Dvr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-142" y="424"/>
+        </scene>
+    </scenes>
+</document>

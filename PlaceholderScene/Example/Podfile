@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'PlaceholderScene_Example', :exclusive => true do
+  pod "PlaceholderScene", :path => "../"
+end
+
+target 'PlaceholderScene_Tests', :exclusive => true do
+  pod "PlaceholderScene", :path => "../"
+
+  
+end

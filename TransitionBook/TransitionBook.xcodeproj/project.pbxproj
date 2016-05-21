@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D28D7B5118C41F8700F48BC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28D7B5018C41F8700F48BC6 /* Foundation.framework */; };
+		D28D7B5318C41F8700F48BC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28D7B5218C41F8700F48BC6 /* CoreGraphics.framework */; };
+		D28D7B5518C41F8700F48BC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28D7B5418C41F8700F48BC6 /* UIKit.framework */; };
+		D28D7B5B18C41F8700F48BC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D28D7B5918C41F8700F48BC6 /* InfoPlist.strings */; };
+		D28D7B5D18C41F8700F48BC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D28D7B5C18C41F8700F48BC6 /* main.m */; };
+		D28D7B6118C41F8700F48BC6 /* ETPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D28D7B6018C41F8700F48BC6 /* ETPAppDelegate.m */; };
+		D28D7B6418C41F8700F48BC6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28D7B6218C41F8700F48BC6 /* Main_iPhone.storyboard */; };
+		D28D7B6718C41F8700F48BC6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28D7B6518C41F8700F48BC6 /* Main_iPad.storyboard */; };
+		D28D7B6C18C41F8700F48BC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28D7B6B18C41F8700F48BC6 /* Images.xcassets */; };
+		D28D7B7318C41F8700F48BC6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28D7B7218C41F8700F48BC6 /* XCTest.framework */; };
+		D28D7B7418C41F8700F48BC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28D7B5018C41F8700F48BC6 /* Foundation.framework */; };
+		D28D7B7518C41F8700F48BC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28D7B5418C41F8700F48BC6 /* UIKit.framework */; };
+		D28D7B7D18C41F8700F48BC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D28D7B7B18C41F8700F48BC6 /* InfoPlist.strings */; };
+		D28D7B7F18C41F8700F48BC6 /* TransitionBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D28D7B7E18C41F8700F48BC6 /* TransitionBookTests.m */; };
+		D28D7B8A18C41FBE00F48BC6 /* ETPCoverPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D28D7B8918C41FBE00F48BC6 /* ETPCoverPageViewController.m */; };
+		D28D7B8D18C4205700F48BC6 /* ETPNormalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D28D7B8C18C4205700F48BC6 /* ETPNormalPageViewController.m */; };
+		D28D7B9018C423FB00F48BC6 /* ETPPageNumberManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D28D7B8F18C423FB00F48BC6 /* ETPPageNumberManager.m */; };
+		D28D7B9618C42A1F00F48BC6 /* ETPFlipAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D28D7B9518C42A1F00F48BC6 /* ETPFlipAnimationController.m */; };
+		D28D7B9918C42A2800F48BC6 /* ETPFlipInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D28D7B9818C42A2800F48BC6 /* ETPFlipInteractionController.m */; };
+		D28D7BA018C450E500F48BC6 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D28D7B9F18C450E500F48BC6 /* UIView+Additions.m */; };
+		D28D7BA318C45FCC00F48BC6 /* ColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D28D7BA218C45FCC00F48BC6 /* ColorManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D28D7B7618C41F8700F48BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D28D7B4518C41F8700F48BC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D28D7B4C18C41F8700F48BC6;
+			remoteInfo = TransitionBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D28D7B4D18C41F8700F48BC6 /* TransitionBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28D7B5018C41F8700F48BC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D28D7B5218C41F8700F48BC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D28D7B5418C41F8700F48BC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D28D7B5818C41F8700F48BC6 /* TransitionBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransitionBook-Info.plist"; sourceTree = "<group>"; };
+		D28D7B5A18C41F8700F48BC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D28D7B5C18C41F8700F48BC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D28D7B5E18C41F8700F48BC6 /* TransitionBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TransitionBook-Prefix.pch"; sourceTree = "<group>"; };
+		D28D7B5F18C41F8700F48BC6 /* ETPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETPAppDelegate.h; sourceTree = "<group>"; };
+		D28D7B6018C41F8700F48BC6 /* ETPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETPAppDelegate.m; sourceTree = "<group>"; };
+		D28D7B6318C41F8700F48BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D28D7B6618C41F8700F48BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D28D7B6B18C41F8700F48BC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D28D7B7118C41F8700F48BC6 /* TransitionBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28D7B7218C41F8700F48BC6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D28D7B7A18C41F8700F48BC6 /* TransitionBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransitionBookTests-Info.plist"; sourceTree = "<group>"; };
+		D28D7B7C18C41F8700F48BC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D28D7B7E18C41F8700F48BC6 /* TransitionBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionBookTests.m; sourceTree = "<group>"; };
+		D28D7B8818C41FBE00F48BC6 /* ETPCoverPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETPCoverPageViewController.h; path = ../ETPCoverPageViewController.h; sourceTree = "<group>"; };
+		D28D7B8918C41FBE00F48BC6 /* ETPCoverPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ETPCoverPageViewController.m; path = ../ETPCoverPageViewController.m; sourceTree = "<group>"; };
+		D28D7B8B18C4205700F48BC6 /* ETPNormalPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPNormalPageViewController.h; sourceTree = "<group>"; };
+		D28D7B8C18C4205700F48BC6 /* ETPNormalPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETPNormalPageViewController.m; sourceTree = "<group>"; };
+		D28D7B8E18C423FB00F48BC6 /* ETPPageNumberManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETPPageNumberManager.h; path = ../ETPPageNumberManager.h; sourceTree = "<group>"; };
+		D28D7B8F18C423FB00F48BC6 /* ETPPageNumberManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ETPPageNumberManager.m; path = ../ETPPageNumberManager.m; sourceTree = "<group>"; };
+		D28D7B9418C42A1F00F48BC6 /* ETPFlipAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPFlipAnimationController.h; sourceTree = "<group>"; };
+		D28D7B9518C42A1F00F48BC6 /* ETPFlipAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETPFlipAnimationController.m; sourceTree = "<group>"; };
+		D28D7B9718C42A2800F48BC6 /* ETPFlipInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPFlipInteractionController.h; sourceTree = "<group>"; };
+		D28D7B9818C42A2800F48BC6 /* ETPFlipInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETPFlipInteractionController.m; sourceTree = "<group>"; };
+		D28D7B9E18C450E500F48BC6 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		D28D7B9F18C450E500F48BC6 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		D28D7BA118C45FCC00F48BC6 /* ColorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorManager.h; sourceTree = "<group>"; };
+		D28D7BA218C45FCC00F48BC6 /* ColorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D28D7B4A18C41F8700F48BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28D7B5318C41F8700F48BC6 /* CoreGraphics.framework in Frameworks */,
+				D28D7B5518C41F8700F48BC6 /* UIKit.framework in Frameworks */,
+				D28D7B5118C41F8700F48BC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28D7B6E18C41F8700F48BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28D7B7318C41F8700F48BC6 /* XCTest.framework in Frameworks */,
+				D28D7B7518C41F8700F48BC6 /* UIKit.framework in Frameworks */,
+				D28D7B7418C41F8700F48BC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D28D7B4418C41F8700F48BC6 = {
+			isa = PBXGroup;
+			children = (
+				D28D7B5618C41F8700F48BC6 /* TransitionBook */,
+				D28D7B7818C41F8700F48BC6 /* TransitionBookTests */,
+				D28D7B4F18C41F8700F48BC6 /* Frameworks */,
+				D28D7B4E18C41F8700F48BC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D28D7B4E18C41F8700F48BC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D28D7B4D18C41F8700F48BC6 /* TransitionBook.app */,
+				D28D7B7118C41F8700F48BC6 /* TransitionBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D28D7B4F18C41F8700F48BC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D28D7B5018C41F8700F48BC6 /* Foundation.framework */,
+				D28D7B5218C41F8700F48BC6 /* CoreGraphics.framework */,
+				D28D7B5418C41F8700F48BC6 /* UIKit.framework */,
+				D28D7B7218C41F8700F48BC6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D28D7B5618C41F8700F48BC6 /* TransitionBook */ = {
+			isa = PBXGroup;
+			children = (
+				D28D7B9A18C433FF00F48BC6 /* Categories */,
+				D28D7B9318C42A0800F48BC6 /* Transition Controllers */,
+				D28D7B9218C42A0000F48BC6 /* View Controllers */,
+				D28D7B9118C429F700F48BC6 /* Managers */,
+				D28D7B5F18C41F8700F48BC6 /* ETPAppDelegate.h */,
+				D28D7B6018C41F8700F48BC6 /* ETPAppDelegate.m */,
+				D28D7B6218C41F8700F48BC6 /* Main_iPhone.storyboard */,
+				D28D7B6518C41F8700F48BC6 /* Main_iPad.storyboard */,
+				D28D7B6B18C41F8700F48BC6 /* Images.xcassets */,
+				D28D7B5718C41F8700F48BC6 /* Supporting Files */,
+			);
+			path = TransitionBook;
+			sourceTree = "<group>";
+		};
+		D28D7B5718C41F8700F48BC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D28D7B5818C41F8700F48BC6 /* TransitionBook-Info.plist */,
+				D28D7B5918C41F8700F48BC6 /* InfoPlist.strings */,
+				D28D7B5C18C41F8700F48BC6 /* main.m */,
+				D28D7B5E18C41F8700F48BC6 /* TransitionBook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D28D7B7818C41F8700F48BC6 /* TransitionBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				D28D7B7E18C41F8700F48BC6 /* TransitionBookTests.m */,
+				D28D7B7918C41F8700F48BC6 /* Supporting Files */,
+			);
+			path = TransitionBookTests;
+			sourceTree = "<group>";
+		};
+		D28D7B7918C41F8700F48BC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D28D7B7A18C41F8700F48BC6 /* TransitionBookTests-Info.plist */,
+				D28D7B7B18C41F8700F48BC6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D28D7B9118C429F700F48BC6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D28D7BA118C45FCC00F48BC6 /* ColorManager.h */,
+				D28D7BA218C45FCC00F48BC6 /* ColorManager.m */,
+				D28D7B8E18C423FB00F48BC6 /* ETPPageNumberManager.h */,
+				D28D7B8F18C423FB00F48BC6 /* ETPPageNumberManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		D28D7B9218C42A0000F48BC6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D28D7B8818C41FBE00F48BC6 /* ETPCoverPageViewController.h */,
+				D28D7B8918C41FBE00F48BC6 /* ETPCoverPageViewController.m */,
+				D28D7B8B18C4205700F48BC6 /* ETPNormalPageViewController.h */,
+				D28D7B8C18C4205700F48BC6 /* ETPNormalPageViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D28D7B9318C42A0800F48BC6 /* Transition Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D28D7B9418C42A1F00F48BC6 /* ETPFlipAnimationController.h */,
+				D28D7B9518C42A1F00F48BC6 /* ETPFlipAnimationController.m */,
+				D28D7B9718C42A2800F48BC6 /* ETPFlipInteractionController.h */,
+				D28D7B9818C42A2800F48BC6 /* ETPFlipInteractionController.m */,
+			);
+			name = "Transition Controllers";
+			sourceTree = "<group>";
+		};
+		D28D7B9A18C433FF00F48BC6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D28D7B9E18C450E500F48BC6 /* UIView+Additions.h */,
+				D28D7B9F18C450E500F48BC6 /* UIView+Additions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D28D7B4C18C41F8700F48BC6 /* TransitionBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28D7B8218C41F8700F48BC6 /* Build configuration list for PBXNativeTarget "TransitionBook" */;
+			buildPhases = (
+				D28D7B4918C41F8700F48BC6 /* Sources */,
+				D28D7B4A18C41F8700F48BC6 /* Frameworks */,
+				D28D7B4B18C41F8700F48BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransitionBook;
+			productName = TransitionBook;
+			productReference = D28D7B4D18C41F8700F48BC6 /* TransitionBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D28D7B7018C41F8700F48BC6 /* TransitionBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28D7B8518C41F8700F48BC6 /* Build configuration list for PBXNativeTarget "TransitionBookTests" */;
+			buildPhases = (
+				D28D7B6D18C41F8700F48BC6 /* Sources */,
+				D28D7B6E18C41F8700F48BC6 /* Frameworks */,
+				D28D7B6F18C41F8700F48BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D28D7B7718C41F8700F48BC6 /* PBXTargetDependency */,
+			);
+			name = TransitionBookTests;
+			productName = TransitionBookTests;
+			productReference = D28D7B7118C41F8700F48BC6 /* TransitionBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D28D7B4518C41F8700F48BC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ETP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Khoa Pham";
+				TargetAttributes = {
+					D28D7B7018C41F8700F48BC6 = {
+						TestTargetID = D28D7B4C18C41F8700F48BC6;
+					};
+				};
+			};
+			buildConfigurationList = D28D7B4818C41F8700F48BC6 /* Build configuration list for PBXProject "TransitionBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D28D7B4418C41F8700F48BC6;
+			productRefGroup = D28D7B4E18C41F8700F48BC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D28D7B4C18C41F8700F48BC6 /* TransitionBook */,
+				D28D7B7018C41F8700F48BC6 /* TransitionBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D28D7B4B18C41F8700F48BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28D7B6718C41F8700F48BC6 /* Main_iPad.storyboard in Resources */,
+				D28D7B6C18C41F8700F48BC6 /* Images.xcassets in Resources */,
+				D28D7B6418C41F8700F48BC6 /* Main_iPhone.storyboard in Resources */,
+				D28D7B5B18C41F8700F48BC6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28D7B6F18C41F8700F48BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28D7B7D18C41F8700F48BC6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D28D7B4918C41F8700F48BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28D7B6118C41F8700F48BC6 /* ETPAppDelegate.m in Sources */,
+				D28D7B9618C42A1F00F48BC6 /* ETPFlipAnimationController.m in Sources */,
+				D28D7BA018C450E500F48BC6 /* UIView+Additions.m in Sources */,
+				D28D7B8D18C4205700F48BC6 /* ETPNormalPageViewController.m in Sources */,
+				D28D7BA318C45FCC00F48BC6 /* ColorManager.m in Sources */,
+				D28D7B9918C42A2800F48BC6 /* ETPFlipInteractionController.m in Sources */,
+				D28D7B5D18C41F8700F48BC6 /* main.m in Sources */,
+				D28D7B8A18C41FBE00F48BC6 /* ETPCoverPageViewController.m in Sources */,
+				D28D7B9018C423FB00F48BC6 /* ETPPageNumberManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28D7B6D18C41F8700F48BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28D7B7F18C41F8700F48BC6 /* TransitionBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D28D7B7718C41F8700F48BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D28D7B4C18C41F8700F48BC6 /* TransitionBook */;
+			targetProxy = D28D7B7618C41F8700F48BC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D28D7B5918C41F8700F48BC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28D7B5A18C41F8700F48BC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D28D7B6218C41F8700F48BC6 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28D7B6318C41F8700F48BC6 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D28D7B6518C41F8700F48BC6 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28D7B6618C41F8700F48BC6 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D28D7B7B18C41F8700F48BC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28D7B7C18C41F8700F48BC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D28D7B8018C41F8700F48BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D28D7B8118C41F8700F48BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D28D7B8318C41F8700F48BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransitionBook/TransitionBook-Prefix.pch";
+				INFOPLIST_FILE = "TransitionBook/TransitionBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D28D7B8418C41F8700F48BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransitionBook/TransitionBook-Prefix.pch";
+				INFOPLIST_FILE = "TransitionBook/TransitionBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D28D7B8618C41F8700F48BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TransitionBook.app/TransitionBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransitionBook/TransitionBook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TransitionBookTests/TransitionBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D28D7B8718C41F8700F48BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TransitionBook.app/TransitionBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransitionBook/TransitionBook-Prefix.pch";
+				INFOPLIST_FILE = "TransitionBookTests/TransitionBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D28D7B4818C41F8700F48BC6 /* Build configuration list for PBXProject "TransitionBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28D7B8018C41F8700F48BC6 /* Debug */,
+				D28D7B8118C41F8700F48BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28D7B8218C41F8700F48BC6 /* Build configuration list for PBXNativeTarget "TransitionBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28D7B8318C41F8700F48BC6 /* Debug */,
+				D28D7B8418C41F8700F48BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D28D7B8518C41F8700F48BC6 /* Build configuration list for PBXNativeTarget "TransitionBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28D7B8618C41F8700F48BC6 /* Debug */,
+				D28D7B8718C41F8700F48BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D28D7B4518C41F8700F48BC6 /* Project object */;
+}

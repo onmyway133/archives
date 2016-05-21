@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--First-->
+        <scene sceneID="Tt6-db-HIZ">
+            <objects>
+                <viewController storyboardIdentifier="FirstVC" id="3Tr-1O-FKz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PdU-uV-NKa"/>
+                        <viewControllerLayoutGuide type="bottom" id="rwx-z5-QBD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b4Z-Mp-egg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8K-HP-Zqe">
+                                <rect key="frame" x="253" y="270" width="94" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYf-6e-6nT">
+                                <rect key="frame" x="274" y="350" width="53" height="30"/>
+                                <state key="normal" title="Present"/>
+                                <connections>
+                                    <segue destination="Fwz-tC-XWe" kind="presentation" modalTransitionStyle="partialCurl" id="n9q-Iy-spJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="a8K-HP-Zqe" firstAttribute="centerX" secondItem="b4Z-Mp-egg" secondAttribute="centerX" id="1oO-mK-LVL"/>
+                            <constraint firstItem="a8K-HP-Zqe" firstAttribute="centerY" secondItem="b4Z-Mp-egg" secondAttribute="centerY" id="LE6-wi-lQW"/>
+                            <constraint firstItem="cYf-6e-6nT" firstAttribute="top" secondItem="a8K-HP-Zqe" secondAttribute="bottom" constant="20" id="UrV-x5-XfR"/>
+                            <constraint firstItem="cYf-6e-6nT" firstAttribute="centerX" secondItem="a8K-HP-Zqe" secondAttribute="centerX" id="roC-Yh-Tf7"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="First" id="0Bw-9k-xbH"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hMe-vw-sKI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="238" y="453"/>
+        </scene>
+        <!--Modal Placeholder-->
+        <scene sceneID="kmd-ys-KSd">
+            <objects>
+                <viewController id="Fwz-tC-XWe" userLabel="Modal Placeholder" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pBn-SE-SXp"/>
+                        <viewControllerLayoutGuide type="bottom" id="b9y-jS-t7g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TKY-IP-Li9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="ftg_storyboardName" value="Modal"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="ftg_viewControllerIdentifier" value="ModalVC"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gab-r7-Mxt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="947" y="453"/>
+        </scene>
+    </scenes>
+</document>

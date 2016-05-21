@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D23534E419AC41BE008B764D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23534E319AC41BE008B764D /* Foundation.framework */; };
+		D23534E619AC41BE008B764D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23534E519AC41BE008B764D /* CoreGraphics.framework */; };
+		D23534E819AC41BE008B764D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23534E719AC41BE008B764D /* UIKit.framework */; };
+		D23534EE19AC41BE008B764D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D23534EC19AC41BE008B764D /* InfoPlist.strings */; };
+		D23534F019AC41BE008B764D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D23534EF19AC41BE008B764D /* main.m */; };
+		D23534F419AC41BE008B764D /* FTGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D23534F319AC41BE008B764D /* FTGAppDelegate.m */; };
+		D23534F719AC41BE008B764D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23534F519AC41BE008B764D /* Main.storyboard */; };
+		D23534FA19AC41BE008B764D /* FTGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23534F919AC41BE008B764D /* FTGViewController.m */; };
+		D23534FC19AC41BE008B764D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23534FB19AC41BE008B764D /* Images.xcassets */; };
+		D235350319AC41BE008B764D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D235350219AC41BE008B764D /* XCTest.framework */; };
+		D235350419AC41BE008B764D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23534E319AC41BE008B764D /* Foundation.framework */; };
+		D235350519AC41BE008B764D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23534E719AC41BE008B764D /* UIKit.framework */; };
+		D235350D19AC41BE008B764D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D235350B19AC41BE008B764D /* InfoPlist.strings */; };
+		D235350F19AC41BE008B764D /* FTGPropertyMaestroDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D235350E19AC41BE008B764D /* FTGPropertyMaestroDemoTests.m */; };
+		D235351B19AC42E1008B764D /* FTGProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D235351A19AC42E1008B764D /* FTGProperty.m */; };
+		D235351E19AC42EA008B764D /* FTGPropertyMaestro.m in Sources */ = {isa = PBXBuildFile; fileRef = D235351D19AC42EA008B764D /* FTGPropertyMaestro.m */; };
+		D2DB65EA19AD859700BE6733 /* FTGClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB65E919AD859700BE6733 /* FTGClassA.m */; };
+		D2DB65F019AD85A900BE6733 /* FTGClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB65EF19AD85A900BE6733 /* FTGClassB.m */; };
+		D2DB65F319AD85B400BE6733 /* FTGClassA+FTGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB65F219AD85B400BE6733 /* FTGClassA+FTGAdditions.m */; };
+		D2DB65F619AD85BE00BE6733 /* FTGClassB+FTGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB65F519AD85BE00BE6733 /* FTGClassB+FTGAdditions.m */; };
+		D2DB65F919AD967600BE6733 /* FTGClassA+FTGMoreAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB65F819AD967600BE6733 /* FTGClassA+FTGMoreAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D235350619AC41BE008B764D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D23534D819AC41BD008B764D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D23534DF19AC41BD008B764D;
+			remoteInfo = FTGPropertyMaestroDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D23534E019AC41BD008B764D /* FTGPropertyMaestroDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTGPropertyMaestroDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23534E319AC41BE008B764D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D23534E519AC41BE008B764D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D23534E719AC41BE008B764D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D23534EB19AC41BE008B764D /* FTGPropertyMaestroDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTGPropertyMaestroDemo-Info.plist"; sourceTree = "<group>"; };
+		D23534ED19AC41BE008B764D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D23534EF19AC41BE008B764D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D23534F119AC41BE008B764D /* FTGPropertyMaestroDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTGPropertyMaestroDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D23534F219AC41BE008B764D /* FTGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTGAppDelegate.h; sourceTree = "<group>"; };
+		D23534F319AC41BE008B764D /* FTGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTGAppDelegate.m; sourceTree = "<group>"; };
+		D23534F619AC41BE008B764D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D23534F819AC41BE008B764D /* FTGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTGViewController.h; sourceTree = "<group>"; };
+		D23534F919AC41BE008B764D /* FTGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTGViewController.m; sourceTree = "<group>"; };
+		D23534FB19AC41BE008B764D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D235350119AC41BE008B764D /* FTGPropertyMaestroDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTGPropertyMaestroDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D235350219AC41BE008B764D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D235350A19AC41BE008B764D /* FTGPropertyMaestroDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTGPropertyMaestroDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D235350C19AC41BE008B764D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D235350E19AC41BE008B764D /* FTGPropertyMaestroDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTGPropertyMaestroDemoTests.m; sourceTree = "<group>"; };
+		D235351919AC42E1008B764D /* FTGProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGProperty.h; sourceTree = "<group>"; };
+		D235351A19AC42E1008B764D /* FTGProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGProperty.m; sourceTree = "<group>"; };
+		D235351C19AC42EA008B764D /* FTGPropertyMaestro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGPropertyMaestro.h; sourceTree = "<group>"; };
+		D235351D19AC42EA008B764D /* FTGPropertyMaestro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGPropertyMaestro.m; sourceTree = "<group>"; };
+		D2DB65E819AD859700BE6733 /* FTGClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGClassA.h; sourceTree = "<group>"; };
+		D2DB65E919AD859700BE6733 /* FTGClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGClassA.m; sourceTree = "<group>"; };
+		D2DB65EE19AD85A900BE6733 /* FTGClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGClassB.h; sourceTree = "<group>"; };
+		D2DB65EF19AD85A900BE6733 /* FTGClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGClassB.m; sourceTree = "<group>"; };
+		D2DB65F119AD85B400BE6733 /* FTGClassA+FTGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTGClassA+FTGAdditions.h"; sourceTree = "<group>"; };
+		D2DB65F219AD85B400BE6733 /* FTGClassA+FTGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FTGClassA+FTGAdditions.m"; sourceTree = "<group>"; };
+		D2DB65F419AD85BE00BE6733 /* FTGClassB+FTGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTGClassB+FTGAdditions.h"; sourceTree = "<group>"; };
+		D2DB65F519AD85BE00BE6733 /* FTGClassB+FTGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FTGClassB+FTGAdditions.m"; sourceTree = "<group>"; };
+		D2DB65F719AD967600BE6733 /* FTGClassA+FTGMoreAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTGClassA+FTGMoreAdditions.h"; sourceTree = "<group>"; };
+		D2DB65F819AD967600BE6733 /* FTGClassA+FTGMoreAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FTGClassA+FTGMoreAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D23534DD19AC41BD008B764D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23534E619AC41BE008B764D /* CoreGraphics.framework in Frameworks */,
+				D23534E819AC41BE008B764D /* UIKit.framework in Frameworks */,
+				D23534E419AC41BE008B764D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23534FE19AC41BE008B764D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D235350319AC41BE008B764D /* XCTest.framework in Frameworks */,
+				D235350519AC41BE008B764D /* UIKit.framework in Frameworks */,
+				D235350419AC41BE008B764D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D23534D719AC41BD008B764D = {
+			isa = PBXGroup;
+			children = (
+				D235351819AC41F2008B764D /* FTGPropertyMaestro */,
+				D23534E919AC41BE008B764D /* FTGPropertyMaestroDemo */,
+				D235350819AC41BE008B764D /* FTGPropertyMaestroDemoTests */,
+				D23534E219AC41BD008B764D /* Frameworks */,
+				D23534E119AC41BD008B764D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D23534E119AC41BD008B764D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D23534E019AC41BD008B764D /* FTGPropertyMaestroDemo.app */,
+				D235350119AC41BE008B764D /* FTGPropertyMaestroDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D23534E219AC41BD008B764D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D23534E319AC41BE008B764D /* Foundation.framework */,
+				D23534E519AC41BE008B764D /* CoreGraphics.framework */,
+				D23534E719AC41BE008B764D /* UIKit.framework */,
+				D235350219AC41BE008B764D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D23534E919AC41BE008B764D /* FTGPropertyMaestroDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D23534F219AC41BE008B764D /* FTGAppDelegate.h */,
+				D23534F319AC41BE008B764D /* FTGAppDelegate.m */,
+				D23534F519AC41BE008B764D /* Main.storyboard */,
+				D23534F819AC41BE008B764D /* FTGViewController.h */,
+				D23534F919AC41BE008B764D /* FTGViewController.m */,
+				D23534FB19AC41BE008B764D /* Images.xcassets */,
+				D23534EA19AC41BE008B764D /* Supporting Files */,
+			);
+			path = FTGPropertyMaestroDemo;
+			sourceTree = "<group>";
+		};
+		D23534EA19AC41BE008B764D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23534EB19AC41BE008B764D /* FTGPropertyMaestroDemo-Info.plist */,
+				D23534EC19AC41BE008B764D /* InfoPlist.strings */,
+				D23534EF19AC41BE008B764D /* main.m */,
+				D23534F119AC41BE008B764D /* FTGPropertyMaestroDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D235350819AC41BE008B764D /* FTGPropertyMaestroDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D235350E19AC41BE008B764D /* FTGPropertyMaestroDemoTests.m */,
+				D235350919AC41BE008B764D /* Supporting Files */,
+				D2DB65E819AD859700BE6733 /* FTGClassA.h */,
+				D2DB65E919AD859700BE6733 /* FTGClassA.m */,
+				D2DB65EE19AD85A900BE6733 /* FTGClassB.h */,
+				D2DB65EF19AD85A900BE6733 /* FTGClassB.m */,
+				D2DB65F119AD85B400BE6733 /* FTGClassA+FTGAdditions.h */,
+				D2DB65F219AD85B400BE6733 /* FTGClassA+FTGAdditions.m */,
+				D2DB65F419AD85BE00BE6733 /* FTGClassB+FTGAdditions.h */,
+				D2DB65F519AD85BE00BE6733 /* FTGClassB+FTGAdditions.m */,
+				D2DB65F719AD967600BE6733 /* FTGClassA+FTGMoreAdditions.h */,
+				D2DB65F819AD967600BE6733 /* FTGClassA+FTGMoreAdditions.m */,
+			);
+			path = FTGPropertyMaestroDemoTests;
+			sourceTree = "<group>";
+		};
+		D235350919AC41BE008B764D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D235350A19AC41BE008B764D /* FTGPropertyMaestroDemoTests-Info.plist */,
+				D235350B19AC41BE008B764D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D235351819AC41F2008B764D /* FTGPropertyMaestro */ = {
+			isa = PBXGroup;
+			children = (
+				D235351919AC42E1008B764D /* FTGProperty.h */,
+				D235351A19AC42E1008B764D /* FTGProperty.m */,
+				D235351C19AC42EA008B764D /* FTGPropertyMaestro.h */,
+				D235351D19AC42EA008B764D /* FTGPropertyMaestro.m */,
+			);
+			path = FTGPropertyMaestro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D23534DF19AC41BD008B764D /* FTGPropertyMaestroDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D235351219AC41BE008B764D /* Build configuration list for PBXNativeTarget "FTGPropertyMaestroDemo" */;
+			buildPhases = (
+				D23534DC19AC41BD008B764D /* Sources */,
+				D23534DD19AC41BD008B764D /* Frameworks */,
+				D23534DE19AC41BD008B764D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTGPropertyMaestroDemo;
+			productName = FTGPropertyMaestroDemo;
+			productReference = D23534E019AC41BD008B764D /* FTGPropertyMaestroDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D235350019AC41BE008B764D /* FTGPropertyMaestroDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D235351519AC41BE008B764D /* Build configuration list for PBXNativeTarget "FTGPropertyMaestroDemoTests" */;
+			buildPhases = (
+				D23534FD19AC41BE008B764D /* Sources */,
+				D23534FE19AC41BE008B764D /* Frameworks */,
+				D23534FF19AC41BE008B764D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D235350719AC41BE008B764D /* PBXTargetDependency */,
+			);
+			name = FTGPropertyMaestroDemoTests;
+			productName = FTGPropertyMaestroDemoTests;
+			productReference = D235350119AC41BE008B764D /* FTGPropertyMaestroDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D23534D819AC41BD008B764D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FTG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Fantageek;
+				TargetAttributes = {
+					D235350019AC41BE008B764D = {
+						TestTargetID = D23534DF19AC41BD008B764D;
+					};
+				};
+			};
+			buildConfigurationList = D23534DB19AC41BD008B764D /* Build configuration list for PBXProject "FTGPropertyMaestroDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D23534D719AC41BD008B764D;
+			productRefGroup = D23534E119AC41BD008B764D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D23534DF19AC41BD008B764D /* FTGPropertyMaestroDemo */,
+				D235350019AC41BE008B764D /* FTGPropertyMaestroDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D23534DE19AC41BD008B764D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23534FC19AC41BE008B764D /* Images.xcassets in Resources */,
+				D23534EE19AC41BE008B764D /* InfoPlist.strings in Resources */,
+				D23534F719AC41BE008B764D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23534FF19AC41BE008B764D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D235350D19AC41BE008B764D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D23534DC19AC41BD008B764D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23534F419AC41BE008B764D /* FTGAppDelegate.m in Sources */,
+				D235351E19AC42EA008B764D /* FTGPropertyMaestro.m in Sources */,
+				D23534F019AC41BE008B764D /* main.m in Sources */,
+				D235351B19AC42E1008B764D /* FTGProperty.m in Sources */,
+				D23534FA19AC41BE008B764D /* FTGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23534FD19AC41BE008B764D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DB65EA19AD859700BE6733 /* FTGClassA.m in Sources */,
+				D235350F19AC41BE008B764D /* FTGPropertyMaestroDemoTests.m in Sources */,
+				D2DB65F319AD85B400BE6733 /* FTGClassA+FTGAdditions.m in Sources */,
+				D2DB65F919AD967600BE6733 /* FTGClassA+FTGMoreAdditions.m in Sources */,
+				D2DB65F019AD85A900BE6733 /* FTGClassB.m in Sources */,
+				D2DB65F619AD85BE00BE6733 /* FTGClassB+FTGAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D235350719AC41BE008B764D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D23534DF19AC41BD008B764D /* FTGPropertyMaestroDemo */;
+			targetProxy = D235350619AC41BE008B764D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D23534EC19AC41BE008B764D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23534ED19AC41BE008B764D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D23534F519AC41BE008B764D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23534F619AC41BE008B764D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D235350B19AC41BE008B764D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D235350C19AC41BE008B764D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D235351019AC41BE008B764D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D235351119AC41BE008B764D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D235351319AC41BE008B764D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGPropertyMaestroDemo/FTGPropertyMaestroDemo-Prefix.pch";
+				INFOPLIST_FILE = "FTGPropertyMaestroDemo/FTGPropertyMaestroDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D235351419AC41BE008B764D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGPropertyMaestroDemo/FTGPropertyMaestroDemo-Prefix.pch";
+				INFOPLIST_FILE = "FTGPropertyMaestroDemo/FTGPropertyMaestroDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D235351619AC41BE008B764D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTGPropertyMaestroDemo.app/FTGPropertyMaestroDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGPropertyMaestroDemo/FTGPropertyMaestroDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FTGPropertyMaestroDemoTests/FTGPropertyMaestroDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D235351719AC41BE008B764D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTGPropertyMaestroDemo.app/FTGPropertyMaestroDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTGPropertyMaestroDemo/FTGPropertyMaestroDemo-Prefix.pch";
+				INFOPLIST_FILE = "FTGPropertyMaestroDemoTests/FTGPropertyMaestroDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D23534DB19AC41BD008B764D /* Build configuration list for PBXProject "FTGPropertyMaestroDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D235351019AC41BE008B764D /* Debug */,
+				D235351119AC41BE008B764D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D235351219AC41BE008B764D /* Build configuration list for PBXNativeTarget "FTGPropertyMaestroDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D235351319AC41BE008B764D /* Debug */,
+				D235351419AC41BE008B764D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D235351519AC41BE008B764D /* Build configuration list for PBXNativeTarget "FTGPropertyMaestroDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D235351619AC41BE008B764D /* Debug */,
+				D235351719AC41BE008B764D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D23534D819AC41BD008B764D /* Project object */;
+}

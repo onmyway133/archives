@@ -1,0 +1,14 @@
+PODS:
+  - PlaceholderScene (0.1.0)
+
+DEPENDENCIES:
+  - PlaceholderScene (from `../`)
+
+EXTERNAL SOURCES:
+  PlaceholderScene:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PlaceholderScene: b9c7e41c9c113c356b5e191fe3bce6db6d3a2510
+
+COCOAPODS: 0.39.0

@@ -31,6 +31,9 @@
 - [FTGNotificationController](/FTGNotificationController) Similar to KVOController, but for NSNotification :star:
 - [SwiftFramework](/SwiftFramework) An example Swift framework :star:
 - [DynamicCard](/DynamicCard) Create effect like this http://www.nimbletank.com/news/tweets using UIKit Dynamics
+- [TransitionBook](/TransitionBook) Interactive flip book using Custom View Controller Transition API
+- [FTGPropertyMaestro](/FTGPropertyMaestro) Synthesize properties for categories
+- [PlaceholderScene](/PlaceholderScene) Mimicking storyboard reference through placeholder view controllers
 
 
 ## Author
