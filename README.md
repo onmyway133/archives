@@ -44,6 +44,6 @@ Khoa Pham, onmyway133@gmail.com
 
 We would love you to contribute to **Construction**, check the [CONTRIBUTING](https://github.com/onmyway133/Construction/blob/master/CONTRIBUTING.md) file for more info.
 
-## License
-
-**Construction** is available under the MIT license. See the [LICENSE](https://github.com/onmyway133/Construction/blob/master/LICENSE.md) file for more info.
+Licence
+--
+This project is released under the MIT license. See LICENSE.md.
