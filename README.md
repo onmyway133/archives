@@ -13,7 +13,7 @@
 - [SwiftyMonad](/SwiftyMonad) Monad in Swift
 - [LeftPad.swift](/LeftPad.swift) Leftpad in Swift
 - [Signal](/Signal) Signal in Swift :star:
-- [StretchyHeader](/StretchyHeader) Stretchy header using Auto Layout
+- [StretchyHeader](/StretchyHeader) Stretchy header using Auto Layout :star:
 - [MVVM-TODO](/MVVM-TODO) A mix of MVVM and VIPER
 - [ETPMagnifyingView](/ETPMagnifyingView) Custom UIView that supports magnifying paging UIScrollView
 - [FTGPopup](/FTGPopup) A popup that displays your own views 
