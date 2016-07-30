@@ -1,4 +1,4 @@
-# Code Kata
+# archives
 
 [The Ultimate Code Kata](http://blog.codinghorror.com/the-ultimate-code-kata/)
 > Effortful study means constantly tackling problems at the very edge of your ability
