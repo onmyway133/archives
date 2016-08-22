@@ -9,7 +9,7 @@
 import UIKit
 import MobileCoreServices
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIVideoEditorControllerDelegate {
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -21,6 +21,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     // Dispose of any resources that can be recreated.
   }
 
+  // MARK: - Image Picker
 
   @IBAction func imagePickerTouched(sender: UIButton) {
     let imagePicker = UIImagePickerController()
@@ -45,6 +46,29 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
   func imagePickerControllerDidCancel(picker: UIImagePickerController) {
 
+  }
+
+  // MARK: - Video Editor
+
+  func showVideoEditor() {
+    let videoEditor = UIVideoEditorController()
+    videoEditor.delegate = self
+
+    presentViewController(videoEditor, animated: true, completion: nil)
+  }
+
+  // MARK: - UIVideoEditorControllerDelegate
+
+  func videoEditorControllerDidCancel(editor: UIVideoEditorController) {
+
+  }
+
+  func videoEditorController(editor: UIVideoEditorController, didFailWithError error: NSError) {
+
+  }
+
+  func videoEditorController(editor: UIVideoEditorController, didSaveEditedVideoToPath editedVideoPath: String) {
+    
   }
 }
 
