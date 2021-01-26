@@ -6,7 +6,7 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
       <item>
-        <title>Version 2.0.1</title>
+        <title>Version 2.0.2</title>
         <description>
           <![CDATA[
             <ul>
@@ -17,8 +17,8 @@
             </ul>
           ]]>
         </description>
-        <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
-        <enclosure url="https://sparkle-project.org/files/Sparkle%20Test%20App.zip" sparkle:version="2.0.1" length="107758" type="application/octet-stream" sparkle:dsaSignature="MCwCFCdoW13VBGJWIfIklKxQVyetgxE7AhQTVuY9uQT0KOV1UEk21epBsGZMPg==" />
+        <pubDate>Sat, 26 Jan 2021 15:20:11 +0000</pubDate>
+        <enclosure url="https://sparkle-project.org/files/Sparkle%20Test%20App.zip" sparkle:version="2.0.2" length="107758" type="application/octet-stream" sparkle:dsaSignature="MCwCFCdoW13VBGJWIfIklKxQVyetgxE7AhQTVuY9uQT0KOV1UEk21epBsGZMPg==" />
       </item>
   </channel>
 </rss>
