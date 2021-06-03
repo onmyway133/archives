@@ -3,7 +3,7 @@
   <channel>
     <title>Almighty Changelog</title>
     <link>https://raw.githubusercontent.com/onmyway133/archives/master/AlmightyCast.xml</link>
-    <description>Almighty update changelog</description>
+    <description>Check out new Almighty update</description>
     <language>en</language>
       <item>
         <title>Version 2.0.1</title>
@@ -17,14 +17,13 @@
             </ul>
           ]]>
         </description>
-        <pubDate>Sat, 26 Jan 2021 15:20:11 +0000</pubDate>
+        <pubDate>Thu, 3 Jun 2021 15:20:11 +0000</pubDate>
         <enclosure 
-            url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty+2.0.1.dmg" 
-            sparkle:version="7" 
-            sparkle:shortVersionString="2.0.1" 
+            url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty+2.0.2.dmg" 
+            sparkle:version="8" 
+            sparkle:shortVersionString="2.0.2" 
             type="application/octet-stream" 
-            sparkle:edSignature="OTv8r7UsHzHYRW1xh4tXxLBcIQUecTQ4wNqdKzjzgvWpxXeuNbFl6P6a6KPcyNY+6qGaijiHT/2mnpL6JrJoBQ==" 
-            length="12224668" />
+            sparkle:edSignature="iOOStF+lGgnRp3IDIIhqNWcjgPz1DzcR8Y1VodoDdLQe618Ey9w+qaV/WWgkVpyI7i2w0wGtAOsRijaCywz/Cw==" length="14627034" />
       </item>
   </channel>
 </rss>
