@@ -6,7 +6,7 @@
     <description>Check out new Almighty update</description>
     <language>en</language>
       <item>
-        <title>Version 2.0.2</title>
+        <title>Version 2.0.3</title>
         <description>
           <![CDATA[
             <ul>
@@ -20,10 +20,10 @@
         <pubDate>Thu, 3 Jun 2021 15:20:11 +0000</pubDate>
         <enclosure 
             url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.dmg" 
-            sparkle:version="8" 
-            sparkle:shortVersionString="2.0.2" 
+            sparkle:version="9" 
+            sparkle:shortVersionString="2.0.3" 
             type="application/octet-stream" 
-            sparkle:edSignature="iOOStF+lGgnRp3IDIIhqNWcjgPz1DzcR8Y1VodoDdLQe618Ey9w+qaV/WWgkVpyI7i2w0wGtAOsRijaCywz/Cw==" length="14627034" />
+            sparkle:edSignature="aTlsGN4JPwfUeUSC2Y/RWwkaozTvDUWCQdK8c6Uu8Z34pio10ElNiYx4xyrJV/3+hHJw4CpwJc3es5kgFCCLAQ==" length="14627010" />
       </item>
   </channel>
 </rss>
