@@ -19,7 +19,7 @@
         </description>
         <pubDate>Thu, 3 Jun 2021 15:20:11 +0000</pubDate>
         <enclosure 
-            url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty+2.0.2.dmg" 
+            url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.dmg" 
             sparkle:version="8" 
             sparkle:shortVersionString="2.0.2" 
             type="application/octet-stream" 
