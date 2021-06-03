@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Sparkle Test App Changelog</title>
-    <link>http://sparkle-project.org/files/sparkletestcast.xml</link>
-    <description>Most recent changes with links to updates.</description>
+    <title>Almighty Changelog</title>
+    <link>https://raw.githubusercontent.com/onmyway133/archives/master/AlmightyCast.xml</link>
+    <description>Almighty update changelog</description>
     <language>en</language>
       <item>
         <title>Version 2.0.1</title>
         <description>
           <![CDATA[
             <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li>
-              <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li>
-              <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li>
+              <li>Secure payment with Paddle</li>
+              <li>Gracefully trial period. You can check out all tweaks unlimited during trial.</li>
+              <li>Add Lock Keyboard tweak. You can now safely lock keyboard on all screens.</li>
+              <li>Add Hide Menu Bar Items tweak. This helps declutter your busy menu bar</li>
             </ul>
           ]]>
         </description>
         <pubDate>Sat, 26 Jan 2021 15:20:11 +0000</pubDate>
-        <enclosure url="https://sparkle-project.org/files/Sparkle%20Test%20App.zip" sparkle:version="6" sparkle:shortVersionString="2.0.1" length="107758" type="application/octet-stream" sparkle:dsaSignature="MCwCFCdoW13VBGJWIfIklKxQVyetgxE7AhQTVuY9uQT0KOV1UEk21epBsGZMPg==" />
+        <enclosure 
+            url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty+2.0.1.dmg" 
+            sparkle:version="7" 
+            sparkle:shortVersionString="2.0.1" 
+            type="application/octet-stream" 
+            sparkle:edSignature="OTv8r7UsHzHYRW1xh4tXxLBcIQUecTQ4wNqdKzjzgvWpxXeuNbFl6P6a6KPcyNY+6qGaijiHT/2mnpL6JrJoBQ==" 
+            length="12224668" />
       </item>
   </channel>
 </rss>
