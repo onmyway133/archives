@@ -6,22 +6,26 @@
     <description>Check out new Almighty update</description>
     <language>en</language>
       <item>
-        <title>Version 2.0.4</title>
+        <title>Version 2.0.6</title>
         <description>
           <![CDATA[
             <ul>
-              <li>Update Toggle Dark Mode tweak</li>
-              <li>Improve text editor in Script tweak</li>
+              <li>Visualize keystrokes</li>
+              <li>Visualize cursor</li>
+              <li>Black out</li>
+              <li>Plain text</li>
+              <li>Auto plain text</li>
             </ul>
           ]]>
         </description>
         <pubDate>Thu, 6 Jun 2021 15:20:11 +0000</pubDate>
         <enclosure 
             url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.dmg" 
-            sparkle:version="10" 
-            sparkle:shortVersionString="2.0.4" 
+            sparkle:version="13" 
+            sparkle:shortVersionString="2.0.6" 
             type="application/octet-stream" 
-            sparkle:edSignature="AtiV75RIY6eCxWjrMA58MrxAv8yAUY8fSSKXsc2mes6smkLzEcC42hG4KNJurwklS8FsoKEraee7pZYxv+0hBA==" length="14630827" />
+            sparkle:edSignature="o2PYoraEmwNT8sHspx5PBzGmn3YC2zckCUg0Qqn/Qghj3Qp/NUxSXW2QBwgnqwFvl2gdwC0jiQdbixBH15vpAg==" length="14438115"
+        />
       </item>
   </channel>
 </rss>
