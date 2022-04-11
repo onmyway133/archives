@@ -6,24 +6,22 @@
     <description>Check out new Almighty update</description>
     <language>en</language>
       <item>
-        <title>Version 2.2.1</title>
+        <title>Version 2.2.7</title>
         <description>
           <![CDATA[
             <ul>
-              <li>Expose all tweaks via Siri Shortcut on Mac Monterey</li>
-              <li>Hide notch</li>
-              <li>Simulate enotch</li>
-              <li>Flip Fn Key</li>
+              <li>Select which screens to black out</li>
+              <li>Highlight active app window</li>
             </ul>
           ]]>
         </description>
-        <pubDate>Fri, 7 Nov 2021 15:20:11 +0000</pubDate>
+        <pubDate>Mon, 11 April 2021 15:20:11 +0000</pubDate>
         <enclosure 
             url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.app.zip" 
-            sparkle:version="32" 
-            sparkle:shortVersionString="2.2.1" 
+            sparkle:version="37" 
+            sparkle:shortVersionString="2.2.7" 
             type="application/octet-stream" 
-            sparkle:edSignature="4/GM65Ac3D3ykQuLD2KlNG5yaxVtcISNN5iuUG5zlm8O3+ZtHp0Vbdb4GqDDSjgylCNt1ZGSBZgL0X+aexXsAw==" length="15330128"
+            sparkle:edSignature="8wpixOj2G/UH5LgPvDpYQ72qLdzKSlYXVZMQpKLkgpk6X0I13a3QTOLUwxYSVc6SbOag0G5bRc42LNO+rMMUBw==" length="16481398"
         />
       </item>
   </channel>
