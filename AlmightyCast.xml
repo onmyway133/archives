@@ -6,22 +6,21 @@
     <description>Check out new Almighty update</description>
     <language>en</language>
       <item>
-        <title>Version 2.2.7</title>
+        <title>Version 2.2.8</title>
         <description>
           <![CDATA[
             <ul>
-              <li>Select which screens to black out</li>
-              <li>Highlight active app window</li>
+              <li>Update main window level</li>
             </ul>
           ]]>
         </description>
-        <pubDate>Mon, 11 April 2021 15:20:11 +0000</pubDate>
+        <pubDate>Tue, 19 April 2021 15:20:11 +0000</pubDate>
         <enclosure 
             url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.app.zip" 
-            sparkle:version="37" 
-            sparkle:shortVersionString="2.2.7" 
+            sparkle:version="38" 
+            sparkle:shortVersionString="2.2.8" 
             type="application/octet-stream" 
-            sparkle:edSignature="LbtoS3f4Ff6BqDA6CuE6vKG6pOjcAgA/dPN8wXuDIHIJrTk3kWbl+vnhYBdrxzDK3c1o8hV7s7yEiXaVmQHPAw==" length="16519936"
+            sparkle:edSignature="AknFbyxk1GuelI5DeCUHvO9CyJfACZT12NtIxU+s+dCcxAYzRo5jU5zfoR/WCBEAlZfDLvfP0vVJZN+DvOhnDA==" length="16446203"
         />
       </item>
   </channel>
