@@ -6,22 +6,22 @@
     <description>Check out new Almighty update</description>
     <language>en</language>
       <item>
-        <title>Version 2.3.0</title>
+        <title>Version 2.3.1</title>
         <description>
           <![CDATA[
             <ul>
-              <li>Get public IP</li>
-              <li>Improve script task</li>
+              <li>Improve hide status menu bar items tweak</li>
+              <li>Update info popup</li>
             </ul>
           ]]>
         </description>
         <pubDate>Tue, 20 April 2021 15:20:11 +0000</pubDate>
         <enclosure 
             url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.app.zip" 
-            sparkle:version="40" 
-            sparkle:shortVersionString="2.3.0" 
+            sparkle:version="41" 
+            sparkle:shortVersionString="2.3.1" 
             type="application/octet-stream" 
-            sparkle:edSignature="QiG4pVifzd9DiW47dmbqFiotefGEljMavVnxmut8xgX8PduJE8ppq4O1zVYpMmmPifLc3HcU8pBHU7PHsf7bCQ==" length="16480487"
+            sparkle:edSignature="SsdiF5Zz4TRDxaGKLBfRjjfagffRMgz1xq9De+al3GAiuIHbq/z2awzwcVPk0L3BN6jrJL3hcCgC54TV28NbBQ==" length="16507972"
         />
       </item>
   </channel>
