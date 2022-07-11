@@ -6,22 +6,22 @@
     <description>Check out new Almighty update</description>
     <language>en</language>
       <item>
-        <title>Version 2.3.1</title>
+        <title>Version 2.3.3</title>
         <description>
           <![CDATA[
             <ul>
-              <li>Improve hide status menu bar items tweak</li>
-              <li>Update info popup</li>
+              <li>Add new tweak Emoji Alias to expand Slack style emoji alias into emoji</li>
+              <li>Improve menu bar view</li>
             </ul>
           ]]>
         </description>
-        <pubDate>Tue, 20 April 2021 15:20:11 +0000</pubDate>
+        <pubDate>Tue, 11 July 2022 15:20:11 +0000</pubDate>
         <enclosure 
             url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.app.zip" 
-            sparkle:version="41" 
-            sparkle:shortVersionString="2.3.1" 
+            sparkle:version="43" 
+            sparkle:shortVersionString="2.3.3" 
             type="application/octet-stream" 
-            sparkle:edSignature="SsdiF5Zz4TRDxaGKLBfRjjfagffRMgz1xq9De+al3GAiuIHbq/z2awzwcVPk0L3BN6jrJL3hcCgC54TV28NbBQ==" length="16507972"
+            sparkle:edSignature="e6NG9W6oDkeTXAkogeY4MT9TZ6Sx9JGFxzpMayyP6i/vy3J+NorMEAmLZ7eKbVA7trSxMD9zaQnBcDy6f3LaCw==" length="16995345"
         />
       </item>
   </channel>
