@@ -19,7 +19,7 @@
       <sparkle:version>46</sparkle:version>
       <sparkle:shortVersionString>2.3.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://raw.githubusercontent.com/onmyway133/archives/master/Almighty.zip" length="17535183" type="application/octet-stream" sparkle:edSignature="t2EsKVL/BndmHatO6WeTSpnIoT2LyK8gLqwqCpXKq59uKK0iYuTZAsxKYn29IdqImo7mvtK9NxGkLNcothWlAQ=="/>
+      <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="17535183" type="application/octet-stream" sparkle:edSignature="t2EsKVL/BndmHatO6WeTSpnIoT2LyK8gLqwqCpXKq59uKK0iYuTZAsxKYn29IdqImo7mvtK9NxGkLNcothWlAQ=="/>
     </item>
     <item>
       <title>Version 2.3.3</title>
