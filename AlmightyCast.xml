@@ -6,6 +6,21 @@
     <description>Check out new Almighty update</description>
     <language>en</language>
     <item>
+            <title>2.3.7</title>
+      <description>
+        <![CDATA[
+        <ul>
+          <li>Add new tweak Extract Text</li>
+        </ul>
+        ]]>
+      </description>
+            <pubDate>Sat, 13 Aug 2022 22:26:43 +0200</pubDate>
+            <sparkle:version>48</sparkle:version>
+            <sparkle:shortVersionString>2.3.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/onmyway133/archives/master/Almighty.zip" length="18079456" type="application/octet-stream" sparkle:edSignature="HgKzGdOtNHHQpXHhc7Gu3yVs8CMORUfgcUqT+JYD3S2W2/nOogArVpEScv8dW0mkZvLgfWLitb3WLOcbdjnXCg=="/>
+    </item>
+    <item>
       <title>2.3.5</title>
       <description>
         <![CDATA[
