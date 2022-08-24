@@ -6,6 +6,19 @@
     <description>Check out new Almighty update</description>
     <language>en</language>
     <item>
+            <title>2.3.9</title>
+       <![CDATA[
+        <ul>
+          <li>Improve Scripting tweaks</li>
+        </ul>
+        ]]>
+            <pubDate>Wed, 24 Aug 2022 22:22:09 +0200</pubDate>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>2.3.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/onmyway133/archives/master/Almighty.zip" length="18109767" type="application/octet-stream" sparkle:edSignature="0OncI08FyWMy5a73Cpjr0CRcmPtSpJxzYAZLac1/NlB+ghi49u+Pd76iMiKrl87nieE0UJcJs3mYVkDH201zBg=="/>
+        </item>
+    <item>
             <title>2.3.8</title>
       <description>
         <![CDATA[
