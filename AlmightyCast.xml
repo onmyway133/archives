@@ -18,7 +18,7 @@
             <sparkle:version>50</sparkle:version>
             <sparkle:shortVersionString>2.3.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://raw.githubusercontent.com/onmyway133/archives/master/Almighty.zip" length="18109767" type="application/octet-stream" sparkle:edSignature="0OncI08FyWMy5a73Cpjr0CRcmPtSpJxzYAZLac1/NlB+ghi49u+Pd76iMiKrl87nieE0UJcJs3mYVkDH201zBg=="/>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="18109767" type="application/octet-stream" sparkle:edSignature="0OncI08FyWMy5a73Cpjr0CRcmPtSpJxzYAZLac1/NlB+ghi49u+Pd76iMiKrl87nieE0UJcJs3mYVkDH201zBg=="/>
         </item>
     <item>
             <title>2.3.8</title>
@@ -33,7 +33,7 @@
             <sparkle:version>49</sparkle:version>
             <sparkle:shortVersionString>2.3.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://raw.githubusercontent.com/onmyway133/archives/master/Almighty.zip" length="18073329" type="application/octet-stream" sparkle:edSignature="iK8IHWgZZZi3bh6VBbhGMNsZDkZyiu2pOlyahMgrjCAODg5qNhIqTGMVhNPSl9YVVNj+je3WlLmXGQYHONvgDg=="/>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="18073329" type="application/octet-stream" sparkle:edSignature="iK8IHWgZZZi3bh6VBbhGMNsZDkZyiu2pOlyahMgrjCAODg5qNhIqTGMVhNPSl9YVVNj+je3WlLmXGQYHONvgDg=="/>
         </item>
     <item>
             <title>2.3.7</title>
@@ -48,7 +48,7 @@
             <sparkle:version>48</sparkle:version>
             <sparkle:shortVersionString>2.3.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://raw.githubusercontent.com/onmyway133/archives/master/Almighty.zip" length="18079456" type="application/octet-stream" sparkle:edSignature="HgKzGdOtNHHQpXHhc7Gu3yVs8CMORUfgcUqT+JYD3S2W2/nOogArVpEScv8dW0mkZvLgfWLitb3WLOcbdjnXCg=="/>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="18079456" type="application/octet-stream" sparkle:edSignature="HgKzGdOtNHHQpXHhc7Gu3yVs8CMORUfgcUqT+JYD3S2W2/nOogArVpEScv8dW0mkZvLgfWLitb3WLOcbdjnXCg=="/>
     </item>
     <item>
       <title>2.3.5</title>
