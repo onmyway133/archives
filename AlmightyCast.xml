@@ -7,11 +7,13 @@
     <language>en</language>
     <item>
             <title>2.3.9</title>
+      <description>
        <![CDATA[
         <ul>
           <li>Improve Scripting tweaks</li>
         </ul>
         ]]>
+        </description>
             <pubDate>Wed, 24 Aug 2022 22:22:09 +0200</pubDate>
             <sparkle:version>50</sparkle:version>
             <sparkle:shortVersionString>2.3.9</sparkle:shortVersionString>
