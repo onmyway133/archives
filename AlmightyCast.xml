@@ -1,89 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>Almighty Changelog</title>
-    <link>https://raw.githubusercontent.com/onmyway133/archives/master/AlmightyCast.xml</link>
-    <description>Check out new Almighty update</description>
-    <language>en</language>
-    <item>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Almighty Changelog</title>
+        <link>https://raw.githubusercontent.com/onmyway133/archives/master/AlmightyCast.xml</link>
+        <description>Check out new Almighty update</description>
+        <language>en</language>
+        <item>
+            <title>2.4.1</title>
+            <description>
+                <![CDATA[
+        <ul>
+          <li>Persist tweak toggles across launches</li>
+          <li>Support new intent shortcuts in Mac Ventura</li>
+          <li>Other improvements</li>
+        </ul>
+        ]]>
+            </description>
+            <pubDate>Mon, 31 Oct 2022 10:25:11 +0100</pubDate>
+            <sparkle:version>52</sparkle:version>
+            <sparkle:shortVersionString>2.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/onmyway133/archives/master/Almighty.zip" length="18632731" type="application/octet-stream" sparkle:edSignature="3WVRl2MJ2SfkDN3bEUTjkyRUCP64/62P1sSks1N5eKPeApjbGzjYpaE6WdDlTZs5nBO2pGl7XadLdVFVx46PCg=="/>
+        </item>
+        <item>
             <title>2.3.9</title>
-      <description>
-       <![CDATA[
+            <description>
+                <![CDATA[
         <ul>
           <li>Improve Scripting tweaks</li>
         </ul>
         ]]>
-        </description>
+            </description>
             <pubDate>Wed, 24 Aug 2022 22:22:09 +0200</pubDate>
             <sparkle:version>50</sparkle:version>
             <sparkle:shortVersionString>2.3.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="18109767" type="application/octet-stream" sparkle:edSignature="0OncI08FyWMy5a73Cpjr0CRcmPtSpJxzYAZLac1/NlB+ghi49u+Pd76iMiKrl87nieE0UJcJs3mYVkDH201zBg=="/>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="18109767" type="application/octet-stream" sparkle:edSignature="0OncI08FyWMy5a73Cpjr0CRcmPtSpJxzYAZLac1/NlB+ghi49u+Pd76iMiKrl87nieE0UJcJs3mYVkDH201zBg==" />
         </item>
-    <item>
+        <item>
             <title>2.3.8</title>
-      <description>
-        <![CDATA[
+            <description>
+                <![CDATA[
         <ul>
           <li>Improve Scripting tweaks</li>
         </ul>
         ]]>
-      </description>
+            </description>
             <pubDate>Wed, 24 Aug 2022 16:22:57 +0200</pubDate>
             <sparkle:version>49</sparkle:version>
             <sparkle:shortVersionString>2.3.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="18073329" type="application/octet-stream" sparkle:edSignature="iK8IHWgZZZi3bh6VBbhGMNsZDkZyiu2pOlyahMgrjCAODg5qNhIqTGMVhNPSl9YVVNj+je3WlLmXGQYHONvgDg=="/>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="18073329" type="application/octet-stream" sparkle:edSignature="iK8IHWgZZZi3bh6VBbhGMNsZDkZyiu2pOlyahMgrjCAODg5qNhIqTGMVhNPSl9YVVNj+je3WlLmXGQYHONvgDg==" />
         </item>
-    <item>
+        <item>
             <title>2.3.7</title>
-      <description>
-        <![CDATA[
+            <description>
+                <![CDATA[
         <ul>
           <li>Add new tweak Extract Text</li>
         </ul>
         ]]>
-      </description>
+            </description>
             <pubDate>Sat, 13 Aug 2022 22:26:43 +0200</pubDate>
             <sparkle:version>48</sparkle:version>
             <sparkle:shortVersionString>2.3.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="18079456" type="application/octet-stream" sparkle:edSignature="HgKzGdOtNHHQpXHhc7Gu3yVs8CMORUfgcUqT+JYD3S2W2/nOogArVpEScv8dW0mkZvLgfWLitb3WLOcbdjnXCg=="/>
-    </item>
-    <item>
-      <title>2.3.5</title>
-      <description>
-        <![CDATA[
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="18079456" type="application/octet-stream" sparkle:edSignature="HgKzGdOtNHHQpXHhc7Gu3yVs8CMORUfgcUqT+JYD3S2W2/nOogArVpEScv8dW0mkZvLgfWLitb3WLOcbdjnXCg==" />
+        </item>
+        <item>
+            <title>2.3.5</title>
+            <description>
+                <![CDATA[
         <ul>
           <li>Add new tweak View Shortcuts to view all keyboard shortcut in any app</li>
           <li>Other improvements</li>
         </ul>
         ]]>
-      </description>
-      <pubDate>Wed, 03 Aug 2022 13:14:24 +0200</pubDate>
-      <sparkle:version>46</sparkle:version>
-      <sparkle:shortVersionString>2.3.5</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="17535183" type="application/octet-stream" sparkle:edSignature="t2EsKVL/BndmHatO6WeTSpnIoT2LyK8gLqwqCpXKq59uKK0iYuTZAsxKYn29IdqImo7mvtK9NxGkLNcothWlAQ=="/>
-    </item>
-    <item>
-      <title>Version 2.3.3</title>
-      <description>
-        <![CDATA[
+            </description>
+            <pubDate>Wed, 03 Aug 2022 13:14:24 +0200</pubDate>
+            <sparkle:version>46</sparkle:version>
+            <sparkle:shortVersionString>2.3.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="17535183" type="application/octet-stream" sparkle:edSignature="t2EsKVL/BndmHatO6WeTSpnIoT2LyK8gLqwqCpXKq59uKK0iYuTZAsxKYn29IdqImo7mvtK9NxGkLNcothWlAQ==" />
+        </item>
+        <item>
+            <title>Version 2.3.3</title>
+            <description>
+                <![CDATA[
         <ul>
           <li>Add new tweak Emoji Alias to expand Slack style emoji alias into emoji</li>
           <li>Improve menu bar view</li>
         </ul>
         ]]>
-      </description>
-      <pubDate>Tue, 11 July 2022 15:20:11 +0000</pubDate>
-      <enclosure 
-        url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" 
-        sparkle:version="43" 
-        sparkle:shortVersionString="2.3.3" 
-        type="application/octet-stream" 
-        sparkle:edSignature="e6NG9W6oDkeTXAkogeY4MT9TZ6Sx9JGFxzpMayyP6i/vy3J+NorMEAmLZ7eKbVA7trSxMD9zaQnBcDy6f3LaCw==" length="16995345"
-        />
-      </item>
+            </description>
+            <pubDate>Tue, 11 July 2022 15:20:11 +0000</pubDate>
+            <enclosure
+                url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip"
+                sparkle:version="43"
+                sparkle:shortVersionString="2.3.3"
+                type="application/octet-stream"
+                sparkle:edSignature="e6NG9W6oDkeTXAkogeY4MT9TZ6Sx9JGFxzpMayyP6i/vy3J+NorMEAmLZ7eKbVA7trSxMD9zaQnBcDy6f3LaCw==" length="16995345"
+            />
+        </item>
     </channel>
-  </rss>
+</rss>
