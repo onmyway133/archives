@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
+        <title>Almighty</title>
+        <item>
+            <title>2.4.4</title>
+            <pubDate>Tue, 14 Feb 2023 23:06:25 +0100</pubDate>
+             <description>
+                <![CDATA[
+        <ul>
+          <li>Update View Shortcut tweak to show all keys in new layout</li>
+          <li>Add Increase Brightness to increase brightness range</li>
+          <li>Update Emoji Alias tweak to allow ignored apps</li>
+          <li>Show demo link for most tweaks under Info section</li>
+        </ul>
+        ]]>
+            </description>
+            <sparkle:version>55</sparkle:version>
+            <sparkle:shortVersionString>2.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/onmyway133/archives/master/Almighty.zip" length="18710010" type="application/octet-stream" sparkle:edSignature="ybwEOatWtnXPw4pJfES5hYNMhzUMBtpbR5WITvxVgB/KdBY8LhP5ZVVpl/fWkt+ybnR4f8tjHxndpTB1giHqAQ=="/>
+        </item>
         <title>Almighty Changelog</title>
         <link>https://raw.githubusercontent.com/onmyway133/archives/master/AlmightyCast.xml</link>
         <description>Check out new Almighty update</description>
