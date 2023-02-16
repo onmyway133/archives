@@ -2,10 +2,11 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>Almighty</title>
+        <link>https://raw.githubusercontent.com/onmyway133/archives/master/AlmightyCast.xml</link>
+        <description>Check out new Almighty update</description>
+        <language>en</language>
         <item>
-            <title>2.4.4</title>
-            <pubDate>Tue, 14 Feb 2023 23:06:25 +0100</pubDate>
-             <description>
+            <description>
                 <![CDATA[
         <ul>
           <li>Update View Shortcut tweak to show all keys in new layout</li>
@@ -15,15 +16,15 @@
         </ul>
         ]]>
             </description>
-            <sparkle:version>55</sparkle:version>
+            <title>2.4.4</title>
+            <pubDate>Thu, 16 Feb 2023 21:09:48 +0100</pubDate>
+            <sparkle:version>57</sparkle:version>
             <sparkle:shortVersionString>2.4.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="18710010" type="application/octet-stream" sparkle:edSignature="ybwEOatWtnXPw4pJfES5hYNMhzUMBtpbR5WITvxVgB/KdBY8LhP5ZVVpl/fWkt+ybnR4f8tjHxndpTB1giHqAQ=="/>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="18709198" type="application/octet-stream" sparkle:edSignature="ZlI171ILsX4JyJZLej3ZIt/DDuJiDjru52cBeakI24WTayIW6hatIx0URpfbubosMoTKsqEjSd0r/maqtvC0Bw=="/>
         </item>
-        <title>Almighty Changelog</title>
-        <link>https://raw.githubusercontent.com/onmyway133/archives/master/AlmightyCast.xml</link>
-        <description>Check out new Almighty update</description>
-        <language>en</language>
+    
+        
         <item>
             <title>2.4.1</title>
             <description>
