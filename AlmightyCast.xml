@@ -6,6 +6,22 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.5.0</title>
+            <description>
+                <![CDATA[
+        <ul>
+          <li>Add new tweak Adjust Display Brightness</li>
+          <li>Add new tweak Preview Dock Window</li>
+        </ul>
+        ]]>
+            </description>
+            <pubDate>Tue, 18 Apr 2023 21:46:07 +0200</pubDate>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="19738521" type="application/octet-stream" sparkle:edSignature="V20rMgvDf1wTN2p19p4ryVt6VsVSAOaEA0uGF11rCRF+uql3gL/eReBNDCJoW9lsUudPLVg/JffuVlkJIiQKBw=="/>
+        </item>
+        <item>
             <title>2.4.7</title>
             <description>
                 <![CDATA[
