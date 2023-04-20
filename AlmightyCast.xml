@@ -5,6 +5,21 @@
         <link>https://raw.githubusercontent.com/onmyway133/archives/master/AlmightyCast.xml</link>
         <description>Check out new Almighty update</description>
         <language>en</language>
+            <title>2.5.1</title>
+         <description>
+                <![CDATA[
+        <ul>
+          <li>Add new tweak Emoji Picker</li>
+          <li>Improve tweak Preview Dock Window</li>
+        </ul>
+        ]]>
+            </description>
+            <pubDate>Thu, 20 Apr 2023 11:59:57 +0200</pubDate>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>2.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="19794647" type="application/octet-stream" sparkle:edSignature="tG/XX+EvXbZy5hYd1zDUZyrVUZvy0RPjAvjxobTFUKXHaWRmZrTCy6hxk6d8u3IftH5E4p8SkYPc6DpXAIv2Cw=="/>
+        </item>
         <item>
             <title>2.5.0</title>
             <description>
