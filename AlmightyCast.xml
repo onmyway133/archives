@@ -5,8 +5,33 @@
         <link>https://raw.githubusercontent.com/onmyway133/archives/master/AlmightyCast.xml</link>
         <description>Check out new Almighty update</description>
         <language>en</language>
-            <title>2.5.1</title>
+            
+        <item>
+            <title>2.5.2</title>
+            <description>
+                <![CDATA[
+        <ul>
+          <li>Improve tweak Preview Dock Window: hide app title in preview, show close and minimize button, optimize performance</li>
+          <li>Add new tweak Snap Windows: drag any window, choose from grid of snap positions to move and resize windows</li>
+          <li>Add new tweak Auto Click: simulate click events n times per seconds</li>
+          <li>Add new tweak Reverse Mouse Scroll: invert mouse scroll direction</li>
+          <li>dd new tweak Mute Microphone: mute and unmute microphone input</li>
+          <li>Improve tweak Mute: mute and unmute sound output</li>
+          <li>Add Random section to discover more tweaks</li>
+          <li>Update tweak toggling HUD</li>
+          <li>Improve Script tweaks configuration view</li>
+          <li>Other improvements</li>
+        </ul>
+        ]]>
+            </description>
+            <pubDate>Mon, 24 Apr 2023 15:36:45 +0200</pubDate>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>2.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="19839130" type="application/octet-stream" sparkle:edSignature="Vb+eOAgdNYH3v3zcaDLrMJMn+DIr5xFxqfwsvCybXCrA9Q8yU3RM+JixpWZr6qe9dASgTxlzPMntps7GYPXwAQ=="/>
+        </item>
             <item>
+                <title>2.5.1</title>
          <description>
                 <![CDATA[
         <ul>
