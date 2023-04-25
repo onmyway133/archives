@@ -5,6 +5,25 @@
         <link>https://raw.githubusercontent.com/onmyway133/archives/master/AlmightyCast.xml</link>
         <description>Check out new Almighty update</description>
         <language>en</language>
+        <item>
+            <title>2.5.3</title>
+            <description>
+                <![CDATA[
+        <ul>
+          <li>Improve tweak Preview Dock Window: show window quick look</li>
+          <li>Add new tweak Low Power Mode</li>
+          <li>Improve tweak Snap Windows</li>
+          <li>Improve tweak Eject Disks</li>
+          <li>Other improvements</li>
+        </ul>
+        ]]>
+            </description>
+            <pubDate>Tue, 25 Apr 2023 23:55:35 +0200</pubDate>
+            <sparkle:version>64</sparkle:version>
+            <sparkle:shortVersionString>2.5.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="19777006" type="application/octet-stream" sparkle:edSignature="aKIPF1s1KhIaFSDGwyaP8UOFLjWUyijIbcZnmtMOFUudcKRYXT6VIp8kbLVpMr+2IJql9SDm6TKasQcd9zhICg=="/>
+        </item>
             
         <item>
             <title>2.5.2</title>
