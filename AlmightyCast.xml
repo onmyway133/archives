@@ -6,6 +6,25 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.5.4</title>
+             <description>
+                <![CDATA[
+        <ul>
+          <li>dd new section Events: watch system events (sleep, wake, screen saver, lock, ...) and trigger any tweaks registered to that event. For example you can register to turn off Bluetooth tweak when system goes to sleep</li>
+          <li>Add new tweak Enable Bluetooth: turn on and off bluetooth</li>
+          <li>Add new tweak Low Power Mode: to easy turn on and off low power mode</li>
+          <li>Add new tweak Focus Frontmost App: to focus only active app and minimize the rest</li>
+          <li>Other improvements</li>
+        </ul>
+        ]]>
+            </description>
+            <pubDate>Sat, 29 Apr 2023 00:04:25 +0200</pubDate>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>2.5.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="19470878" type="application/octet-stream" sparkle:edSignature="Y78wM4/8ATn91/AVJV9ZGmKxO1320jehXM+0lv58dGiOt0X7AEC9sWuT49ZTGZjhNOuZjaL53bVHgCTyyvVvAw=="/>
+        </item>
+        <item>
             <title>2.5.3</title>
             <description>
                 <![CDATA[
