@@ -6,6 +6,23 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.5.7</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add new tweak to toggle Stage Manager</li>
+                    <li>Add new tweak Mechanical Keyboard to simulate keyboard sound</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Tue, 20 Jun 2023 10:50:39 +0200</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>2.5.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="19744912" type="application/octet-stream" sparkle:edSignature="dJdnTG/8xqtEORBZINtSIGeMla0UGJNcJmgHW/xkKlopbqUMh+FQ2WVWc27INPYOCnzoHAYzT/sAiAQGiaqvBA=="/>
+        </item>
+        <item>
             <title>2.5.6</title>
             <description>
               <![CDATA[
