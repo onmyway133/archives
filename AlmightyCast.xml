@@ -6,6 +6,23 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.5.9</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add new tweak View Shortcut to search and execute menu commands</li>
+                    <li>Improve Energy Saver tweak</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Mon, 26 Jun 2023 19:49:26 +0200</pubDate>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>2.5.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="19765637" type="application/octet-stream" sparkle:edSignature="Uggn4aAP4bTkoVNtMy2gznsCWaa10WmgNWRJ3wu5r6YA59pfP8istfEyWRbTrHj2QYQIPYrNYJKDPAuaMVqbCw=="/>
+        </item>
+        <item>
             <title>2.5.7</title>
             <description>
               <![CDATA[
