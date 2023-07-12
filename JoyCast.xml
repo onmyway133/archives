@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Joy</title>
+        <item>
+            <title>1.0.0</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Spotlight and menu bar mode</li>
+                    <li>Prompt and character library</li>
+                    <li>Voice input</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Wed, 12 Jul 2023 14:25:21 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="19891231" type="application/octet-stream" sparkle:edSignature="XzuRt2HolY7Lj7jjuBHdOiF1yAeZ089wrTNNHG9hLU9ZTA9YDPHRSGzofqA9kAWZ9W6ZRkpZs+s6yLwtibssCw=="/>
+        </item>
+    </channel>
+</rss>
