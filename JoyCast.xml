@@ -2,7 +2,23 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Joy</title>
-        <title>Joy</title>
+        <item>
+            <title>1.0.3</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add new feature to generate image</li>
+                    <li>Allow to specify model per character level</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Tue, 01 Aug 2023 16:00:32 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="25261696" type="application/octet-stream" sparkle:edSignature="tU3X4Tf0aXb9DclMyXE/frVToOObhU51bPGx94RU61yVEwC2QxCymCfaIa/axP8zQP3lxJE8P4+FFFKrEO25DA=="/>
+        </item>
         <item>
             <title>1.0.2</title>
             <description>
