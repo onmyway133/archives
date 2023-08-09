@@ -3,6 +3,23 @@
     <channel>
         <title>Joy</title>
         <item>
+            <title>1.0.4</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add new feature to generate image</li>
+                    <li>Allow to specify model per character level</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Wed, 09 Aug 2023 19:30:30 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="25259666" type="application/octet-stream" sparkle:edSignature="owSH7nhlcV+UyMpFFKN7rsrujWJGKBLBI39bIqUHYQCDYtrTTJzT0dlParrJaCwZ9pIrMfgaziTeqmcoLnZbAg=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <description>
               <![CDATA[
