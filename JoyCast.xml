@@ -3,6 +3,22 @@
     <channel>
         <title>Joy</title>
         <item>
+            <title>1.0.5</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Show estimated token pricing in conversation info page</li>
+                    <li>Improve placeholder matching in spotlight</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            <pubDate>Fri, 11 Aug 2023 16:01:30 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="25340452" type="application/octet-stream" sparkle:edSignature="jHytBC+vU2SsMxC0BNbrV9KhsIpZu47Ijaei3J1/ocCOdVLYOwMKwME2XfQh5kbWlPu2+1zvPuy+8ZCqJIqCCQ=="/>
+        </item>
+        <item>
             <title>1.0.4</title>
             <description>
               <![CDATA[
