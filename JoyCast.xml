@@ -3,6 +3,22 @@
     <channel>
         <title>Joy</title>
         <item>
+            <title>1.0.6</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add character and prompt templates</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sun, 20 Aug 2023 22:05:38 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="25417014" type="application/octet-stream" sparkle:edSignature="ix9J1Rd6G6I6JGeawVQBBewoPT0fJ12xze8MRL2361Uo6+cwj/iiKMYXFNH/eeo9yt925+9PjUdyejOHIFZhCA=="/>
+        </item>
+        <item>
             <title>1.0.5</title>
             <description>
               <![CDATA[
