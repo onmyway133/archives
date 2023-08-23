@@ -3,6 +3,22 @@
     <channel>
         <title>Joy</title>
         <item>
+            <title>1.0.8</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Support inline mode. Enable it in Settings -> Inline Mode</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Wed, 23 Aug 2023 22:08:11 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="25448826" type="application/octet-stream" sparkle:edSignature="mYriLVJCwdu3GrvIOIEijphV8yiqLowUolFpl3QK9wqfvOYurxalcna969wkWKSoxzeQW6cX7UteDo09ZaKOBA=="/>
+        </item>
+        <item>
             <title>1.0.7</title>
             <description>
               <![CDATA[
