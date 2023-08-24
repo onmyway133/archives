@@ -3,6 +3,22 @@
     <channel>
         <title>Joy</title>
         <item>
+            <title>1.1.0</title>
+             <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add inline spotlight mode. Configure keyboard shortcut in Settings -> Keyboard shorcut</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Thu, 24 Aug 2023 22:39:02 +0200</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="25462842" type="application/octet-stream" sparkle:edSignature="OKZfF6gACj2W8ftAACEv3uG+J6PBek9tUKZxWM2D8DEQ6CxhM+GB0c9g3BkUrcAhp1xHzPDLH32MTyMYvUmzCg=="/>
+        </item>
+        <item>
             <title>1.0.9</title>
             <description>
               <![CDATA[
