@@ -3,6 +3,24 @@
     <channel>
         <title>Joy</title>
         <item>
+            <title>1.1.1</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Allow click in inline spotlight mode</li>
+                    <li>Add stop generating and regenerate buttons in chat</li>
+                    <li>Add more options on each message context menu</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Fri, 25 Aug 2023 20:55:04 +0200</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="25468790" type="application/octet-stream" sparkle:edSignature="OXQu6UF7Q38XkZsoxf3N4KfQYAlM3UxrdMyq4DM81E4SuTHO9MGovxq4l6GywyDQ5wW85d3Q00By0N52coNmAg=="/>
+        </item>
+        <item>
             <title>1.1.0</title>
              <description>
               <![CDATA[
