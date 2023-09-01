@@ -6,6 +6,24 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.6.0</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add new tweak Click To Hide to hide app upon clicking app icon on Dock</li>
+                    <li>Improve View Shortcut tweak interface</li>
+                    <li>Improve memory performance</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Fri, 01 Sep 2023 14:29:52 +0200</pubDate>
+            <sparkle:version>71</sparkle:version>
+            <sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="19838867" type="application/octet-stream" sparkle:edSignature="IctkP5xjvoXIao90D2hGjRRI6cGFBFNKVmM2izsK0//KnAqrdRH9qxvNcVGfHeSpCmZxsidOg4L8F4GSIekbDw=="/>
+        </item>
+        <item>
             <title>2.5.9</title>
             <description>
               <![CDATA[
