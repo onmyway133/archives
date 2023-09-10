@@ -3,6 +3,24 @@
     <channel>
         <title>Joy</title>
         <item>
+            <title>1.1.2</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Allow customize temperature and temperature per character level</li>
+                    <li>Allow to set conversation context</li>
+                    <li>Add context menu to character</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sun, 10 Sep 2023 22:17:21 +0200</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="25499636" type="application/octet-stream" sparkle:edSignature="PSnnIIB27eIDzH6MR2rIkmkZnjgy/5MzqsEqmxbSnY5U6ZpwrHKBr+cdIUR9o82UYU+aVBi6OwdqkHJvLHMgBg=="/>
+        </item>
+        <item>
             <title>1.1.1</title>
             <description>
               <![CDATA[
