@@ -6,6 +6,27 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.6.3</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Update UI and settings UI</li>
+                    <li>Add new category Mouse, Utility and Window</li>
+                    <li>Add new tweak: Hide Cursor to quickly hide cursor on screen</li>
+                    <li>Add new tweak: Hide All Windows Except Active to hide all apps and windows except the currently active window</li>
+                    <li>Add new tweak: Aero Shake to drag and shake a window to hide all other windows</li>
+                    <li>Add Automation section to let you add tweaks to run based on automation events</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sun, 03 Dec 2023 21:45:15 +0100</pubDate>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>2.6.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="19294995" type="application/octet-stream" sparkle:edSignature="jsviI2k7F1CQllvzXZog1jt4s4sD3ArXdWWsWUy+NDxVagEHIYyZ69hlz0olo1S4mz5riBW4Hg8bn750rCRCCw=="/>
+        </item>
+        <item>
             <title>2.6.0</title>
             <description>
               <![CDATA[
