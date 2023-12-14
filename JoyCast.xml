@@ -3,6 +3,23 @@
     <channel>
         <title>Joy</title>
         <item>
+            <title>1.1.5</title>
+             <description>
+              <![CDATA[
+                  <ul>
+                    <li>Support Mistral AI</li>
+                    <li>Update conversation view</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Thu, 14 Dec 2023 22:07:18 +0100</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="25947740" type="application/octet-stream" sparkle:edSignature="zxdebV3LPTBLOXV7WNVeyX4gnYKSnZRQ24/1UxpVWln5CyT6zs/8sMPiEgJSzy02R2OIDCheFWQk0HVbfRaUAw=="/>
+        </item>
+        <item>
             <title>1.1.4</title>
             <description>
               <![CDATA[
