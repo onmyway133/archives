@@ -3,6 +3,24 @@
     <channel>
         <title>Joy</title>
         <item>
+            <title>1.1.6</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Support Anthropic Claude, Perplexity and Google AI Gemini</li>
+                    <li>Allow to override AI service, model and temperature per character level</li>
+                    <li>Start chat from character view</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Mon, 18 Dec 2023 11:11:11 +0100</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="26175014" type="application/octet-stream" sparkle:edSignature="KBO/FV0f+fbhhXy+M9hLtwUqBxQs6uzYrXiXg24FPRWLYS4ggUqjzR2b2fzLHTr8kGEH6AN+qsVS0grS7FhyCg=="/>
+        </item>
+        <item>
             <title>1.1.5</title>
              <description>
               <![CDATA[
