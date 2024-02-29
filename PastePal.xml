@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Standalone</title>
+        <item>
+            <title>2.15.3</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Initial standalone version</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Thu, 29 Feb 2024 21:30:13 +0100</pubDate>
+            <sparkle:version>168</sparkle:version>
+            <sparkle:shortVersionString>2.15.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="14596928" type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
