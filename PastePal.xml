@@ -3,6 +3,21 @@
     <channel>
         <title>Standalone</title>
         <item>
+            <title>2.15.5</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Improvement and bug fixes</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sat, 09 Mar 2024 13:02:57 +0100</pubDate>
+            <sparkle:version>171</sparkle:version>
+            <sparkle:shortVersionString>2.15.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="14604814" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.15.4</title>
             <description>
               <![CDATA[
