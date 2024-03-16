@@ -6,6 +6,24 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.6.6</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add new Mouse Jiggler tweak</li>
+                    <li>Improve Midle Click tweak</li>
+                    <li>Improve Confetti tweak</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sat, 16 Mar 2024 15:09:06 +0100</pubDate>
+            <sparkle:version>76</sparkle:version>
+            <sparkle:shortVersionString>2.6.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="19663716" type="application/octet-stream" sparkle:edSignature="VNRg4TI329YyqjlZTVsFa/0vaP28ZIIFpy6b7VMCtjI7yJOFfG3X/G/hNKkTBJhKqUvphKLz8LLBHl7yK5l1Ag=="/>
+        </item>
+        <item>
             <title>2.6.5</title>
             <description>
               <![CDATA[
