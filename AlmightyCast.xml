@@ -6,6 +6,23 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.6.7</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add new tweak Toggle Desktop Widgets</li>
+                    <li>Improve Visualize Keystroke tweak</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Mon, 22 Apr 2024 11:00:12 +0200</pubDate>
+            <sparkle:version>77</sparkle:version>
+            <sparkle:shortVersionString>2.6.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="19687160" type="application/octet-stream" sparkle:edSignature="iEBuaVnyS5/hfu5KZak6y2ZGqfo2YHcgx6kFqjaMLzrEkOjQ9A5uCPnSjnMjf493DvYqRnhZi31pCiVJV/KQBw=="/>
+        </item>
+        <item>
             <title>2.6.6</title>
             <description>
               <![CDATA[
