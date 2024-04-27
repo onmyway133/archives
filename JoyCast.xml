@@ -4,7 +4,7 @@
         <title>Joy</title>
         <item>
             <title>1.1.9</title>
-            <description>
+             <description>
               <![CDATA[
                   <ul>
                     <li>Support Groq</li>
@@ -14,11 +14,11 @@
                   </ul>
               ]]>
             </description>
-            <pubDate>Tue, 23 Apr 2024 18:11:35 +0200</pubDate>
+            <pubDate>Sat, 27 Apr 2024 08:27:34 +0200</pubDate>
             <sparkle:version>13</sparkle:version>
             <sparkle:shortVersionString>1.1.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="27314793" type="application/octet-stream" sparkle:edSignature="spPdwRR7o8ttj3xs7cHy1S5hxGWbvRxlYaIuPjg89hCEjswNtxITLJKVSxPHwIK7c8OngeYfM0/rGLXSbm80DQ=="/>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="27314793" type="application/octet-stream" sparkle:edSignature="n30LBrvOQnyZ7RkdFYknqqiRWRot63z6Mk7yFHN6JqU0wjiDxvT2er/RujzyjBuDu9aeZrMhy01aqERVKy5dCA=="/>
         </item>
         <item>
             <title>1.1.7</title>
