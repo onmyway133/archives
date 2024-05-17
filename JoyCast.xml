@@ -3,6 +3,22 @@
     <channel>
         <title>Joy</title>
         <item>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Support GPT 4o</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <title>1.2.0</title>
+            <pubDate>Fri, 17 May 2024 18:17:27 +0200</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="27252243" type="application/octet-stream" sparkle:edSignature="7HE2H2ADsSciV8AhcuSaWmbobet9/kLoPQBvr+IQtQ9AwU3MYQbzivw6quSkUjAcJuYMN4Ov3SY7hhBsUYN0DA=="/>
+        </item>
+        <item>
             <title>1.1.9</title>
              <description>
               <![CDATA[
