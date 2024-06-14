@@ -3,6 +3,22 @@
     <channel>
         <title>Joy</title>
         <item>
+            <title>1.2.1</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Improve chat bar</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sat, 15 Jun 2024 00:07:29 +0200</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="27266046" type="application/octet-stream" sparkle:edSignature="Ji+rA1n0+OFVi0Fbz85JHUVi6SBtmlEO50rbybC/W2Yb44lCnFkEyFvgGYEoi9Dy2ujrqM3KRjwGJDnsektWAg=="/>
+        </item>
+        <item>
             <description>
               <![CDATA[
                   <ul>
