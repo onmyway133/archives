@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>Standalone</title>
+        <title>PastePal Standalone</title>
         <item>
             <title>2.15.8</title>
             <description>
