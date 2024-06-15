@@ -3,6 +3,22 @@
     <channel>
         <title>Joy</title>
         <item>
+            <title>1.2.2</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add Troubleshoot section</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sat, 15 Jun 2024 09:32:30 +0200</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Joy.zip" length="27283912" type="application/octet-stream" sparkle:edSignature="hyhvMuvlO7LmYInqGCkBPeoPcydATmS0Pa6AgcDAIXvm8/zeQSJoxxG+9hnFQvmbCE1KD3ZVbt3xEkb0LLPTAg=="/>
+        </item>
+        <item>
             <title>1.2.1</title>
             <description>
               <![CDATA[
