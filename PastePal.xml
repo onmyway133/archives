@@ -3,6 +3,28 @@
     <channel>
         <title>PastePal Standalone</title>
         <item>
+            <title>2.16.4</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Improve collection loading</li>
+                    <li>Allow to drag and drop multiple clips</li>
+                    <li>Drag to reorder clips</li>
+                    <li>Improve near instant search trigger</li>
+                    <li>Handle open link and file for pinned side window</li>
+                    <li>Support preview for more file types</li>
+                    <li>Support Mac Sequoia</li>
+                    <li>Properly handle new Passwords app</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Tue, 24 Sep 2024 20:01:10 +0200</pubDate>
+            <sparkle:version>177</sparkle:version>
+            <sparkle:shortVersionString>2.16.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zi" length="15048405" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.16.1</title>
              <description>
               <![CDATA[
