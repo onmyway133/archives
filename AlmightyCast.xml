@@ -6,6 +6,23 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.7.0</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add color picker tool</li>
+                    <li>Improve View Shortcut and Visualize Keystroke tools</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Mon, 30 Sep 2024 11:29:40 +0200</pubDate>
+            <sparkle:version>80</sparkle:version>
+            <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="19703164" type="application/octet-stream" sparkle:edSignature="bLOuwUnNGtnkX+ArBMbod5+RKZkPi1IN1qLEVziPp4Mb0bVX9J6XNWL2g/3Kwr2cH5bNtsvf0DVldtpTy1WcBw=="/>
+        </item>
+        <item>
             <title>2.6.7</title>
             <description>
               <![CDATA[
