@@ -3,6 +3,21 @@
     <channel>
         <title>PastePal Standalone</title>
         <item>
+            <title>2.16.5</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Minor improvements for macOS Ventura</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Tue, 01 Oct 2024 22:23:39 +0200</pubDate>
+            <sparkle:version>178</sparkle:version>
+            <sparkle:shortVersionString>2.16.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="15045542" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.16.4</title>
             <description>
               <![CDATA[
