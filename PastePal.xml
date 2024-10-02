@@ -3,6 +3,21 @@
     <channel>
         <title>PastePal Standalone</title>
         <item>
+            <title>2.16.6</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add new camera shuttle sound</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Wed, 02 Oct 2024 10:50:46 +0200</pubDate>
+            <sparkle:version>179</sparkle:version>
+            <sparkle:shortVersionString>2.16.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="15053774" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.16.5</title>
             <description>
               <![CDATA[
