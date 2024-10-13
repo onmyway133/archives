@@ -6,6 +6,23 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.7.1</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Supports macOS 12</li>
+                    <li>Improve snap window tool</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sun, 13 Oct 2024 21:18:57 +0200</pubDate>
+            <sparkle:version>81</sparkle:version>
+            <sparkle:shortVersionString>2.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="19743604" type="application/octet-stream" sparkle:edSignature="529nqRlJ6/1/YSVacH7dSjvaPHOjqDuq750jqLFXBcQQACQT9xc1glTGMQNeWOaKNG6zLSnmS1VTg/43yRsKDg=="/>
+        </item>
+        <item>
             <title>2.7.0</title>
             <description>
               <![CDATA[
