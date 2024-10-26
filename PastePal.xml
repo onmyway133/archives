@@ -3,6 +3,27 @@
     <channel>
         <title>PastePal Standalone</title>
         <item>
+            <title>2.16.8</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Improve Queue mode. Allow multiple selection and drag to reorder</li>
+                    <li>Improve paste to certains apps like 1Password and BBEdit</li>
+                    <li>Improve showing menu button for copied clips</li>
+                    <li>Allow more options to show number of clips</li>
+                    <li>Add option in Ignore settings for Universal Clipboard</li>
+                    <li>Check when toggling menu bar icon with toggle side window shortcuts</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sat, 26 Oct 2024 11:48:15 +0200</pubDate>
+            <sparkle:version>190</sparkle:version>
+            <sparkle:shortVersionString>2.16.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="15045072" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.16.7</title>
             <description>
               <![CDATA[
