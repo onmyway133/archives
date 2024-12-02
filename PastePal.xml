@@ -3,6 +3,23 @@
     <channel>
         <title>PastePal Standalone</title>
         <item>
+            <title>2.16.9</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Improve energy usage</li>
+                    <li>Improve command number handling</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Mon, 02 Dec 2024 15:23:52 +0100</pubDate>
+            <sparkle:version>191</sparkle:version>
+            <sparkle:shortVersionString>2.16.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="14999948" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.16.8</title>
             <description>
               <![CDATA[
