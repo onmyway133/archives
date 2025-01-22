@@ -4,13 +4,6 @@
         <title>Starview</title>
         <item>
             <title>1.1.4</title>
-            <description>
-              <![CDATA[
-                  <ul>
-                    <li>Improvements</li>
-                  </ul>
-              ]]>
-            </description>
             <pubDate>Wed, 22 Jan 2025 22:15:42 +0100</pubDate>
             <sparkle:version>7</sparkle:version>
             <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
