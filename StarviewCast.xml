@@ -2,6 +2,21 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Starview</title>
+        <item>
+            <title>1.1.2</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Wed, 22 Jan 2025 21:06:51 +0100</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Starview.zip" length="21320872" type="application/octet-stream" sparkle:edSignature="jehodzgnGU5Ww/AzddvOy/WDpFQi3VcyVv+4iNQPIqvJGrw0EVHCEd8iLaJIitaeFARigggEpppw5GPKlwXvDg=="/>
+        </item>
          <item>
             <title>1.1.1</title>
              <description>
