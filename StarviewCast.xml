@@ -15,7 +15,7 @@
             <sparkle:version>7</sparkle:version>
             <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Starview.zipp" length="21336588" type="application/octet-stream" sparkle:edSignature="du7/zmIOkEfgB+KDcU/pkO9tLoClKQIU2hFv07cpq9CUJN/LjGWeD1kWfrhzco9V2v+eECN5gITqjhBbRTgZCA=="/>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Starview.zip" length="21336588" type="application/octet-stream" sparkle:edSignature="du7/zmIOkEfgB+KDcU/pkO9tLoClKQIU2hFv07cpq9CUJN/LjGWeD1kWfrhzco9V2v+eECN5gITqjhBbRTgZCA=="/>
         </item>
         <item>
             <title>1.1.3</title>
