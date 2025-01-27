@@ -3,6 +3,21 @@
     <channel>
         <title>Starview</title>
         <item>
+            <title>1.1.5</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Mon, 27 Jan 2025 21:09:05 +0100</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Starview.zip" length="21292091" type="application/octet-stream" sparkle:edSignature="aeK2+8q9SpjpO+iC0V29cYbUmBf8RBDbFh0ijqNdEgUgx+AzdAARL0EqRbT+OsdPlqmMJJbTfJ5hLiGvE0E+Cg=="/>
+        </item>
+        <item>
             <title>1.1.4</title>
             <pubDate>Wed, 22 Jan 2025 22:15:42 +0100</pubDate>
             <sparkle:version>7</sparkle:version>
