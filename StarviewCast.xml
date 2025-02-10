@@ -14,11 +14,11 @@
                   </ul>
               ]]>
             </description>
-            <pubDate>Mon, 10 Feb 2025 21:23:34 +0100</pubDate>
-            <sparkle:version>8</sparkle:version>
+            <pubDate>Mon, 10 Feb 2025 21:53:11 +0100</pubDate>
+            <sparkle:version>10</sparkle:version>
             <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Starview.zip" length="21345491" type="application/octet-stream" sparkle:edSignature="6IGlg0Su7H1Ce3Akb5RMNisWCkpEIrt0Mz/f2ofTOewz67Fss1rBl742bIq5foCAUDnjV0SXL6P7M0QoEemYDw=="/>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Starview.zip" length="21345490" type="application/octet-stream" sparkle:edSignature="19YD34jsvD4S4pUuw4MrVtEyi8740feypTrnXiacmpqRgdVBSIvOD+mZibQ9RQwkIKsDbRUtoO2lw40l6ArhDA=="/>
         </item>
         <item>
             <title>1.1.5</title>
