@@ -3,6 +3,24 @@
     <channel>
         <title>Starview</title>
         <item>
+            <title>1.1.6</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add Export Keywords button</li>
+                    <li>Allow to specify your own Search Ads credential</li>
+                    <li>Show keyword suggestions with popularity scores</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Mon, 10 Feb 2025 21:23:34 +0100</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Starview.zip" length="21345491" type="application/octet-stream" sparkle:edSignature="6IGlg0Su7H1Ce3Akb5RMNisWCkpEIrt0Mz/f2ofTOewz67Fss1rBl742bIq5foCAUDnjV0SXL6P7M0QoEemYDw=="/>
+        </item>
+        <item>
             <title>1.1.5</title>
             <description>
               <![CDATA[
