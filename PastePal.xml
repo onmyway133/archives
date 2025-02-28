@@ -3,6 +3,26 @@
     <channel>
         <title>PastePal Standalone</title>
         <item>
+            <title>2.17.0</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>New settings UI</li>
+                    <li>Improve drag and drop to other apps</li>
+                    <li>Allow hot edge delay configuration</li>
+                    <li>Improve multiple clips pasting</li>
+                    <li>Improve localization across supported languages</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Fri, 28 Feb 2025 09:50:14 +0100</pubDate>
+            <sparkle:version>192</sparkle:version>
+            <sparkle:shortVersionString>2.17.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="16284179" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.16.9</title>
             <description>
               <![CDATA[
