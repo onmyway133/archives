@@ -3,6 +3,23 @@
     <channel>
         <title>Starview</title>
         <item>
+            <title>1.2.0</title>
+             <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add check button to check Search Ads credential</li>
+                    <li>Allow to search in keyword list</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sun, 02 Mar 2025 08:16:17 +0100</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Starview.zip" length="21373043" type="application/octet-stream" sparkle:edSignature="qTYQ7q5mAQcv/wpb/A6aCuHoPTaqYa1LGFEtZ6N4F3oYRJbjUTvhvdyK6BqG6o/tAAsRuUynut80T2FwhhrmAg=="/>
+        </item>
+        <item>
             <title>1.1.6</title>
             <description>
               <![CDATA[
