@@ -3,6 +3,23 @@
     <channel>
         <title>Starview</title>
         <item>
+            <title>1.3.0</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add Suggest Keywords feature in Search and Keywords view</li>
+                    <li>In Keywords view, allow to select multiple keywords with quick action bar</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Wed, 05 Mar 2025 23:09:05 +0100</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Starview.zip" length="21518030" type="application/octet-stream" sparkle:edSignature="IknTZUdvqMeNkRTuKwMuA2NSwgUxPOO/hHKZX+WXL4ihAUHTkYRgZGV8l3J2CYce/RCi/7Ra+Y2tTKVPwfMCAQ=="/>
+        </item>
+        <item>
             <title>1.2.0</title>
              <description>
               <![CDATA[
