@@ -3,6 +3,24 @@
     <channel>
         <title>PastePal Standalone</title>
         <item>
+            <title>2.17.2</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Improve queue highlight state</li>
+                    <li>Improve copy and paste</li>
+                    <li>Show confirmation panel when selecting clear all from a collection</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Tue, 18 Mar 2025 23:11:51 +0100</pubDate>
+            <sparkle:version>194</sparkle:version>
+            <sparkle:shortVersionString>2.17.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="16317947" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.17.1</title>
             <description>
               <![CDATA[
