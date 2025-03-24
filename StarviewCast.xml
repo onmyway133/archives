@@ -3,6 +3,23 @@
     <channel>
         <title>Starview</title>
         <item>
+            <title>1.4.1</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Allow to add suggested keywords to track</li>
+                    <li>Allow to load more related track apps</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Mon, 24 Mar 2025 21:47:46 +0100</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Starview.zip" length="21632195" type="application/octet-stream" sparkle:edSignature="FzrlAexnobuGr0M557N9+t1SAKWJccbNF5MIBnSUi3483FjwVK6ATD6I4OqE2WCI4LSeafR3gue8UzhwEgioBA=="/>
+        </item>
+        <item>
             <title>1.4.0</title>
             <description>
               <![CDATA[
