@@ -6,6 +6,22 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.8.2</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Check for updates improvements</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Tue, 22 Apr 2025 19:46:23 +0200</pubDate>
+            <sparkle:version>85</sparkle:version>
+            <sparkle:shortVersionString>2.8.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="26243238" type="application/octet-stream" sparkle:edSignature="qu6T9L6UUG1h0soyw54C3X32lVa6DA599AUvVoIFhqJFh83wbAvn2e1prFojBjXnaELWfYa1/hKZXRR2JAvvAg=="/>
+        </item>
+        <item>
             <title>2.8.0</title>
             <description>
               <![CDATA[
