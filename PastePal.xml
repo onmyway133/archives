@@ -3,6 +3,23 @@
     <channel>
         <title>PastePal Standalone</title>
         <item>
+            <title>2.17.7</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add Import and Export features</li>
+                    <li>Support new languages: Bangla, Danish, Filipino, Finnish, Hebrew, Hindi, Indonesian, Malay, Persian, Swedish, Thai, Urdu, Vietnamese</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Tue, 29 Apr 2025 22:36:21 +0200</pubDate>
+            <sparkle:version>199</sparkle:version>
+            <sparkle:shortVersionString>2.17.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="21783431" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.17.6</title>
             <description>
               <![CDATA[
