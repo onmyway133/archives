@@ -3,6 +3,25 @@
     <channel>
         <title>PastePal Standalone</title>
         <item>
+            <title>2.18.0</title>
+             <description>
+              <![CDATA[
+                  <ul>
+                    <li>In settings Plain Text, add an option to clear clipboard formatting</li>
+                    <li>Support new pasteboard permission from macOS 15.4</li>
+                    <li>Add permission settings view</li>
+                    <li>In settings Import, allow to load data from CloudKit and save as file</li>
+                    <li>Improvements and updates</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Fri, 16 May 2025 16:00:13 +0200</pubDate>
+            <sparkle:version>202</sparkle:version>
+            <sparkle:shortVersionString>2.18.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="22370511" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.17.9</title>
             <description>
               <![CDATA[
