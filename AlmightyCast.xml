@@ -6,6 +6,23 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.8.3</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add new tweak Default Browser to switch default browser</li>
+                    <li>Add new tweak Open In Browser to open copied link in browser</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sat, 17 May 2025 22:44:42 +0200</pubDate>
+            <sparkle:version>86</sparkle:version>
+            <sparkle:shortVersionString>2.8.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="26643014" type="application/octet-stream" sparkle:edSignature="tWARMZmae++uVRDyqKHSd1VcjZuw+qW/lSugglBMOYiXSko59M5ma+ngAjiBFERTUlf8F7AqG6a0IsrQswXQCg=="/>
+        </item>
+        <item>
             <title>2.8.2</title>
             <description>
               <![CDATA[
