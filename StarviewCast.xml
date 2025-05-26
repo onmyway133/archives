@@ -3,6 +3,24 @@
     <channel>
         <title>Starview</title>
         <item>
+            <title>1.4.6</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Index more ranked keywords</li>
+                    <li>Show apps count and popularity score in Ranked Keywors screen</li>
+                    <li>Show apps by folder in side bar</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Mon, 26 May 2025 21:33:24 +0200</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>1.4.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Starview.zip" length="29602268" type="application/octet-stream" sparkle:edSignature="2/cvuvTOwjz64jaqOj28MLxmsD98gPqtPguZ8LjWcqZESQNoq+uUsxZfW9RFm1k0mzKrDaX78iANIZE0WBIUBw=="/>
+        </item>
+        <item>
             <title>1.4.5</title>
             <description>
               <![CDATA[
