@@ -3,6 +3,23 @@
     <channel>
         <title>PastePal Standalone</title>
         <item>
+            <title>2.18.2</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Update detail view with edit clip name</li>
+                    <li>Improve iCloud availability check</li>
+                    <li>Improvements and updates</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Tue, 03 Jun 2025 23:26:11 +0200</pubDate>
+            <sparkle:version>204</sparkle:version>
+            <sparkle:shortVersionString>2.18.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="22345525" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.18.1</title>
             <description>
               <![CDATA[
