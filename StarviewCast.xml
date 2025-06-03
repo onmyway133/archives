@@ -3,6 +3,24 @@
     <channel>
         <title>Starview</title>
         <item>
+            <title>1.4.7</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Allow to sort in search view</li>
+                    <li>Allow to load more in search view</li>
+                    <li>Persist last view mode across apps</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Tue, 03 Jun 2025 20:25:55 +0200</pubDate>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>1.4.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Starview.zip" length="29640847" type="application/octet-stream" sparkle:edSignature="r7kCePv4Uju0xKi3YgVLcBoGiZ8lRID7KcsITbb23V3Rv3hY/Zrlz1U2SL6kOVFZ2fUA5aUluuW1hyAwC9MNDg=="/>
+        </item>
+        <item>
             <title>1.4.6</title>
             <description>
               <![CDATA[
