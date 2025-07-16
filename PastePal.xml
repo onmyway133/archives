@@ -3,6 +3,21 @@
     <channel>
         <title>PastePal Standalone</title>
         <item>
+            <title>2.18.4</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Improvements and updates</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Wed, 16 Jul 2025 14:19:09 +0200</pubDate>
+            <sparkle:version>206</sparkle:version>
+            <sparkle:shortVersionString>2.18.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="22350047" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.18.3</title>
             <description>
               <![CDATA[
