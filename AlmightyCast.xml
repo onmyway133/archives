@@ -6,6 +6,22 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.8.4</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Switch payment method to Lemon Squeezy</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Thu, 21 Aug 2025 22:56:48 +0200</pubDate>
+            <sparkle:version>87</sparkle:version>
+            <sparkle:shortVersionString>2.8.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="26734777" type="application/octet-stream" sparkle:edSignature="I0GzNCLqSQu9ec1iZOSs9ddiaMNimEGToFqB6RagYE7ldEseyRAdWkb7M/9X4TkSInupZ7XYEFZF1yg9vb1QDw=="/>
+        </item>
+        <item>
             <title>2.8.3</title>
             <description>
               <![CDATA[
