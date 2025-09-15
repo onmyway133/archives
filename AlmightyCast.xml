@@ -6,6 +6,24 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.9.1</title>
+             <description>
+              <![CDATA[
+                  <ul>
+                    <li>Support macOS 26 Liquid Glass design</li>
+                    <li>Improve tweaks performance</li>
+                    <li>Improve new script layout</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Mon, 15 Sep 2025 21:37:07 +0200</pubDate>
+            <sparkle:version>89</sparkle:version>
+            <sparkle:shortVersionString>2.9.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="30236233" type="application/octet-stream" sparkle:edSignature="P1nV8TTAedSruHp0fu7PTSUbl5ZXb2zwRS/ETolW5O/xOv7az1NQw8zXFZj5yo+hx7R3ouJ8wDyvlOjROKZmAg=="/>
+        </item>
+        <item>
             <title>2.8.4</title>
             <description>
               <![CDATA[
