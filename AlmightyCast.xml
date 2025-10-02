@@ -6,6 +6,22 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.9.4</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Improve tweaks performance</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Thu, 02 Oct 2025 06:17:39 +0200</pubDate>
+            <sparkle:version>92</sparkle:version>
+            <sparkle:shortVersionString>2.9.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="30232626" type="application/octet-stream" sparkle:edSignature="DCIB+SKo5aT7rHNOFjRY1laFxKlucfhVk5/cnQYikg9gcj9U92EyzaF1fHtloqfmp9phhJVrGy917b5cs/YFDA=="/>
+        </item>
+        <item>
             <title>2.9.3</title>
             <description>
               <![CDATA[
