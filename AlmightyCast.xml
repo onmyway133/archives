@@ -6,6 +6,23 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.9.5</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Improve tweaks performance</li>
+                    <li>Support Gumroad integration</li>
+                    <li>Support macOS Tahoe</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sat, 15 Nov 2025 07:50:33 +0100</pubDate>
+            <sparkle:version>93</sparkle:version>
+            <sparkle:shortVersionString>2.9.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="30449623" type="application/octet-stream" sparkle:edSignature="84CYpGxi3PqL1GQ8eb4FNlL6d3No2wTrDgrM62HnnEDYyod7fHvLZX9b0rwJEJmghGQ9rToZypZLtSK7ZEJ1BA=="/>
+        </item>
+        <item>
             <title>2.9.4</title>
             <description>
               <![CDATA[
