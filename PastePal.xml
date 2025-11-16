@@ -3,6 +3,25 @@
     <channel>
         <title>PastePal Standalone</title>
         <item>
+            <title>2.18.7</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Introduce the Transform Library, a collection of useful transform functions to automate copy and paste actions.</li>
+                    <li>Disable the display of saved clips in collections in recent history.</li>
+                    <li>Add settings to configure the Enter action.</li>
+                    <li>Display intelligent writing tools in the edit clip workflow.</li>
+                    <li>Other improvements and updates</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sun, 16 Nov 2025 15:50:47 +0100</pubDate>
+            <sparkle:version>209</sparkle:version>
+            <sparkle:shortVersionString>2.18.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="22336920" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.18.6</title>
             <description>
               <![CDATA[
