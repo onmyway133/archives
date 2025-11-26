@@ -10,6 +10,23 @@
             <description>
               <![CDATA[
                   <ul>
+                    <li>Add more effect tweaks</li>
+                    <li>Improve defaults tweaks performance</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Wed, 26 Nov 2025 14:00:18 +0100</pubDate>
+            <sparkle:version>93</sparkle:version>
+            <sparkle:shortVersionString>2.9.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="28746617" type="application/octet-stream" sparkle:edSignature="f6KatCtLE1aqF+HUnv4UjkrwH++8nc18SfG3rA6Bt1XE/kdNT+3OdBI2rcrvxVN6lMQe55siEYqbfiaU4AZNAQ=="/>
+        </item>
+        <item>
+            <title>2.9.5</title>
+            <description>
+              <![CDATA[
+                  <ul>
                     <li>Improve tweaks performance</li>
                     <li>Support Gumroad integration</li>
                     <li>Support macOS Tahoe</li>
