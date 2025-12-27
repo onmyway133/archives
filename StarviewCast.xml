@@ -3,6 +3,23 @@
     <channel>
         <title>Starview</title>
         <item>
+            <title>1.6.0</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Update license view</li>
+                    <li>Show in app purchases and up-to-date screenshots in app detail</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sat, 27 Dec 2025 22:42:46 +0100</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Starview.zip" length="35143204" type="application/octet-stream" sparkle:edSignature="QKcAV39cKDkzE3gbyLo2/jVlRl7egfmyVcxWXHMx/aw+HZp1l69T+v0hKikzBj1dh4p6bT7YRu8YvkV4onQuAw=="/>
+        </item>
+        <item>
             <title>1.5.0</title>
             <description>
               <![CDATA[
