@@ -3,6 +3,24 @@
     <channel>
         <title>PastePal Standalone</title>
         <item>
+            <title>2.19.2</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Improve paste to iPad apps on Mac</li>
+                    <li>Add settings to hide PastePal from screen sharing</li>
+                    <li>Update transform library</li>
+                    <li>Other improvements and updates</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sun, 18 Jan 2026 22:19:31 +0100</pubDate>
+            <sparkle:version>214</sparkle:version>
+            <sparkle:shortVersionString>2.19.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="22641139" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.19.1</title>
             <description>
               <![CDATA[
