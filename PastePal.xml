@@ -3,6 +3,25 @@
     <channel>
         <title>PastePal Standalone</title>
         <item>
+            <title>2.19.1</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add new Indie Goodies licenses method</li>
+                    <li>Add settings toggle to show rich text preview or not</li>
+                    <li>Add menu action Clear system clipboard in status menu and in side window gear menu</li>
+                    <li>Improve windows focus</li>
+                    <li>Other improvements and updates</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sun, 18 Jan 2026 11:05:40 +0100</pubDate>
+            <sparkle:version>213</sparkle:version>
+            <sparkle:shortVersionString>2.19.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="22637700" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.19.0</title>
              <description>
               <![CDATA[
