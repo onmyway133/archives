@@ -3,6 +3,26 @@
     <channel>
         <title>PastePal Standalone</title>
         <item>
+            <title>2.19.3</title>
+             <description>
+              <![CDATA[
+                  <ul>
+                    <li>Add more transform functions</li>
+                    <li>Add button to convert Plain text to clear formatting, available in status menu bar and side window gear menu</li>
+                    <li>Support horizontal mouse scroll in horizontal side window</li>
+                    <li>Add option to auto check for update</li>
+                    <li>Properly show update checking dialogs</li>
+                    <li>Other improvements and updates</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Tue, 27 Jan 2026 15:10:41 +0100</pubDate>
+            <sparkle:version>215</sparkle:version>
+            <sparkle:shortVersionString>2.19.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="22684124" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.19.2</title>
             <description>
               <![CDATA[
