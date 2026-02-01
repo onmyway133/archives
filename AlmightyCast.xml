@@ -6,6 +6,23 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.9.8</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Improve app icon</li>
+                    <li>Add Finder context menu in services and toolbar</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sun, 01 Feb 2026 21:28:09 +0100</pubDate>
+            <sparkle:version>96</sparkle:version>
+            <sparkle:shortVersionString>2.9.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="29912954" type="application/octet-stream" sparkle:edSignature="SQ0TjsFIPrAZmlT8MmliwiuIbnjesnhOIkTXLp1DGnG1WXAwT5yot3gdP7/S90IpcYbqMV23vEDG+dXD2rIcAQ=="/>
+        </item>
+        <item>
             <title>2.9.7</title>
             <description>
               <![CDATA[
