@@ -6,6 +6,24 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
+            <title>2.10.0</title>
+             <description>
+              <![CDATA[
+                  <ul>
+                    <li>Improve tweaks with notch banner</li>
+                    <li>Improve quit all app tweak</li>
+                    <li>Improve tweak Increase brightness</li>
+                    <li>Other improvements</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Sun, 22 Feb 2026 23:04:51 +0100</pubDate>
+            <sparkle:version>97</sparkle:version>
+            <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="29947569" type="application/octet-stream" sparkle:edSignature="ues0f7xoIDsm7U7dgCuJCcbILXipiMvg0j0kOqUa9kp7l8Opx/v+wYu7JXCCVTpkQ50NEmU+hM6cJNoGqci8Bw=="/>
+        </item>
+        <item>
             <title>2.9.8</title>
             <description>
               <![CDATA[
