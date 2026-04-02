@@ -6,7 +6,7 @@
         <description>Check out new Almighty update</description>
         <language>en</language>
         <item>
-            <title>2.73</title>
+            <title>2.10.2</title>
             <description>
               <![CDATA[
                   <ul>
@@ -17,11 +17,11 @@
                   </ul>
               ]]>
             </description>
-            <pubDate>Thu, 02 Apr 2026 12:15:20 +0200</pubDate>
-            <sparkle:version>80</sparkle:version>
-            <sparkle:shortVersionString>2.73</sparkle:shortVersionString>
+            <pubDate>Thu, 02 Apr 2026 23:25:55 +0200</pubDate>
+            <sparkle:version>99</sparkle:version>
+            <sparkle:shortVersionString>2.10.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="27950468" type="application/octet-stream"/>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Almighty.zip" length="29952013" type="application/octet-stream" sparkle:edSignature="jba2FOHbzmWgRpY9tvRzqpmdwb7ZiWK5WBz3112UEpdbZ4hqPY4wTlch0feCB1l12m29GgkavKVIr1l5EnneCA=="/>
         </item>
         <item>
             <title>2.10.0</title>
