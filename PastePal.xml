@@ -2,7 +2,26 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>PastePal Standalone</title>
-        <item>
+                <item>
+            <title>2.20.0</title>
+            <description>
+    <![CDATA[
+      <ul>
+        <li>Hide clipboard history automatically during screen sharing for added privacy</li>
+        <li>More reliable iCloud Drive downloads with automatic retry</li>
+        <li>More efficient clipboard storage for image items</li>
+        <li>Improved clipboard history retention period settings</li>
+        <li>Performance and stability improvements</li>
+      </ul>
+    ]]>
+  </description>
+            <pubDate>Thu, 09 Apr 2026 14:36:44 +0200</pubDate>
+            <sparkle:version>221</sparkle:version>
+            <sparkle:shortVersionString>2.20.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="26744915" type="application/octet-stream"/>
+        </item>
+<item>
             <title>2.19.9</title>
                      <description>                                                                                              
     <![CDATA[                                                                                                
