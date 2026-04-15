@@ -2,7 +2,28 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>PastePal Standalone</title>
-                <item>
+                        <item>
+            <title>2.20.1</title>
+            <description>
+    <![CDATA[
+      <ul>
+        <li>More reliable startup when iCloud sync is enabled with large clipboard history</li>
+        <li>More stable side window behavior during Space transitions</li>
+        <li>Improved image display with better scaling and centering in clipboard cards</li>
+        <li>Improved clipboard card sizing for better readability</li>
+        <li>Enhanced link preview loading</li>
+        <li>Improved selection restoration after clipboard updates</li>
+      </ul>
+    ]]>
+  </description>
+            <pubDate>Wed, 15 Apr 2026 10:45:45 +0200</pubDate>
+            <sparkle:version>222</sparkle:version>
+            <sparkle:shortVersionString>2.20.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="26759406" type="application/octet-stream"/>
+        </item>
+
+<item>
             <title>2.20.0</title>
             <description>
     <![CDATA[
