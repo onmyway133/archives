@@ -7,6 +7,7 @@
             <description>
     <![CDATA[
       <ul>
+        <li>Pin clipboard items to keep them at the top of your history</li>
         <li>Copy as Plain Text for rich text and image items</li>
         <li>Performance and stability improvements</li>
       </ul>
