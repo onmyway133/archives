@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Coolbar</title>
+        <link>https://raw.githubusercontent.com/onmyway133/archives/master/CoolbarCast.xml</link>
+        <description>Check out new Coolbar update</description>
+        <language>en</language>
+        <item>
+            <title>1.3.3</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Improvements and bug fixes</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Mon, 05 May 2026 00:00:00 +0200</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="TODO_COOLBAR_DOWNLOAD_URL/Coolbar.zip" length="0" type="application/octet-stream" sparkle:edSignature="TODO_SIGN_WITH_sign_update_TOOL"/>
+        </item>
+    </channel>
+</rss>
