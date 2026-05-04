@@ -5,7 +5,25 @@
         <link>https://raw.githubusercontent.com/onmyway133/archives/master/CoolbarCast.xml</link>
         <description>Check out new Coolbar update</description>
         <language>en</language>
-        <item>
+                <item>
+            <title>1.4.0</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Standalone version now available — purchase once via Gumroad</li>
+                    <li>Automatic updates powered by Sparkle</li>
+                    <li>More reliable data persistence with improved storage</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Tue, 05 May 2026 00:06:33 +0200</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/Coolbar.zip" length="23816572" type="application/octet-stream" sparkle:edSignature="10FNpkiIZABQLEaP6TkumrGKfwQZFooJ96JUk+L4zO2kSMKQxId9dxNs6y2qLh9PP9UrSabK8zp6pADhJh3NCw=="/>
+        </item>
+
+<item>
             <title>1.3.3</title>
             <description>
               <![CDATA[
