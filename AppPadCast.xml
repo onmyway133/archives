@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>AppPad</title>
+        <link>https://raw.githubusercontent.com/onmyway133/archives/master/AppPadCast.xml</link>
+        <description>Check out new AppPad update</description>
+        <language>en</language>
+        <item>
+            <title>1.0.1</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Introduce standalone license activation via Gumroad</li>
+                    <li>Improve scrolling in the launcher</li>
+                    <li>Enhance settings for shortcuts and appearance</li>
+                    <li>More reliable full-screen monitor mode</li>
+                    <li>Improve pagination for the All Apps grid</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Tue, 05 May 2026 21:50:18 +0200</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/AppPad.zip" length="13140249" type="application/octet-stream" sparkle:edSignature="iI3pqzcdGgqNi3tHL4te2HCUpGskotS43BAAc0L2bcDtasovS5fTUMSXK9+NVIQmswOnIn19dzCdOwPTU1/OCg=="/>
+        </item>
+    </channel>
+</rss>
