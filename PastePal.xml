@@ -2,7 +2,26 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>PastePal Standalone</title>
-                                <item>
+                                        <item>
+            <title>2.20.4</title>
+            <description>
+  <![CDATA[
+    <ul>
+      <li>Automatically remove tracking parameters from URLs for cleaner clipboard history</li>
+      <li>Search in All tab now includes items from collections</li>
+      <li>More reliable clipboard handling with improved background processing</li>
+      <li>Enhanced keyboard shortcut stability on macOS 26</li>
+    </ul>
+  ]]>
+</description>
+            <pubDate>Sat, 16 May 2026 23:10:50 +0200</pubDate>
+            <sparkle:version>225</sparkle:version>
+            <sparkle:shortVersionString>2.20.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://almighty-app.s3.eu-north-1.amazonaws.com/PastePal.zip" length="27773362" type="application/octet-stream"/>
+        </item>
+
+<item>
             <title>2.20.2</title>
             <description>
     <![CDATA[
