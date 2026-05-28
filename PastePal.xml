@@ -2,7 +2,21 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>PastePal Standalone</title>
-                                                                                <item>
+                                                                                                                                                                <item>
+            <title>2.20.6</title>
+            <description><![CDATA[
+<ul>
+  <li>Performance improvements and enhanced stability</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 28 May 2026 08:05:00 +0200</pubDate>
+            <sparkle:version>227</sparkle:version>
+            <sparkle:shortVersionString>2.20.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.20.6/PastePal.zip" length="27780513" type="application/octet-stream"/>
+        </item>
+
+<item>
             <title>2.20.5</title>
             <description><![CDATA[
 <ul>
