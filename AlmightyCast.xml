@@ -5,7 +5,23 @@
         <link>https://raw.githubusercontent.com/onmyway133/archives/master/AlmightyCast.xml</link>
         <description>Check out new Almighty update</description>
         <language>en</language>
-        <item>
+                <item>
+            <title>2.10.5</title>
+            <description><![CDATA[
+<ul>
+  <li>Add task to remove background from images</li>
+  <li>Improve stability with Swift 6 concurrency updates</li>
+  <li>Enhance FinderSync extension reliability</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 05 Jun 2026 15:32:44 +0200</pubDate>
+            <sparkle:version>102</sparkle:version>
+            <sparkle:shortVersionString>2.10.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Almighty/releases/download/2.10.5/Almighty.zip" length="31320356" type="application/octet-stream" sparkle:edSignature="44YQyFKZjN5qLdL135uG9XcY0TkGJTII5RNlezQ71BUP7Z6c8GUfdiTPADIe78moV8sy2ByU4pA7lpmxuxKUCg=="/>
+        </item>
+
+<item>
             <title>2.10.2</title>
             <description>
               <![CDATA[
