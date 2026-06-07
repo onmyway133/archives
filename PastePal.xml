@@ -3,18 +3,18 @@
     <channel>
         <title>PastePal Standalone</title>
                                                                                                                                                                         <item>
-            <title>2.20.7</title>
+            <title>2.20.8</title>
             <description><![CDATA[
 <ul>
-  <li>More reliable iCloud sync with improved background processing</li>
+  <li>More reliable double-click paste from search results in compact window</li>
   <li>Enhanced overall performance and stability</li>
 </ul>
 ]]></description>
-            <pubDate>Sun, 07 Jun 2026 09:53:45 +0200</pubDate>
-            <sparkle:version>228</sparkle:version>
-            <sparkle:shortVersionString>2.20.7</sparkle:shortVersionString>
+            <pubDate>Sun, 07 Jun 2026 22:55:54 +0200</pubDate>
+            <sparkle:version>229</sparkle:version>
+            <sparkle:shortVersionString>2.20.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.20.7/PastePal.zip" length="28107157" type="application/octet-stream"/>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.20.8/PastePal.zip" length="27949905" type="application/octet-stream"/>
         </item>
 
 <item>
