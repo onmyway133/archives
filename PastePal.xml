@@ -2,18 +2,19 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>PastePal Standalone</title>
-                                                                                                                                                                                                                                                                                                                                <item>
+                                                                                                                                                                        <item>
             <title>2.20.7</title>
             <description><![CDATA[
 <ul>
-  <li>More reliable iCloud sync with improved responsiveness</li>
+  <li>More reliable iCloud sync with improved background processing</li>
+  <li>Enhanced overall performance and stability</li>
 </ul>
 ]]></description>
-            <pubDate>Thu, 05 Jun 2026 13:08:00 +0200</pubDate>
+            <pubDate>Sun, 07 Jun 2026 09:53:45 +0200</pubDate>
             <sparkle:version>228</sparkle:version>
             <sparkle:shortVersionString>2.20.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.20.7/PastePal.zip" length="28107532" type="application/octet-stream"/>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.20.7/PastePal.zip" length="28107157" type="application/octet-stream"/>
         </item>
 
 <item>
