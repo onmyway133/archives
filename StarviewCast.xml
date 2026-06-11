@@ -2,7 +2,22 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Starview</title>
-        <item>
+                <item>
+            <title>1.6.2</title>
+            <description><![CDATA[
+<ul>
+  <li>Support local AI models such as Ollama — configure a custom URL and model name in AI settings</li>
+  <li>Improve performance and stability</li>
+</ul>
+]]></description>
+            <pubDate>Thu, 11 Jun 2026 22:06:07 +0200</pubDate>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>1.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Starview/releases/download/1.6.2/Starview.zip" length="36633010" type="application/octet-stream" sparkle:edSignature="EpSwCbjcIUOPvVoJ2T8h/ybqol2pocnmmU9IrBHpwQK/gOTnL/O99k4juiHTlQ6Z6oA/PtA8LzAEn3wYe7kADA=="/>
+        </item>
+
+<item>
             <title>1.6.1</title>
             <description>
               <![CDATA[
