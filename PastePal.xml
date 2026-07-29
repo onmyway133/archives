@@ -2,7 +2,25 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>PastePal Standalone</title>
-                                                                                                                                                                                <item>
+                                                                                                                                                                                        <item>
+            <title>2.20.9</title>
+            <description><![CDATA[
+<ul>
+  <li>Folder icon now reflects changes immediately in the edit view</li>
+  <li>More reliable icon loading in background operations</li>
+  <li>More reliable clipboard monitoring and copy service</li>
+  <li>More reliable notification handling at startup</li>
+  <li>Enhanced folder icon display for all custom icon configurations</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 29 Jul 2026 08:35:09 +0200</pubDate>
+            <sparkle:version>230</sparkle:version>
+            <sparkle:shortVersionString>2.20.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.20.9/PastePal.zip" length="27966902" type="application/octet-stream"/>
+        </item>
+
+<item>
             <title>2.20.3</title>
             <description><![CDATA[
 <ul>
