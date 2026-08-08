@@ -2,7 +2,28 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>PastePal Standalone</title>
-                                                                                                                                                                                        <item>
+                                                                                                                                                                                                <item>
+            <title>2.21.0</title>
+            <description><![CDATA[
+<ul>
+  <li>New: Search clipboard history with Cmd+F directly from the main window toolbar</li>
+  <li>Re-copied items now rise to the top of clipboard history</li>
+  <li>Background monitor shortcut now toggles reliably every time</li>
+  <li>More accurate content type detection for multi-URL clipboard entries</li>
+  <li>Clearing clipboard history now also resets duplicate detection</li>
+  <li>Companion window positioning is more stable and reliable</li>
+  <li>Menu bar icon position is now remembered in Control Center</li>
+  <li>Optional diagnostics to help improve app reliability (opt-in in Settings)</li>
+</ul>
+]]></description>
+            <pubDate>Sat, 08 Aug 2026 23:14:41 +0200</pubDate>
+            <sparkle:version>231</sparkle:version>
+            <sparkle:shortVersionString>2.21.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.21.0/PastePal.zip" length="29766780" type="application/octet-stream"/>
+        </item>
+
+<item>
             <title>2.20.9</title>
             <description><![CDATA[
 <ul>
