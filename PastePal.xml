@@ -2,7 +2,30 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>PastePal Standalone</title>
-                                                                                                                                                                                                <item>
+                                                                                                                                                                                                        <item>
+            <title>2.21.1</title>
+            <description><![CDATA[
+<ul>
+  <li>New: Clean up all clipboard history at once with a keyboard shortcut</li>
+  <li>New: Choose a separator when copying and pasting multiple items together</li>
+  <li>New: Background presets to personalize how your clips look</li>
+  <li>Search now stays intact when you reopen the side window</li>
+  <li>Selection lands on your newest unpinned clip</li>
+  <li>Reorganized settings with a dedicated Behavior section</li>
+  <li>Faster launch</li>
+  <li>Cleaner detail view on the latest macOS</li>
+  <li>Refreshed translations across 36 languages, including transform names</li>
+  <li>More reliable image capture and improved overall stability</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 28 Aug 2026 13:46:48 +0200</pubDate>
+            <sparkle:version>232</sparkle:version>
+            <sparkle:shortVersionString>2.21.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.21.1/PastePal.zip" length="29875730" type="application/octet-stream"/>
+        </item>
+
+<item>
             <title>2.21.0</title>
             <description><![CDATA[
 <ul>
