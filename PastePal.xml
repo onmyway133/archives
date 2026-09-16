@@ -2,7 +2,23 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>PastePal Standalone</title>
-                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                <item>
+            <title>2.21.2</title>
+            <description><![CDATA[
+<ul>
+  <li>Fully supports macOS 27 Golden Gate.</li>
+  <li>See the character count for your clipboard items at a glance.</li>
+  <li>The side window now clears your search automatically when you toggle it, keeping results relevant.</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 16 Sep 2026 22:20:36 +0200</pubDate>
+            <sparkle:version>233</sparkle:version>
+            <sparkle:shortVersionString>2.21.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.21.2/PastePal.zip" length="30552407" type="application/octet-stream"/>
+        </item>
+
+<item>
             <title>2.21.1</title>
             <description><![CDATA[
 <ul>
