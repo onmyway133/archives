@@ -3,6 +3,22 @@
     <channel>
         <title>Almighty</title>
         <item>
+            <title>2.11.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Support macOS 27</li>
+  <li>Make Energy Saver toggle state persist reliably across restarts</li>
+  <li>General under-the-hood improvements</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 16 Sep 2026 19:50:08 +0200</pubDate>
+            <sparkle:version>106</sparkle:version>
+            <sparkle:shortVersionString>2.11.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Almighty/releases/download/2.11.0/Almighty.zip" length="31985573" type="application/octet-stream" sparkle:edSignature="ZCBh9g9lYji6Q9OwAo/+t70pWXrT72t+DcdKa5xWEbT4IkrCVO6qLQTDQRVNVpuK9bUh9DsLo8+a6HDQFsQYCA=="/>
+        </item>
+
+<item>
             <title>2.10.7</title>
             <description><![CDATA[
 <ul>
