@@ -2,7 +2,24 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>PastePal Standalone</title>
-                                                                                                                                                                                                                <item>
+                                                                                                                                                                                                                        <item>
+            <title>2.21.4</title>
+            <description><![CDATA[
+<ul>
+  <li>Choose from more icons for your collections.</li>
+  <li>Enjoy refreshed glass-style buttons throughout the app.</li>
+  <li>Add an option to control whether clicking outside closes the window.</li>
+  <li>Enjoy improved side window loading.</li>
+</ul>
+]]></description>
+            <pubDate>Thu, 24 Sep 2026 23:17:55 +0200</pubDate>
+            <sparkle:version>234</sparkle:version>
+            <sparkle:shortVersionString>2.21.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.21.4/PastePal.zip" length="30574883" type="application/octet-stream"/>
+        </item>
+
+<item>
             <title>2.21.2</title>
             <description><![CDATA[
 <ul>
