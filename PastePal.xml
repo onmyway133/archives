@@ -3,23 +3,21 @@
     <channel>
         <title>PastePal Standalone</title>
                                                                                                                                                                                                                                 <item>
-            <title>2.21.5</title>
+            <title>2.21.6</title>
             <description><![CDATA[
 <ul>
-  <li>Connect PastePal to AI assistants such as Claude Desktop with a new built-in MCP server.</li>
-  <li>Let connected assistants search, create, and edit clips, and manage your collections.</li>
-  <li>Turn on assistant access from a new Intelligence settings tab and see connected clients by name.</li>
-  <li>Browse large search results smoothly with pagination.</li>
-  <li>See your MCP connection snippet at a glance, without digging through settings.</li>
-  <li>Your MCP server keeps the same port across restarts, so assistants reconnect automatically.</li>
-  <li>Deleting a collection now asks for confirmation first, protecting your clips from accidental loss.</li>
+  <li>Reorder and rename your collections directly from the sidebar for faster organization.</li>
+  <li>Enjoy more transform options to reshape your copied text exactly how you need it.</li>
+  <li>Selecting the right collection for your clips is now quicker and more intuitive.</li>
+  <li>Clipboard items are now credited to the correct app even when you switch between apps quickly.</li>
+  <li>Items you delete and copy again now show up right away instead of staying hidden.</li>
 </ul>
 ]]></description>
-            <pubDate>Mon, 28 Sep 2026 23:36:22 +0200</pubDate>
-            <sparkle:version>235</sparkle:version>
-            <sparkle:shortVersionString>2.21.5</sparkle:shortVersionString>
+            <pubDate>Thu, 01 Oct 2026 11:19:36 +0200</pubDate>
+            <sparkle:version>236</sparkle:version>
+            <sparkle:shortVersionString>2.21.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.21.5/PastePal.zip" length="34471138" type="application/octet-stream"/>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.21.6/PastePal.zip" length="35519711" type="application/octet-stream"/>
         </item>
 
 <item>
