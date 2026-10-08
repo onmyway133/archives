@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Overcal</title>
+        <item>
+            <title>1.0.0</title>
+            <description><![CDATA[
+<ul>
+  <li>See your month, today's agenda and world clocks in a glass panel right from the menu bar</li>
+  <li>Join Zoom, Google Meet, Teams and more in one click, with a countdown to your next meeting</li>
+  <li>Get reminded before meetings with notifications, a full screen alert or a playful plane banner</li>
+  <li>Create events by typing naturally, like "Dentist next Friday 9:30", with Apple Intelligence</li>
+  <li>Slide through time with world clocks to find a good meeting slot across time zones</li>
+  <li>See and complete your reminders right in the agenda</li>
+  <li>Make it yours with themes, fonts, an hourly chime and keyboard shortcuts</li>
+  <li>Available in English, Spanish, Japanese and Simplified Chinese</li>
+</ul>
+]]></description>
+            <pubDate>Thu, 08 Oct 2026 22:51:32 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Overcal/releases/download/1.0.0/Overcal.zip" length="19622823" type="application/octet-stream" sparkle:edSignature="jOSJVC2IEIN85IYBkixLy6sLwUi2IWj1ulIuzi0SBgSh4gST6NCjx2Aj3ROqXaE7Q62dx4MWjlMFlxWgNiF6AQ=="/>
+        </item>
+    </channel>
+</rss>
