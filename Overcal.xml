@@ -3,6 +3,23 @@
     <channel>
         <title>Overcal</title>
         <item>
+            <title>1.1.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Keep the time in view with a new on screen clock you can drag anywhere</li>
+  <li>See how far through the year you are with a new year progress card in the panel</li>
+  <li>Build your menu bar clock your way by choosing what it shows, with new label styles</li>
+  <li>Enjoy a cleaner menu bar with more room around the icon and clock</li>
+  <li>Removing a world clock is now smooth, with a neatly centered empty state</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 09 Oct 2026 12:21:51 +0200</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Overcal/releases/download/1.1.0/Overcal.zip" length="19718874" type="application/octet-stream" sparkle:edSignature="FZxGGuWD220hw7xu0+bVf9eIyhSnBmj1PHa4sMbdGyw6n4wVuun3vDCTyppfrmpgIGlOC3eZIcfh/L6a/O0WAg=="/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <description><![CDATA[
 <ul>
