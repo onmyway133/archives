@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>SaveMode</title>
+        <item>
+            <title>1.0.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Block only the apps that eat your data, and keep everything else online</li>
+  <li>Watch live per-app usage and bandwidth from the menu bar</li>
+  <li>Turn SaveMode on automatically when you join a hotspot</li>
+  <li>Set data limits, profiles and schedules for travel and work</li>
+  <li>Automate with Shortcuts and AppleScript</li>
+  <li>Get new versions automatically with built-in updates</li>
+  <li>Unlock Pro with a lifetime license key from Gumroad</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 09 Oct 2026 20:44:51 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/SaveMode/releases/download/1.0.0/SaveMode.zip" length="9744264" type="application/octet-stream" sparkle:edSignature="N/6chr3HeRSOvWhiApED6k/aqnnkGj9Al8lXYeIoJmI0HyPMNrs3/XAUFl3AjzJVVZ+cq4Jk3sn1ZH6SLFiPBA=="/>
+        </item>
+    </channel>
+</rss>
