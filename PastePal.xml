@@ -3,6 +3,23 @@
     <channel>
         <title>PastePal Standalone</title>
                                                                                                                                                                                                                                 <item>
+            <title>2.21.7</title>
+            <description><![CDATA[
+<ul>
+  <li>AI assistants can now find clips by type, source app, pinned or locked state, collection, device and trash, with sorting and plain dates.</li>
+  <li>New MCP tools let your assistant list your source apps and get a quick overview of your clipboard history.</li>
+  <li>MCP clients like Claude Desktop now read your clips and collections more reliably.</li>
+  <li>Undo your changes while editing a clip's text.</li>
+  <li>PastePal now asks before closing the edit view with unsaved changes, so nothing is lost by accident.</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 09 Oct 2026 23:38:22 +0200</pubDate>
+            <sparkle:version>237</sparkle:version>
+            <sparkle:shortVersionString>2.21.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.21.7/PastePal.zip" length="35529951" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.21.6</title>
             <description><![CDATA[
 <ul>
