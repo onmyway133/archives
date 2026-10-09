@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>DeskCal</title>
+        <item>
+            <title>1.1.0</title>
+            <description><![CDATA[
+<ul>
+  <li>See your month, week or agenda right on your desktop wallpaper</li>
+  <li>Keep your reminders next to your calendar as a to-do list</li>
+  <li>Show your calendar on every connected display</li>
+  <li>Tune font size, opacity and the mini month sidebar to match your desk</li>
+  <li>Get new versions automatically with built-in updates</li>
+  <li>Unlock Pro with a lifetime license key from Gumroad</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 09 Oct 2026 19:24:26 +0200</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/DeskCal/releases/download/1.1.0/DeskCal.zip" length="14514722" type="application/octet-stream" sparkle:edSignature="bW83b4hAaFdUvjAy7MxB2nz6Md+YOvfT81YUyh3hmGwRhgtfIqTFyE3vqKU9jJDA6TLI+UEgQkkLsO+dwiWlCw=="/>
+        </item>
+    </channel>
+</rss>
