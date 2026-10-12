@@ -3,6 +3,24 @@
     <channel>
         <title>Overcal</title>
         <item>
+            <title>1.2.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Design your own menu bar clock with a custom date and time format, a live preview and tap-to-use examples</li>
+  <li>Add the year to the menu bar clock with the new Year option</li>
+  <li>Try every Pro feature free for 14 days</li>
+  <li>Upgrade to Pro from a new, easy to browse screen</li>
+  <li>See your Pro status at a glance in General settings</li>
+  <li>Enjoy refreshed settings icons</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 12 Oct 2026 15:06:40 +0200</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Overcal/releases/download/1.2.0/Overcal.zip" length="19894787" type="application/octet-stream" sparkle:edSignature="LFV4iPwPZxXs9oVSQwQNYHsIlXV9lM39I3qUZCBz/RLYZ435SgymWX6R2g7OLWkgGwwI7XQNz+X4D8pDGyujDw=="/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <description><![CDATA[
 <ul>
