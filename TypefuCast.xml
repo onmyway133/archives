@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Typefu</title>
+        <item>
+            <title>1.0.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Expand abbreviations as you type in any app, or search every snippet from the launcher</li>
+  <li>Add fill-in fields to snippets for names, dates and choices, filled in a small form near the caret</li>
+  <li>Select text to get a bar of actions: search, translate, change case, format, and add to Calendar, Reminders or Contacts</li>
+  <li>Proofread, rewrite, summarize and reply with AI actions that run on your Mac</li>
+  <li>Check grammar and spelling, and apply every suggestion in one click</li>
+  <li>Dictate into Check Grammar, transcribed on your Mac</li>
+  <li>Paste earlier copies from a clipboard history that keeps every item across relaunches</li>
+  <li>Back up your library, actions and settings to a .typefu file and restore it on another Mac</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 12 Oct 2026 14:16:00 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Typefu/releases/download/1.0.0/Typefu.zip" length="20007083" type="application/octet-stream" sparkle:edSignature="o+mqO9TBkVl8kka7ZNDiBtv8KIMRdil1wvehC1w6JYHMnT5YGIyl6fp48KBTT4Y6FkLHfVYBg4Y+ol1BMJqVDQ=="/>
+        </item>
+    </channel>
+</rss>
