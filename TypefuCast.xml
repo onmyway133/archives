@@ -3,6 +3,28 @@
     <channel>
         <title>Typefu</title>
         <item>
+            <title>1.1.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Get suggestions for the next few words in grey as you type, and press Tab to insert them, all run by models on your Mac</li>
+  <li>Shape Autosuggestion with your own instructions</li>
+  <li>Use Autosuggestion in Chromium and Electron apps too</li>
+  <li>Download and manage local models right in AI Providers</li>
+  <li>Choose Parakeet as a dictation model next to Whisper</li>
+  <li>Turn expansion on or off from the menu bar, now with icons on every item</li>
+  <li>Create folders from the sidebar and from the snippet list's New menu</li>
+  <li>Search and filter items in the Menu pane</li>
+  <li>Work in a cleaner editor with a colorful header and actions at the top</li>
+  <li>See a clear explanation when a template needs a change, plus a hint when a snippet name with spaces needs quotes</li>
+</ul>
+]]></description>
+            <pubDate>Tue, 13 Oct 2026 16:16:29 +0200</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Typefu/releases/download/1.1.0/Typefu.zip" length="28474896" type="application/octet-stream" sparkle:edSignature="mKOmSloICanFczsbHCkDejL7PQ+GK0ixDX2UWLoZWfhsq+41OaalOxv3nSqx4S1p3Jw1CfcAnpWD85Zbb4SaDA=="/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <description><![CDATA[
 <ul>
