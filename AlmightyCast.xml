@@ -3,6 +3,36 @@
     <channel>
         <title>Almighty</title>
         <item>
+            <title>2.12.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Meet Zeus, your AI helper: chat or speak to run tweaks, search files and compress media, using Claude Code, Codex or your own API key</li>
+  <li>Open the new Launcher to search and run any tweak or open apps from one place</li>
+  <li>Drop a folder on the notch with Find Files to search it by name or text</li>
+  <li>Speak instead of typing with Dictate, powered by on-device speech models</li>
+  <li>Protect your Mac in public with Anti-Theft Alarm, which sounds a loud siren when the lid closes or the charger is unplugged</li>
+  <li>Shrink images and videos with Compress Media and pick how much to compress</li>
+  <li>Draw on Screen, and highlight your cursor, clicks and keystrokes with new styles for presentations</li>
+  <li>Push your display past its usual peak with Increase Brightness and its intensity slider</li>
+  <li>Arrange displays and move windows into place right from the notch with Position Window</li>
+  <li>Enjoy new tweaks: Open in Terminal, Show Path Bar, Show Library Folder, Keep Awake With Lid Closed, Auto Clear Clipboard, Quit Apps on Last Window and Device Stats</li>
+  <li>Run automations when the lid closes or the power is unplugged</li>
+  <li>Use interactive tweaks in the notch, now with dark animated themes</li>
+  <li>Browse workflows and automations as colorful cards that are easier to edit</li>
+  <li>Get started faster with a new onboarding that sets up permissions, the Launcher shortcut and launch at login</li>
+  <li>See tweak results in a quick toast instead of alerts</li>
+  <li>Enjoy more reliable Dock, scrolling, keystroke and system toggles that stay in sync with your Mac</li>
+  <li>Requires macOS 14 or later</li>
+</ul>
+]]></description>
+            <pubDate>Tue, 13 Oct 2026 15:48:26 +0200</pubDate>
+            <sparkle:version>107</sparkle:version>
+            <sparkle:shortVersionString>2.12.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Almighty/releases/download/2.12.0/Almighty.zip" length="58756906" type="application/octet-stream" sparkle:edSignature="HewRDYb31FwEUJrzUXrEg7ugxdIyAAKLMwb1rYpZeW3HwqQUDqSPeT7nUq6A/tAxF6uH+FwUXA7HEfxFyPl6BQ=="/>
+        </item>
+
+        <item>
             <title>2.11.0</title>
             <description><![CDATA[
 <ul>
