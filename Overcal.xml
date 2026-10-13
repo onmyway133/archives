@@ -3,6 +3,19 @@
     <channel>
         <title>Overcal</title>
         <item>
+            <title>1.2.1</title>
+            <description><![CDATA[
+<ul>
+  <li>Resize the agenda right from the panel footer, cycling between compact, standard and tall</li>
+</ul>
+]]></description>
+            <pubDate>Tue, 13 Oct 2026 12:31:07 +0200</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Overcal/releases/download/1.2.1/Overcal.zip" length="19911419" type="application/octet-stream" sparkle:edSignature="3lhMYFsKTTUPG28Zkpz6ZR3OTReLvVCWGlyyvD9Pfu92HUHXItoI2mvEGpW848XYEY2sEkDJ0J7XA6aSQP15Dw=="/>
+        </item>
+        <item>
             <title>1.2.0</title>
             <description><![CDATA[
 <ul>
