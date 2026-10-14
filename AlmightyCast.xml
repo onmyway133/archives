@@ -3,6 +3,25 @@
     <channel>
         <title>Almighty</title>
         <item>
+            <title>2.13.0</title>
+            <description><![CDATA[
+<ul>
+  <li>New Convert Media: drop images or videos on the notch to convert them, like WebP or HEIC to PNG, PNG to WebP, or MKV to MP4, and resize, set quality or remove location as you go</li>
+  <li>Turn short videos into GIFs right from the notch</li>
+  <li>New Teleprompter: scroll your script in the notch, hidden from screen recordings and screen sharing</li>
+  <li>Remove Background and Unquarantine now open as drop zones in the notch</li>
+  <li>New Packages in Settings: download the full FFmpeg in one click for WebM, MKV, MP3, M4A and AV1 videos</li>
+  <li>New Acknowledgements in Settings lists the open source projects Almighty is built with</li>
+  <li>Compress Media, Convert Media and Find Files now run on Apple silicon Macs</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 14 Oct 2026 10:40:43 +0200</pubDate>
+            <sparkle:version>108</sparkle:version>
+            <sparkle:shortVersionString>2.13.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Almighty/releases/download/2.13.0/Almighty.zip" length="53866302" type="application/octet-stream" sparkle:edSignature="2C6KYAx0MMME2qrzx99ZKWvj+iWjTjdpAQurf+sVgqN+R/5itR1lUfV/YQzyjoSjaBTg5sjDVD27gKQBLEe2Cw=="/>
+        </item>
+        <item>
             <title>2.12.0</title>
             <description><![CDATA[
 <ul>
