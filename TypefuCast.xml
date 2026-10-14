@@ -3,6 +3,20 @@
     <channel>
         <title>Typefu</title>
         <item>
+            <title>1.1.1</title>
+            <description><![CDATA[
+<ul>
+  <li>Use the selection bar on text you select in Chrome and other Chromium browsers</li>
+  <li>See your license at a glance with a new Licensed view in Settings</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 14 Oct 2026 10:26:26 +0200</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Typefu/releases/download/1.1.1/Typefu.zip" length="28481255" type="application/octet-stream" sparkle:edSignature="v8CA+vSm0KZGEzX0KfAjN1lTgAqketU3URj8sHLd98BdxTNkjObHk6T/hNTq2tc9zkmCQx1A0brBdPNc2HNcBw=="/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <description><![CDATA[
 <ul>
