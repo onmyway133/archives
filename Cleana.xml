@@ -3,6 +3,19 @@
     <channel>
         <title>Cleana</title>
         <item>
+            <title>1.1.0</title>
+            <description><![CDATA[
+<ul>
+  <li>A fresh new app icon</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 14 Oct 2026 12:12:57 +0200</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Cleana/releases/download/1.1.0/Cleana.zip" length="6279732" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <description><![CDATA[
 <ul>
