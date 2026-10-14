@@ -3,6 +3,22 @@
     <channel>
         <title>Almighty</title>
         <item>
+            <title>2.13.1</title>
+            <description><![CDATA[
+<ul>
+  <li>Close Zeus right away with the Esc key.</li>
+  <li>Start typing your reply as soon as the Zeus chat opens.</li>
+  <li>Adjust Teleprompter speed and size with cleaner, evenly sized buttons.</li>
+  <li>Browse a simpler, tidier Packages list in Settings.</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 14 Oct 2026 11:56:20 +0200</pubDate>
+            <sparkle:version>109</sparkle:version>
+            <sparkle:shortVersionString>2.13.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Almighty/releases/download/2.13.1/Almighty.zip" length="53864655" type="application/octet-stream" sparkle:edSignature="mVA/3JGID5SCbZX5iQ6EWiFIaHFuzrj+aYujODqwGCA9sF7vQvNCLdFecp0WqyWtvgVxa2LBPEgXV7tszP8NCA=="/>
+        </item>
+        <item>
             <title>2.13.0</title>
             <description><![CDATA[
 <ul>
