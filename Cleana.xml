@@ -3,6 +3,20 @@
     <channel>
         <title>Cleana</title>
         <item>
+            <title>1.2.1</title>
+            <description><![CDATA[
+<ul>
+  <li>Pick another app right after an uninstall to see it straight away, without pressing Done first</li>
+  <li>See a short summary when some items stay behind, with a Show Details button that lists each one, the reason, and a quick way to open it in Finder</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 14 Oct 2026 21:30:17 +0200</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Cleana/releases/download/1.2.1/Cleana.zip" length="17975228" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>1.2.0</title>
             <description><![CDATA[
 <ul>
