@@ -3,6 +3,22 @@
     <channel>
         <title>Cleana</title>
         <item>
+            <title>1.3.0</title>
+            <description><![CDATA[
+<ul>
+  <li>See live progress while cleaning a category: how many items are done, the one being removed, and how much space is freed so far</li>
+  <li>Items leave the list as soon as they're removed, and Stop finishes the current item and shows what was cleaned</li>
+  <li>Uninstalling an app now shows each step: quitting the app, moving files to the Trash, and waiting for your password</li>
+  <li>After cleaning, see what was freed and which items stayed behind, right on the category page</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 14 Oct 2026 21:48:25 +0200</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Cleana/releases/download/1.3.0/Cleana.zip" length="18532945" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>1.2.1</title>
             <description><![CDATA[
 <ul>
