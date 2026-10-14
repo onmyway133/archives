@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Cleana</title>
+        <item>
+            <title>1.0.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Scan and clean developer leftovers from Xcode, JavaScript, Rust, Go, Python, Java, Android, Flutter, .NET, PHP, Ruby and more</li>
+  <li>Clear old Claude Code and Codex sessions, editor caches and local AI model downloads</li>
+  <li>Uninstall apps together with their caches, preferences, containers and other files</li>
+  <li>Review every item with its size and last use, recent work stays unselected</li>
+  <li>Animated scan orb, keyboard shortcuts, launch at login and automatic updates</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 14 Oct 2026 11:48:06 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Cleana/releases/download/1.0.0/Cleana.zip" length="6490277" type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
