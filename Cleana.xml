@@ -3,6 +3,21 @@
     <channel>
         <title>Cleana</title>
         <item>
+            <title>1.2.0</title>
+            <description><![CDATA[
+<ul>
+  <li>A new welcome tour shows how Smart Scan and the Uninstaller work</li>
+  <li>Set up Full Disk Access, the Show Cleana shortcut and launch at login in one place on first launch</li>
+  <li>Open the welcome tour again any time from Settings › General</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 14 Oct 2026 12:48:58 +0200</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Cleana/releases/download/1.2.0/Cleana.zip" length="17942942" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <description><![CDATA[
 <ul>
