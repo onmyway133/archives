@@ -3,6 +3,23 @@
     <channel>
         <title>PastePal Standalone</title>
                                                                                                                                                                                                                                 <item>
+            <title>2.21.8</title>
+            <description><![CDATA[
+<ul>
+  <li>PastePal uses much less memory, even with lots of images in your history.</li>
+  <li>Copied images save faster, and text recognition runs after they're saved.</li>
+  <li>The main window shortcut now opens and closes the window.</li>
+  <li>MCP search is faster and supports case-sensitive matching.</li>
+  <li>A fresh sidebar icon.</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 16 Oct 2026 00:08:46 +0200</pubDate>
+            <sparkle:version>238</sparkle:version>
+            <sparkle:shortVersionString>2.21.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.21.8/PastePal.zip" length="35795325" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.21.7</title>
             <description><![CDATA[
 <ul>
