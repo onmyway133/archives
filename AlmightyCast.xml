@@ -3,6 +3,22 @@
     <channel>
         <title>Almighty</title>
         <item>
+            <title>2.13.2</title>
+            <description><![CDATA[
+<ul>
+  <li>New File Shelf: keep files and folders on a shelf in the notch, then drag them where you need them</li>
+  <li>New Rename Files: drop images onto the notch and they get named by what's in them (macOS 27 and later)</li>
+  <li>New Clean Up Desktop: move everything on your desktop into a dated folder, with your choice of destination and an option to reveal it in Finder</li>
+  <li>Open a tweak's settings right from the launcher with Option-Return</li>
+</ul>
+]]></description>
+            <pubDate>Sat, 17 Oct 2026 11:44:58 +0200</pubDate>
+            <sparkle:version>110</sparkle:version>
+            <sparkle:shortVersionString>2.13.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Almighty/releases/download/2.13.2/Almighty.zip" length="54055710" type="application/octet-stream" sparkle:edSignature="+3PaZvA3XY2BGb95v2LGPePZPymIdcfVQryaWYm32SJk6Qx+JzV3rht3cP869NjyqoOO8AMGetzRoBjxrbCUCA=="/>
+        </item>
+        <item>
             <title>2.13.1</title>
             <description><![CDATA[
 <ul>
