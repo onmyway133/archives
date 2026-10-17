@@ -3,6 +3,25 @@
     <channel>
         <title>Cleana</title>
         <item>
+            <title>1.4.1</title>
+            <description><![CDATA[
+<ul>
+  <li>Clean up after AI coding tools: old Claude Code, Claude app, Cursor Agent and Copilot builds, plus caches from Claude, Codex, Zed, opencode and ChatGPT. Sign-ins, settings and conversations always stay put</li>
+  <li>Gemini CLI sessions now show up for review</li>
+  <li>Scan any tool on its own, and rescan just the page you're on while keeping your other results</li>
+  <li>Find even more space: npx installs, pnpm caches and old stores, Xcode test clones and Organizer downloads, plus Deno, TypeScript and Docker build caches</li>
+  <li>Uninstall Xcode, iWork and other optional Apple apps</li>
+  <li>Safer cleaning: caches that Xcode, VS Code, Cursor or Codex are using are skipped, build folders with real work stay, and Mail, Keychains and iCloud data are never touched</li>
+  <li>The space freed count now reflects exactly what was removed, and scans keep moving even when a command line tool stops responding</li>
+</ul>
+]]></description>
+            <pubDate>Sat, 17 Oct 2026 19:30:15 +0200</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Cleana/releases/download/1.4.1/Cleana.zip" length="18809989" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>1.4.0</title>
             <description><![CDATA[
 <ul>
