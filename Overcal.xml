@@ -3,6 +3,21 @@
     <channel>
         <title>Overcal</title>
         <item>
+            <title>1.2.3</title>
+            <description><![CDATA[
+<ul>
+  <li>Get notified well ahead of time: choose 30 minutes, 1 hour, 1 or 2 days, or 1 or 2 weeks before an event</li>
+  <li>See your app icon and a Licensed badge in the License pane once Overcal is activated</li>
+  <li>Move through permission steps more clearly, with a Continue button before macOS asks for access</li>
+</ul>
+]]></description>
+            <pubDate>Sun, 18 Oct 2026 10:07:54 +0200</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Overcal/releases/download/1.2.3/Overcal.zip" length="19937370" type="application/octet-stream" sparkle:edSignature="aDx4mhraPv/g76S5bfhPTHfYvyFYmATiAnM8BO71rzT0G4nZvVu26BzkNyQoB7dtIaSFJjWyPc0I93V95sFUBw=="/>
+        </item>
+        <item>
             <title>1.2.2</title>
             <description><![CDATA[
 <ul>
