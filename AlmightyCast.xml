@@ -3,6 +3,23 @@
     <channel>
         <title>Almighty</title>
         <item>
+            <title>2.13.3</title>
+            <description><![CDATA[
+<ul>
+  <li>New Lock Dock: keep the Dock on the display you choose, and bring it back automatically when it jumps to another screen</li>
+  <li>New Mouse Shake automation: shake the pointer to run any tweak, like moving the Dock back</li>
+  <li>See and edit each workflow's tweaks right in Settings, and add or remove them in one click</li>
+  <li>Dock previews now show in a Liquid Glass panel, switch instantly between apps, include minimized windows, and bring the window you click to the front</li>
+  <li>Compress videos to fit under a size you pick in the notch</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 19 Oct 2026 15:17:07 +0200</pubDate>
+            <sparkle:version>111</sparkle:version>
+            <sparkle:shortVersionString>2.13.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Almighty/releases/download/2.13.3/Almighty.zip" length="54188088" type="application/octet-stream" sparkle:edSignature="RMB3l8YBba8Mx+z6gf7mGDJbqiBTnZKX7Q8X1JhzwED8qFDBfmRia1HCIE82dKMFggErWqxxjNsLPVvIrVQ/DQ=="/>
+        </item>
+        <item>
             <title>2.13.2</title>
             <description><![CDATA[
 <ul>
