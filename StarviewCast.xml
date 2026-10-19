@@ -3,6 +3,25 @@
     <channel>
         <title>Starview</title>
                 <item>
+            <title>1.7.1</title>
+            <description><![CDATA[
+<ul>
+  <li>Buy Starview on Gumroad, and your existing LemonSqueezy license keeps working</li>
+  <li>Ratings summary counts each region once, for accurate totals</li>
+  <li>Reviews always match the region and sort you pick</li>
+  <li>Switching regions quickly shows the right app</li>
+  <li>Sort keyword suggestions by keyword, popularity, difficulty or apps</li>
+  <li>Search refreshes when you change the platform</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 19 Oct 2026 17:04:33 +0200</pubDate>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>1.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Starview/releases/download/1.7.1/Starview.zip" length="37518527" type="application/octet-stream" sparkle:edSignature="Av5BkfPZ/vmA3XDFa2Y5l15q41ij2UeC8hjxG0kg9YwZ9n+LOjZBmP28tiJeIwp21VLtg2pifhTwwunwNoqoCw=="/>
+        </item>
+
+        <item>
             <title>1.7.0</title>
             <description><![CDATA[
 <ul>
