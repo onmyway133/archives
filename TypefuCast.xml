@@ -3,6 +3,23 @@
     <channel>
         <title>Typefu</title>
         <item>
+            <title>1.1.2</title>
+            <description><![CDATA[
+<ul>
+  <li>A redesigned action wheel: one smooth glass ring with a soft glow that follows your pointer</li>
+  <li>Each action lights up in its own color and grows slightly as you hover it</li>
+  <li>The menu bar icon always shows, even before Accessibility access is granted</li>
+  <li>The welcome window comes to the front on first launch</li>
+  <li>Copies and clipboard restores made by Typefu stay out of other clipboard apps' history</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 19 Oct 2026 14:40:42 +0200</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Typefu/releases/download/1.1.2/Typefu.zip" length="28493166" type="application/octet-stream" sparkle:edSignature="9uiZEZ7/8FkoNXTFoZxaBg6sQxTvx4ID8drNZ/Gu+6zVEohsHNErtncap2cXAgeXaoNjLPM89KMtFEZvCM/PBQ=="/>
+        </item>
+        <item>
             <title>1.1.1</title>
             <description><![CDATA[
 <ul>
