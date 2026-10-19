@@ -3,6 +3,26 @@
     <channel>
         <title>Starview</title>
                 <item>
+            <title>1.7.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Fresh Liquid Glass design for macOS 26</li>
+  <li>Bring Starview forward from anywhere with a keyboard shortcut you choose in Settings</li>
+  <li>Your keywords, ratings, folders and edits are saved as you go</li>
+  <li>Periodic Tracking starts on its own at launch</li>
+  <li>Search keeps up when you change terms or regions quickly</li>
+  <li>More accurate keyword, ranking and rating trends for each region</li>
+  <li>Requires macOS 26 or later</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 19 Oct 2026 16:39:53 +0200</pubDate>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Starview/releases/download/1.7.0/Starview.zip" length="37504348" type="application/octet-stream" sparkle:edSignature="mI/4YbcCJrvyrSmRfEHBok/2G5lWMzFHGQMJkoX9GQOCQUcymytk/DM9U7BY6ajYV9dhYzVxPVJBmPet7RbtBg=="/>
+        </item>
+
+        <item>
             <title>1.6.2</title>
             <description><![CDATA[
 <ul>
