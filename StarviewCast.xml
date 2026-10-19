@@ -3,6 +3,24 @@
     <channel>
         <title>Starview</title>
                 <item>
+            <title>1.7.2</title>
+            <description><![CDATA[
+<ul>
+  <li>Swipe between screenshots with your trackpad or arrow keys, and download one or all of them</li>
+  <li>Every popup shares one title bar, with close on the left and actions on the right</li>
+  <li>Copy an app's description, release notes or exported keywords in one click</li>
+  <li>Revenue and download estimates show for the biggest apps</li>
+  <li>Stat cards fit long values like "500k-1m"</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 19 Oct 2026 21:39:14 +0200</pubDate>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>1.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Starview/releases/download/1.7.2/Starview.zip" length="37399447" type="application/octet-stream" sparkle:edSignature="bQfjeRCU/qsBjOBTDdlrVSL6DZyCOcFJOkda8ybAVvP8QcqaksEEDHZBrKYEXJNURsGtbpEcDjYyn3M4ripwAQ=="/>
+        </item>
+
+        <item>
             <title>1.7.1</title>
             <description><![CDATA[
 <ul>
