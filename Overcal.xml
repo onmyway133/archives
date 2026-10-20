@@ -3,6 +3,21 @@
     <channel>
         <title>Overcal</title>
         <item>
+            <title>1.2.4</title>
+            <description><![CDATA[
+<ul>
+  <li>Delete an event right from its menu or the event details, and choose to remove just that one or all future occurrences of a repeating event</li>
+  <li>See a map of the event's location in the event details, and click it to open the place in Apple Maps</li>
+  <li>Enjoy a cleaner Quick Add form with simpler Title and Location fields</li>
+</ul>
+]]></description>
+            <pubDate>Tue, 20 Oct 2026 21:25:31 +0200</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Overcal/releases/download/1.2.4/Overcal.zip" length="19960115" type="application/octet-stream" sparkle:edSignature="Nw3JmqaldoJOhZWpssvoui7+3bhezjk1n3jWYYpIq+hUGuJZ7Hc6vbLTrdIYVtZYfIbKwidpMZ/I5rxdoyWFDw=="/>
+        </item>
+        <item>
             <title>1.2.3</title>
             <description><![CDATA[
 <ul>
