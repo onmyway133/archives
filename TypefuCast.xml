@@ -3,6 +3,21 @@
     <channel>
         <title>Typefu</title>
         <item>
+            <title>1.1.5</title>
+            <description><![CDATA[
+<ul>
+  <li>Suggest is now called Improve</li>
+  <li>Improve, Check Grammar, Fix Spelling, Fix Grammar and Translate now appear in AI Actions, so they're easy to find and to turn on or off in the action menu</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 21 Oct 2026 12:52:53 +0200</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Typefu/releases/download/1.1.5/Typefu.zip" length="28537313" type="application/octet-stream" sparkle:edSignature="Fq2jG1IAe41drqXQNEUuSFEhpEgqH64gfuNR7OIKTRnuEshPztkgmjrMZ11r5Vz0kRPioQEPiiOEHeNBNXCPDw=="/>
+        </item>
+
+        <item>
             <title>1.1.4</title>
             <description><![CDATA[
 <ul>
