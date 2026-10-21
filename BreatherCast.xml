@@ -3,6 +3,14 @@
     <channel>
         <title>Breather</title>
         <item>
+            <title>2.0.2</title>
+            <pubDate>Wed, 21 Oct 2026 22:30:42 +0200</pubDate>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Breather/releases/download/2.0.2/Breather.zip" length="17604667" type="application/octet-stream" sparkle:edSignature="edUd6RoavXs3zk8RrPSIFRiJBqO3Y0tPiisf4554/1+AO2ovObyyWnItMsCjNkVKHrUwD386m+P86EsR9tevBw=="/>
+        </item>
+        <item>
             <title>2.0.1</title>
             <pubDate>Wed, 21 Oct 2026 21:46:16 +0200</pubDate>
             <sparkle:version>61</sparkle:version>
