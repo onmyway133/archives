@@ -3,6 +3,20 @@
     <channel>
         <title>Overcal</title>
         <item>
+            <title>1.2.5</title>
+            <description><![CDATA[
+<ul>
+  <li>Use Overcal in French, German, Italian, Russian, Korean, Brazilian Portuguese and Traditional Chinese</li>
+  <li>Enjoy Overcal fully translated in Spanish, Japanese and Simplified Chinese</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 21 Oct 2026 12:49:05 +0200</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Overcal/releases/download/1.2.5/Overcal.zip" length="20033774" type="application/octet-stream" sparkle:edSignature="AX3z7TNm3qatHLYZOEiYZfOY0mz5B7j2GPc7XnJZoCJbHwfEX8tOfg1EHfdol4sDtATKHvkdHo3ccBj6iVEKCw=="/>
+        </item>
+        <item>
             <title>1.2.4</title>
             <description><![CDATA[
 <ul>
