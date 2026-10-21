@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Breather</title>
+        <item>
+            <title>2.0.1</title>
+            <pubDate>Wed, 21 Oct 2026 21:46:16 +0200</pubDate>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Breather/releases/download/2.0.1/Breather.zip" length="10247234" type="application/octet-stream" sparkle:edSignature="pJ8i55yLp+7lR8r5x7MeASAcoHt+1mcQ9/IiQ9LeH5kdiS+NFM5/q3DH6KD2N0U33N4b2/HUQu88defqjWIABg=="/>
+        </item>
+    </channel>
+</rss>
