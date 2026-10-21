@@ -5,7 +5,26 @@
         <link>https://raw.githubusercontent.com/onmyway133/archives/master/CoolbarCast.xml</link>
         <description>Check out new Coolbar update</description>
         <language>en</language>
-                <item>
+                                <item>
+            <title>1.5.0</title>
+            <description>
+              <![CDATA[
+                  <ul>
+                    <li>Drag items to reorder them in the menu bar.</li>
+                    <li>Collection icons now come from SF Symbols, and choosing an icon is optional.</li>
+                    <li>Onboarding no longer appears on every launch.</li>
+                    <li>Loading indicators use the native macOS progress style.</li>
+                  </ul>
+              ]]>
+            </description>
+            <pubDate>Wed, 21 Oct 2026 23:08:48 +0200</pubDate>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Coolbar/releases/download/1.5.0/Coolbar.zip" length="24869900" type="application/octet-stream" sparkle:edSignature="zkpfmxBO6y8fWE4TS5meYDDJ8uk9TA4bRqKQKYNxLTi6rmCjVQMmPGn/j6WQhvJwHQ+XY7wAwiWJ7Uv228iPCQ=="/>
+        </item>
+
+<item>
             <title>1.4.0</title>
             <description>
               <![CDATA[
