@@ -3,6 +3,26 @@
     <channel>
         <title>Almighty</title>
         <item>
+            <title>2.13.4</title>
+            <description><![CDATA[
+<ul>
+  <li>Open the radial menu with a hotkey or a mouse shake to reach your tweaks, apps and workflows</li>
+  <li>Recently run tweaks appear in a Recent group, so they're one click away</li>
+  <li>Compress and Convert are in the radial menu, with format names and levels shown on each slice</li>
+  <li>Categories, Collections and Apps each get their own pages in the radial menu, with up to ten slices per page</li>
+  <li>A workflow can fill the radial menu</li>
+  <li>Shake detection is more forgiving, so casual shakes count</li>
+  <li>Reorder tweaks in the workflow editor</li>
+</ul>
+]]></description>
+            <pubDate>Thu, 22 Oct 2026 16:42:19 +0200</pubDate>
+            <sparkle:version>112</sparkle:version>
+            <sparkle:shortVersionString>2.13.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Almighty/releases/download/2.13.4/Almighty.zip" length="54969620" type="application/octet-stream" sparkle:edSignature="2XBSaWQjnrIuIw2Xd7wnx5teM/rHia+KiStrROXBO5cvDlZjGgfa+2YuhSptwRDOpGolOJXlY/BFhjVpJZr8CQ=="/>
+        </item>
+
+<item>
             <title>2.13.3</title>
             <description><![CDATA[
 <ul>
