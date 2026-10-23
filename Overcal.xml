@@ -3,6 +3,21 @@
     <channel>
         <title>Overcal</title>
         <item>
+            <title>1.2.6</title>
+            <description><![CDATA[
+<ul>
+  <li>Show calendar colors in the new event calendar menu</li>
+  <li>The superhero banner plane appears less often</li>
+  <li>The Describe field grows to fit long text, and German invitations parse better</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 23 Oct 2026 22:31:48 +0200</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.2.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Overcal/releases/download/1.2.6/Overcal.zip" length="20035702" type="application/octet-stream" sparkle:edSignature="xj1mjyqIdImKY65qJv/8B2/2WRAd5nfGcQjHaBnXYAoL4nPAq3gf0cTy40Xjsz8Ji9sN/HbeqKJN6h125csiCw=="/>
+        </item>
+        <item>
             <title>1.2.5</title>
             <description><![CDATA[
 <ul>
