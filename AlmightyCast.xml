@@ -3,6 +3,24 @@
     <channel>
         <title>Almighty</title>
         <item>
+            <title>2.13.5</title>
+            <description><![CDATA[
+<ul>
+  <li>Lock apps behind Touch ID or your password, and choose which apps to lock by dropping them on the notch panel</li>
+  <li>Locked apps quit if the Touch ID check fails</li>
+  <li>New Ruler tweak places, moves and rotates measuring rulers over the screen</li>
+  <li>New Screen Effect tweak with paper, vignette and pixel grid looks</li>
+  <li>Main Window now sits in the gear menu, and radial settings have their own page</li>
+</ul>
+]]></description>
+            <pubDate>Sat, 24 Oct 2026 00:01:21 +0200</pubDate>
+            <sparkle:version>113</sparkle:version>
+            <sparkle:shortVersionString>2.13.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Almighty/releases/download/2.13.5/Almighty.zip" length="55096946" type="application/octet-stream" sparkle:edSignature="CYcfUw/119S8TUF+UtKVlPvftx5Y2bxPn4rJfEyxX5xwQp8kLCJQai6UR+85rvF8Y7X+0RIgOehLLIoFNxRgAA=="/>
+        </item>
+
+        <item>
             <title>2.13.4</title>
             <description><![CDATA[
 <ul>
