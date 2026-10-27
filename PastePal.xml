@@ -2,7 +2,29 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>PastePal Standalone</title>
-                                                                                                                                                                                                                                <item>
+                                                                                                                                                                                                                                        <item>
+            <title>2.21.9</title>
+            <description><![CDATA[
+<ul>
+  <li>We improved queue mode, so pasting moves through your items in order.</li>
+  <li>Add text after each item pasted from the queue, set under Queue settings.</li>
+  <li>Resize the movable side window vertically to fit your screen.</li>
+  <li>The side window slides its content inside its own screen instead of moving across screens.</li>
+  <li>Pasted images match the format the receiving app asks for, so apps that read TIFF accept them.</li>
+  <li>Pressing the main window shortcut right after the window opens now closes it, as expected.</li>
+  <li>Clips copied while tracking is paused are no longer saved when tracking resumes.</li>
+  <li>The hot edge opens the side window at the right spot on each screen.</li>
+  <li>Permission setup shows the Device Control and Data Access steps on macOS 27.</li>
+</ul>
+]]></description>
+            <pubDate>Tue, 27 Oct 2026 10:51:05 +0100</pubDate>
+            <sparkle:version>239</sparkle:version>
+            <sparkle:shortVersionString>2.21.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.21.9/PastePal.zip" length="36474618" type="application/octet-stream"/>
+        </item>
+
+<item>
             <title>2.21.8</title>
             <description><![CDATA[
 <ul>
