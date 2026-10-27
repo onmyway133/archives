@@ -21,7 +21,7 @@
             <sparkle:version>239</sparkle:version>
             <sparkle:shortVersionString>2.21.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.21.9/PastePal.zip" length="36474618" type="application/octet-stream"/>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.21.9/PastePal.zip" length="36474618" type="application/octet-stream" sparkle:edSignature="DLPqPqAySLISldV5mr/7UWUQfmjAxrVL75j8n/nUU4fkMS0PG590jrRpEBH7hT+oqm2e6RP8XODUFRCQkMvRDQ=="/>
         </item>
 
 <item>
