@@ -3,6 +3,23 @@
     <channel>
         <title>Typefu</title>
         <item>
+            <title>1.1.6</title>
+            <description><![CDATA[
+<ul>
+  <li>The action menu now appears when you select text with the mouse in apps that don't share their selection, including apps that draw their own content</li>
+  <li>Dragging a window or clicking buttons and lists no longer brings up the action menu</li>
+  <li>Anything you copy while the action menu reads a selection stays on your clipboard</li>
+  <li>On macOS 27, permission steps point to the new Device Control and Data Access pane</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 28 Oct 2026 22:51:30 +0100</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Typefu/releases/download/1.1.6/Typefu.zip" length="28546199" type="application/octet-stream" sparkle:edSignature="0DvfzHWK6x1KM/oAQqK0VX9t+OW1cjMfWwxzbYIOhRINnynqOPusRlu9ogkF/tOTvrYTmF+L4sw8IfJo+OQoCg=="/>
+        </item>
+
+        <item>
             <title>1.1.5</title>
             <description><![CDATA[
 <ul>
