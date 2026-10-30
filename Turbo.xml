@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Turbo</title>
+        <item>
+            <title>1.0.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Search apps, files, commands, quicklinks, and system actions from one keyboard-first launcher</li>
+  <li>Clipboard history for text, images, files, links, and colors, with pinning and previews</li>
+  <li>Snippets that expand anywhere, with clipboard, date, and cursor placeholders</li>
+  <li>Calculator with units, time zones, dates, and live currency rates</li>
+  <li>AI with your own model: Apple Intelligence, any OpenAI-compatible API, or Ollama, with Quick AI, AI Chat, and AI Commands</li>
+  <li>Colored sticky notes on your desktop with Markdown and checklists</li>
+  <li>Capture text from anywhere on screen and scan QR codes and barcodes</li>
+  <li>Window management, emoji search, dictionary, and today's schedule</li>
+  <li>Runs Script Commands and many Raycast extensions with native views</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 30 Oct 2026 20:51:50 +0100</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Turbo/releases/download/1.0.0/Turbo.zip" length="5414708" type="application/octet-stream" sparkle:edSignature="ak7LExVfOC1KMqexsNfOzDiDlqqfM3u/lmtT7epJnqC530fXqsR3q/18gj3Lkk4yn26YmMoTiBnZlLmoc3/hAg=="/>
+        </item>
+    </channel>
+</rss>
