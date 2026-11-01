@@ -3,6 +3,30 @@
     <channel>
         <title>PastePal Standalone</title>
                                                                                                                                                                                                                                         <item>
+            <title>2.21.10</title>
+            <description><![CDATA[
+<ul>
+  <li>Peer Share sends text, files and clips to your nearby Macs, iPhones and iPads over Wi-Fi, with no account or cloud involved. Available on macOS 27.</li>
+  <li>Every preview now has the same top bar with Close, Share and the actions for that clip type.</li>
+  <li>Zoom image previews with a pinch or a double-click, and open image clips in Preview or Finder.</li>
+  <li>Image previews show the dimensions and file size, and text previews show character, word and line counts.</li>
+  <li>Copy a color clip as HEX, RGB or HSL straight from the color preview.</li>
+  <li>Emoji clips get a preview with the emoji name and skin tone variants.</li>
+  <li>The multiple files preview shows each file with hover actions and a footer that opens them in Finder.</li>
+  <li>Switch the link preview between device sizes from a menu in the top bar.</li>
+  <li>Set the text size for clip text in the list, previews and editor from a slider under Display settings.</li>
+  <li>A Troubleshooting section in Support settings opens the storage folder with one click.</li>
+  <li>The list scrolls more smoothly, since rows reload only when they change and file clips resolve off the main thread.</li>
+</ul>
+]]></description>
+            <pubDate>Sun, 01 Nov 2026 21:48:07 +0100</pubDate>
+            <sparkle:version>240</sparkle:version>
+            <sparkle:shortVersionString>2.21.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.21.10/PastePal.zip" length="37168899" type="application/octet-stream"/>
+        </item>
+
+<item>
             <title>2.21.9</title>
             <description><![CDATA[
 <ul>
