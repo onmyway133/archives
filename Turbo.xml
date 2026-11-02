@@ -3,6 +3,19 @@
     <channel>
         <title>Turbo</title>
         <item>
+            <title>1.0.2</title>
+            <description><![CDATA[
+<ul>
+  <li>Quicklinks, Script Commands, and extension commands that take input now open their own screen, where you type the first value in the search field and fill in the rest below</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 02 Nov 2026 21:54:51 +0100</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Turbo/releases/download/1.0.2/Turbo.zip" length="5560693" type="application/octet-stream" sparkle:edSignature="8tsoO+dTE2f7Rs1Mb0TWQjUdL+cKCP8P6wcLaLdDSHltfmxTZOqcBhDrlcRghsNEttioS6nOMjj0+vrIZLLjCA=="/>
+        </item>
+        <item>
             <title>1.0.1</title>
             <description><![CDATA[
 <ul>
