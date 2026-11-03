@@ -3,6 +3,24 @@
     <channel>
         <title>Starview</title>
                 <item>
+            <title>1.7.3</title>
+            <description><![CDATA[
+<ul>
+  <li>Keyword popularity comes back as soon as Search Ads does, instead of staying hidden for two weeks</li>
+  <li>Region pickers are easier to scan, with roomier rows and a clear highlight on the selected region</li>
+  <li>The keyword input and selection bar float on Liquid Glass and show how many keywords you selected</li>
+  <li>AI features work with OpenAI or a local model, and keyword suggestions no longer ask for an OpenAI key when a local model is set</li>
+  <li>Toolbar icons look evenly sized, with simpler download icons in the screenshot viewer</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 04 Nov 2026 00:06:04 +0100</pubDate>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>1.7.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Starview/releases/download/1.7.3/Starview.zip" length="39274903" type="application/octet-stream" sparkle:edSignature="wSq2eIFar6qnnz54lmglabD6FmFhLhqrPE5ibsLoMnNM7CcFJ4Jya6sVKgoqhvtXiQnV29jPZuwYgY0knaC3Ag=="/>
+        </item>
+
+        <item>
             <title>1.7.2</title>
             <description><![CDATA[
 <ul>
