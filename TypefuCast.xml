@@ -3,6 +3,21 @@
     <channel>
         <title>Typefu</title>
         <item>
+            <title>1.1.7</title>
+            <description><![CDATA[
+<ul>
+  <li>The fill-in form shows each field's name in its own column, so names and values are easy to tell apart</li>
+  <li>Resize the fill-in form to fit your snippet, and it keeps your width for next time</li>
+  <li>The preview is larger and uses the full width of the form</li>
+</ul>
+]]></description>
+            <pubDate>Tue, 03 Nov 2026 23:13:08 +0100</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Typefu/releases/download/1.1.7/Typefu.zip" length="28558478" type="application/octet-stream" sparkle:edSignature="YGd8P/m7ki09XQPHEggIUkMXDxdc9ePMP5rl+TyNu9MLi6oHnCXCw4PeO7Eyjaiw7vxuIC/+KjmOyKB2gjNLBQ=="/>
+        </item>
+        <item>
             <title>1.1.6</title>
             <description><![CDATA[
 <ul>
