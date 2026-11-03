@@ -3,6 +3,27 @@
     <channel>
         <title>SaveMode</title>
         <item>
+            <title>1.0.2</title>
+            <description><![CDATA[
+<ul>
+  <li>Blocking, app limits and the daily cap now also stop downloads that were already running.</li>
+  <li>SaveMode always keeps the parts of macOS that keep you online working: DNS, Wi-Fi sign-in pages and security checks.</li>
+  <li>The daily cap starts fresh each day, even after a restart, and if SaveMode quits unexpectedly the pause lifts by itself.</li>
+  <li>"Only on metered networks" now counts only data used on hotspot and Low Data Mode networks.</li>
+  <li>macOS services and command-line tools now show clear names and icons.</li>
+  <li>The app list stays in place under your pointer.</li>
+  <li>"Open SaveMode" brings the window to the front.</li>
+  <li>A clearer welcome tour walks you through setup.</li>
+  <li>The Toggle shortcut and the AppleScript "usage" command work more reliably.</li>
+</ul>
+]]></description>
+            <pubDate>Tue, 03 Nov 2026 23:04:47 +0100</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/SaveMode/releases/download/1.0.2/SaveMode.zip" length="9828927" type="application/octet-stream" sparkle:edSignature="vzd5UicdPsUgPWppZBLgQqwU9nLwG2i30Pq9Yw3T/MEzcbU8QYvNyeRWKsw4OWkvHFnGuy2BViBwuufqR0JMAA=="/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <description><![CDATA[
 <ul>
