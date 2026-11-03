@@ -3,6 +3,23 @@
     <channel>
         <title>Turbo</title>
         <item>
+            <title>1.0.3</title>
+            <description><![CDATA[
+<ul>
+  <li>Run your Apple Shortcuts right from Turbo, or press ⌘E to edit one in the Shortcuts app</li>
+  <li>Restart Frontmost App quits and reopens the app you're using</li>
+  <li>Toggle Keep Awake keeps your Mac from sleeping until you turn it off</li>
+  <li>Unhide All Applications brings back every hidden app</li>
+  <li>Celebrate with Confetti</li>
+</ul>
+]]></description>
+            <pubDate>Tue, 03 Nov 2026 23:39:13 +0100</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Turbo/releases/download/1.0.3/Turbo.zip" length="5588182" type="application/octet-stream" sparkle:edSignature="nDuK5RD3N9dKgAKmrJ8XJY/4xy69+MxRlQfy4bklH0kTIBfgBVL57cIACnwbANRl6lKrgKMEIt49y5bCFSuPAQ=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <description><![CDATA[
 <ul>
