@@ -3,6 +3,23 @@
     <channel>
         <title>Breather</title>
         <item>
+            <title>2.0.3</title>
+            <description><![CDATA[
+<ul>
+  <li>Follow each stretch with a large animated demo on the exercise break screen, easy to see from a few steps away.</li>
+  <li>See how each break style, theme and Posture Coach works with new animated previews in Settings.</li>
+  <li>Breather opens at login only when you turn it on in the welcome tour or Settings.</li>
+  <li>Settings and the Pro offer open cleanly, with the menu bar menu closing out of the way.</li>
+  <li>Choose whether to share anonymous usage data in General settings.</li>
+</ul>
+]]></description>
+            <pubDate>Tue, 03 Nov 2026 23:05:55 +0100</pubDate>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>2.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Breather/releases/download/2.0.3/Breather.zip" length="17709236" type="application/octet-stream" sparkle:edSignature="3YSVNoEUigqvN7eJdlSJQPEwED+w+AJ6Vz21JYI8WctWD3CDVFkIaUCRSkb5IBe1CgeQtdlUB2DJS/7rPg9DDw=="/>
+        </item>
+        <item>
             <title>2.0.2</title>
             <pubDate>Wed, 21 Oct 2026 22:30:42 +0200</pubDate>
             <sparkle:version>62</sparkle:version>
