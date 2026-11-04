@@ -3,6 +3,20 @@
     <channel>
         <title>SaveMode</title>
         <item>
+            <title>1.0.3</title>
+            <description><![CDATA[
+<ul>
+  <li>The app list scrolls neatly beneath the Today, Right now and Blocked cards.</li>
+  <li>A refreshed license window with clearer fields and buttons.</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 04 Nov 2026 20:53:04 +0100</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/SaveMode/releases/download/1.0.3/SaveMode.zip" length="9840174" type="application/octet-stream" sparkle:edSignature="d25sky8ZIeqa1wFUYoXnO75BoBuC0C1z6838TqF2Rzv2TCQLejjgL+MrXINz1eUFvbqjLsOUn/FU5YwLG4BkAA=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <description><![CDATA[
 <ul>
