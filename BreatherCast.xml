@@ -3,6 +3,19 @@
     <channel>
         <title>Breather</title>
         <item>
+            <title>2.0.4</title>
+            <description><![CDATA[
+<ul>
+  <li>Enter your Gumroad license key and Breather Pro unlocks right away, with the upgrade card gone from the Settings sidebar.</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 04 Nov 2026 20:52:16 +0100</pubDate>
+            <sparkle:version>64</sparkle:version>
+            <sparkle:shortVersionString>2.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Breather/releases/download/2.0.4/Breather.zip" length="17711909" type="application/octet-stream" sparkle:edSignature="qQrwbuddcVxXS0H1+hJ8FUkCcweT2we1YgvX16Cs8dUX/tZavJPg0iXf3XjX1csXgpqZl1lFw/+thbfVmvCgDg=="/>
+        </item>
+        <item>
             <title>2.0.3</title>
             <description><![CDATA[
 <ul>
