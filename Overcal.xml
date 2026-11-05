@@ -3,6 +3,21 @@
     <channel>
         <title>Overcal</title>
         <item>
+            <title>1.2.8</title>
+            <description><![CDATA[
+<ul>
+  <li>The daily summary is written in your language</li>
+  <li>Choose which calendar app to open, like BusyCal or Fantastical, in Settings › General</li>
+  <li>Quick add puts a trailing place into the event location, like "Team sync Friday 3pm in Room 4"</li>
+</ul>
+]]></description>
+            <pubDate>Thu, 05 Nov 2026 23:42:58 +0100</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.2.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Overcal/releases/download/1.2.8/Overcal.zip" length="20061615" type="application/octet-stream" sparkle:edSignature="XhNz5ptrYhu0xb1UZUz1H6RuAKREMnpiR2CjgJWOdrC26ocJRPk0WK/3JdLrFZgYWG+btHMWbhL1bWFQMdqDDQ=="/>
+        </item>
+        <item>
             <title>1.2.6</title>
             <description><![CDATA[
 <ul>
