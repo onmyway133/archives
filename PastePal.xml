@@ -3,6 +3,29 @@
     <channel>
         <title>PastePal Standalone</title>
                                                                                                                                                                                                                                         <item>
+            <title>2.22.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Copied secrets are detected as you copy them. Pick what to watch for in Ignore settings: cloud and AI provider keys, source control tokens, payment keys, private keys, database URLs, config secrets and payment cards.</li>
+  <li>Choose what happens to a detected secret: skip it, or keep it as a Secret clip with a masked preview that reveals, copies and pastes only after Touch ID.</li>
+  <li>Convert any text clip to a Secret from its context menu, and secrets stay out of multi-item copy and paste.</li>
+  <li>Mark a detected secret as concealed on the clipboard and clear it after a delay you choose.</li>
+  <li>Copied screenshots and screen recordings are marked as screenshots, listed under Screenshots in the sidebar with a badge in the side window, and can be cleared in one go.</li>
+  <li>Filter the side window history by type, collection, app, date range, pinned, locked and screenshots from the History button, with a filter icon while one is active.</li>
+  <li>Remove all clips of a type from its row in the sidebar, with a confirmation first.</li>
+  <li>The main window takes focus the first time it opens from the shortcut or a side window click.</li>
+  <li>Short confirmations now appear in a toast at the bottom of the screen.</li>
+  <li>Menu items show icons on macOS 27 in the clip context menu and the side window gear menu, and settings dropdowns use Liquid Glass on macOS 26.</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 06 Nov 2026 22:04:07 +0100</pubDate>
+            <sparkle:version>241</sparkle:version>
+            <sparkle:shortVersionString>2.22.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.22.0/PastePal.zip" length="37528080" type="application/octet-stream" sparkle:edSignature="mx0MpdfTuaxmgVHoqBwKgFdWvF44OCLTwrPSPAy2RLfTEP391PTcTGThq4suTDH1O98w6EhaBfCY1zJm73JcDA=="/>
+        </item>
+
+<item>
             <title>2.21.10</title>
             <description><![CDATA[
 <ul>
