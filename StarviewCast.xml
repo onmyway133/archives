@@ -17,6 +17,25 @@
         </item>
 
         <item>
+            <title>1.7.4</title>
+            <description><![CDATA[
+<ul>
+  <li>Keyword popularity comes from your own Apple Ads account, kept in the keychain on this Mac, with an optional Search Ads API key for more keywords</li>
+  <li>Each keyword shows an opportunity label, like Quick win or Long shot, based on its popularity and difficulty</li>
+  <li>Ask Claude, Cursor and other AI tools about your apps and keywords through the built-in MCP server, which you turn on in Settings</li>
+  <li>Ratings and Rankings open with a summary card, show daily trends in each row, and Rankings adds a trends chart</li>
+  <li>Periodic tracking catches up after the app was quit or the Mac slept, and Settings shows when it last ran</li>
+  <li>Row actions in Ratings and Rankings now live in a right-click menu</li>
+</ul>
+]]></description>
+            <pubDate>Thu, 05 Nov 2026 23:51:48 +0100</pubDate>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>1.7.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Starview/releases/download/1.7.4/Starview.zip" length="43421310" type="application/octet-stream" sparkle:edSignature="kJj4fFR25uvL9tzWCam5S15WW1vYiKY9YMQx7hnYEwxR99/8xWGcj7PhdishQNeEAI3cSElIBp67nOpNNZwKBQ=="/>
+        </item>
+
+        <item>
             <title>1.7.3</title>
             <description><![CDATA[
 <ul>
