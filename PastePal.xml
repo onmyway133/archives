@@ -2,7 +2,21 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>PastePal Standalone</title>
-                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                <item>
+            <title>2.22.1</title>
+            <description><![CDATA[
+<ul>
+  <li>Detected sensitive content can now be kept as a regular text clip. Save as Text is the new default, so turning on a detection rule keeps every copy in history; a toast still tells you what was detected, and the concealed marker and clear after a delay options still apply. Pick Ignore or Save as Secret in Ignore settings when you want more.</li>
+</ul>
+]]></description>
+            <pubDate>Sat, 07 Nov 2026 10:50:41 +0100</pubDate>
+            <sparkle:version>242</sparkle:version>
+            <sparkle:shortVersionString>2.22.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.22.1/PastePal.zip" length="37525917" type="application/octet-stream" sparkle:edSignature="/9k4BLW1xayhHsT2+4cqK4yd6ut/byrSeTQBSlVOUjO3qSNi3boXaDnAmk3tKQfExX5Menjegxk9K8i6Gc63Bw=="/>
+        </item>
+
+<item>
             <title>2.22.0</title>
             <description><![CDATA[
 <ul>
