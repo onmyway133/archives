@@ -3,6 +3,23 @@
     <channel>
         <title>Cleana</title>
         <item>
+            <title>1.4.2</title>
+            <description><![CDATA[
+<ul>
+  <li>New App Caches page: see every app's cache folder with its name and size, and move the ones you pick to the Trash. Caches of open apps are skipped</li>
+  <li>New Large Files page: find files of 100 MB or more in Documents, Desktop, Downloads, Movies, Music and Pictures, labeled as installers, videos, archives, virtual machines and more</li>
+  <li>A tidier sidebar: dev tools are grouped into Platforms, Languages and Tools, each with its own page</li>
+  <li>The Uninstaller opens instantly after your first visit</li>
+  <li>Safer defaults: conda, Cabal and Terraform folders are no longer preselected, global Dart tools are kept, and simulators that are running are never offered</li>
+</ul>
+]]></description>
+            <pubDate>Sat, 07 Nov 2026 23:42:37 +0100</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Cleana/releases/download/1.4.2/Cleana.zip" length="18955914" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>1.4.1</title>
             <description><![CDATA[
 <ul>
