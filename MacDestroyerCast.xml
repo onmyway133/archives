@@ -3,6 +3,23 @@
     <channel>
         <title>MacDestroyer</title>
         <item>
+            <title>1.1.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Earn Scrap from every rampage and spend it in the new Arsenal</li>
+  <li>Unlock four new weapons: grenade, shuriken, energy wave, and nuke</li>
+  <li>Unlock comic-style hit words and fire in blue, green, or purple</li>
+  <li>Unlock confetti explosions and slow motion on big combos</li>
+  <li>See a score card when a rampage ends, then copy, save, or share it</li>
+</ul>
+]]></description>
+            <pubDate>Sun, 08 Nov 2026 22:27:07 +0100</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/MacDestroyer/releases/download/1.1.0/MacDestroyer.zip" length="5719668" type="application/octet-stream" sparkle:edSignature="w2Fb1xrVIae3B9DK7KsOaeBacSv6EG/VlTQRbcQWe0NL7nRj5XNOGHFZdPsXxDAw/LQop03kzujIFVy1Oj96CQ=="/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <description><![CDATA[
 <ul>
