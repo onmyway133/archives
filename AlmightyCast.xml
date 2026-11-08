@@ -3,6 +3,25 @@
     <channel>
         <title>Almighty</title>
         <item>
+            <title>2.13.6</title>
+            <description><![CDATA[
+<ul>
+  <li>Drag images, videos, audio or PDFs and tap Shift to open a ring of actions under the pointer, then drop on one to convert, resize or compress right away</li>
+  <li>The notch shows each file converting, with the result one click away</li>
+  <li>With files selected in Finder, the radial menu leads with actions for them</li>
+  <li>Convert SVG images to PNG, JPEG, HEIC or WebP</li>
+  <li>Convert audio, or the sound of a video, to M4A</li>
+  <li>Turn each page of a PDF into a PNG or JPEG image</li>
+</ul>
+]]></description>
+            <pubDate>Sun, 08 Nov 2026 18:14:23 +0100</pubDate>
+            <sparkle:version>114</sparkle:version>
+            <sparkle:shortVersionString>2.13.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Almighty/releases/download/2.13.6/Almighty.zip" length="55175614" type="application/octet-stream" sparkle:edSignature="Xr0Nj8Rd0B91vJGpYULIIaE0d+i1KcI8WS+WI8dPX0EpvIR2Og4RFrov0IsTPM3jDwN0aPKPp21F/tdeSBGpBw=="/>
+        </item>
+
+        <item>
             <title>2.13.5</title>
             <description><![CDATA[
 <ul>
