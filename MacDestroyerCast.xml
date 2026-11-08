@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>MacDestroyer</title>
+        <item>
+            <title>1.0.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Freeze your screen into a picture and wreck it with nine weapons</li>
+  <li>Pistol, minigun, bazooka, flamethrower, laser, freeze ray, Tesla coil, black hole, and sword</li>
+  <li>Mix weapons to shatter ice, make steam, and chain lightning through fire</li>
+  <li>Count down 3, 2, 1, then chase combos, ranks, and trophies</li>
+  <li>Repair everything in one sweep, or save a picture of the wreckage</li>
+  <li>Sound, screen shake, and debris you can tune</li>
+  <li>Nothing real gets touched, and nothing leaves your Mac</li>
+</ul>
+]]></description>
+            <pubDate>Sun, 08 Nov 2026 18:01:22 +0100</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/MacDestroyer/releases/download/1.0.0/MacDestroyer.zip" length="5434081" type="application/octet-stream" sparkle:edSignature="XKzLn+FneIe4KGkidoId0rSNriWlipjjBGvBAZ7oH8f4IJ2OCP5NZLL1t49PqTrd/QGetrS4i7baY0MqnUGfCA=="/>
+        </item>
+    </channel>
+</rss>
