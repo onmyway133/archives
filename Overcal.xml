@@ -3,6 +3,20 @@
     <channel>
         <title>Overcal</title>
         <item>
+            <title>1.2.9</title>
+            <description><![CDATA[
+<ul>
+  <li>Links typed into quick add are saved with the event, and meeting links fill the location</li>
+  <li>Add an alert in quick add, or type "remind me 30 min before" in the description</li>
+</ul>
+]]></description>
+            <pubDate>Sun, 08 Nov 2026 23:54:15 +0100</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.2.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Overcal/releases/download/1.2.9/Overcal.zip" length="20099015" type="application/octet-stream" sparkle:edSignature="tuT06Ip+kBqeE2Cr3xOiyQkAkNnWbNW2EQWoyQvXB++LR7d27ZTicrJjfhgzsewaSiB4P+HfukcUc4LPdcgGDg=="/>
+        </item>
+        <item>
             <title>1.2.8</title>
             <description><![CDATA[
 <ul>
