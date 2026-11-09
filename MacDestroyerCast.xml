@@ -3,6 +3,20 @@
     <channel>
         <title>MacDestroyer</title>
         <item>
+            <title>1.1.1</title>
+            <description><![CDATA[
+<ul>
+  <li>A new welcome screen on first launch helps you allow Screen Recording before your first rampage</li>
+  <li>Rampages now start only on the screen under your mouse pointer, with a single countdown</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 09 Nov 2026 09:56:08 +0100</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/MacDestroyer/releases/download/1.1.1/MacDestroyer.zip" length="5733582" type="application/octet-stream" sparkle:edSignature="WiufXRp16lejCCBnYXCFFrxo7F7Fk9g1U4rz0NAbMu+zuoAnfQvI2eyyek3U5jyEP5IPqyUz1Vc7gJ8Mw5GlAA=="/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <description><![CDATA[
 <ul>
