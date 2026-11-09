@@ -3,6 +3,21 @@
     <channel>
         <title>Typefu</title>
         <item>
+            <title>1.1.8</title>
+            <description><![CDATA[
+<ul>
+  <li>More ways to transform selected text: PascalCase, Remove Empty Lines, Reverse Text, Minify JSON, and Join Lines with commas or spaces</li>
+  <li>New transforms appear inside the Transform group, even when you've arranged the selection bar yourself</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 09 Nov 2026 23:22:32 +0100</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Typefu/releases/download/1.1.8/Typefu.zip" length="28559389" type="application/octet-stream" sparkle:edSignature="ZtsN88ywXmNSbFpkmyetIq4CHnM2oPO3QbdcRJ8JskkPPqoHvwm8gB3SQTWyLKaetQethOtY2cTXqdZgRIQgDg=="/>
+        </item>
+
+        <item>
             <title>1.1.7</title>
             <description><![CDATA[
 <ul>
