@@ -3,6 +3,24 @@
     <channel>
         <title>PastePal Standalone</title>
                                                                                                                                                                                                                                                 <item>
+            <title>2.22.2</title>
+            <description><![CDATA[
+<ul>
+  <li>Settings and the main window now reliably come to the front, even when another app is active.</li>
+  <li>Rich text copied from web pages and documents is captured much faster and uses less of your Mac's resources.</li>
+  <li>Clipboard history stays more reliable when many clips arrive at once.</li>
+  <li>Empty Trash in the sidebar now asks before clearing, so nothing is removed by accident.</li>
+  <li>Fresh sidebar icons for Home, Assist, Settings and Rich Text.</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 09 Nov 2026 23:17:19 +0100</pubDate>
+            <sparkle:version>243</sparkle:version>
+            <sparkle:shortVersionString>2.22.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.22.2/PastePal.zip" length="37662784" type="application/octet-stream" sparkle:edSignature="2tXS0WZQ9gm960YlPxsuXrOjVE4ueVK1hyCt7Tkkt4L5/MVu+z445JcAyX+3Ekhi/gVYpqFc7tgoXUJIu1v5Cg=="/>
+        </item>
+
+<item>
             <title>2.22.1</title>
             <description><![CDATA[
 <ul>
