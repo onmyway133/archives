@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>BetterConnect</title>
+        <item>
+            <title>1.0.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Manage several App Store Connect accounts, with keys kept in the Keychain</li>
+  <li>See versions, builds, and TestFlight groups and testers at a glance</li>
+  <li>Edit App Store text per language and browse App Info with screenshots</li>
+  <li>Read customer reviews, see Apple's review summary, and draft replies with on-device AI</li>
+  <li>Change prices in bulk across territories, with a preview before anything changes</li>
+  <li>Set fair prices by purchasing power, price levels, the Big Mac index, or income</li>
+  <li>Schedule price changes for a later date</li>
+  <li>Create offer codes and export them</li>
+  <li>Follow daily units and proceeds on the Sales page</li>
+  <li>Let AI assistants work with your apps through the built-in MCP server</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 09 Nov 2026 23:29:24 +0100</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/BetterConnect/releases/download/1.0.0/BetterConnect.zip" length="30187583" type="application/octet-stream" sparkle:edSignature="/nwKbGCjvjkRBvDMKXU58gL1tdz8koxuIDfnL1+/uR91/T8+XGXu4zvBQQsU8c29nUtA/lQ8OosNfEtjGg46Bg=="/>
+        </item>
+    </channel>
+</rss>
