@@ -3,6 +3,22 @@
     <channel>
         <title>PastePal Standalone</title>
                                                                                                                                                                                                                                                 <item>
+            <title>2.22.3</title>
+            <description><![CDATA[
+<ul>
+  <li>Auto Plain Text now pastes only plain text everywhere, including Microsoft Word.</li>
+  <li>PastePal keeps running when macOS frees up disk space.</li>
+  <li>A cleaner preview top bar.</li>
+  <li>Clean Up History in the gear menu now matches the rest of the menu.</li>
+</ul>
+]]></description>
+            <pubDate>Tue, 10 Nov 2026 21:29:08 +0100</pubDate>
+            <sparkle:version>244</sparkle:version>
+            <sparkle:shortVersionString>2.22.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.22.3/PastePal.zip" length="37663346" type="application/octet-stream" sparkle:edSignature="5jz62K1s7nW9kTsKA4VlUbYLMAlkVcAOX2odtu/jE1vvlW4JHHnruApz76JgRk3zej9UnGH95T+28js4HlT0AA=="/>
+        </item>
+        <item>
             <title>2.22.2</title>
             <description><![CDATA[
 <ul>
