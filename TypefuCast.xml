@@ -3,6 +3,25 @@
     <channel>
         <title>Typefu</title>
         <item>
+            <title>1.1.9</title>
+            <description><![CDATA[
+<ul>
+  <li>Format snippets with bold, italic, underline, links, lists, text colors and highlights, and they paste with their formatting</li>
+  <li>Add images to snippets</li>
+  <li>Fill in a snippet right inside its text: each field shows as a pill you click to edit</li>
+  <li>Fill-in fields show as pills in the snippet editor too, and changes to them can be undone</li>
+  <li>A fresh look for the snippet and action editors, with uses, last used and other details at a glance</li>
+  <li>Pasting into other apps is more dependable</li>
+</ul>
+]]></description>
+            <pubDate>Tue, 10 Nov 2026 23:42:30 +0100</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.1.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Typefu/releases/download/1.1.9/Typefu.zip" length="28678362" type="application/octet-stream" sparkle:edSignature="+cXkcposVJHTvufHf85ixa94LnCFD8WDoxsMGqdnWyfWAEl8PUn4XN068/8Cz1RbFALAhB1SiN0bl0WwK4gcDA=="/>
+        </item>
+
+        <item>
             <title>1.1.8</title>
             <description><![CDATA[
 <ul>
