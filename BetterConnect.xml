@@ -3,6 +3,23 @@
     <channel>
         <title>BetterConnect</title>
         <item>
+            <title>1.0.1</title>
+            <description><![CDATA[
+<ul>
+  <li>See every running sale and upcoming price change across all your apps on the new Prices page</li>
+  <li>Rank all your apps by rating, ratings count, recent reviews, and unanswered replies on the new Ratings &amp; Reviews page</li>
+  <li>Review the old and new price in every storefront before a bulk price change, and export it as CSV</li>
+  <li>Restore old prices after a sale from Price History, including changes made by AI assistants over MCP</li>
+  <li>Clearer purchasing power options in Bulk Pricing</li>
+</ul>
+]]></description>
+            <pubDate>Thu, 12 Nov 2026 23:19:00 +0100</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/BetterConnect/releases/download/1.0.1/BetterConnect.zip" length="30931164" type="application/octet-stream" sparkle:edSignature="U2iDLBd+8px1oWBhJNvvqjovJkVjnkr2Og7MrV+K0QxL6Y4iItXNkdq2jLmvDBlBugJjX3u4Kh+k0VNVoDd+DA=="/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <description><![CDATA[
 <ul>
