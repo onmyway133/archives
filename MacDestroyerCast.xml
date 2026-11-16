@@ -3,6 +3,20 @@
     <channel>
         <title>MacDestroyer</title>
         <item>
+            <title>1.1.2</title>
+            <description><![CDATA[
+<ul>
+  <li>Improvements</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 16 Nov 2026 10:08:00 +0100</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/MacDestroyer/releases/download/1.1.2/MacDestroyer.zip" length="5747833" type="application/octet-stream" sparkle:edSignature="yNzkfaUzdVXtXa46ucWb2Qad6DiZNtKAVTfZBLTKXpvgWbBCLlt4jxqs+oD2FGtkHdy+Pb+Bsj2jGXswTZEZAw=="/>
+        </item>
+
+        <item>
             <title>1.1.1</title>
             <description><![CDATA[
 <ul>
