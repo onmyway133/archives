@@ -3,6 +3,20 @@
     <channel>
         <title>Cleana</title>
         <item>
+            <title>1.4.3</title>
+            <description><![CDATA[
+<ul>
+  <li>Improvements</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 16 Nov 2026 10:35:21 +0100</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Cleana/releases/download/1.4.3/Cleana.zip" length="18951229" type="application/octet-stream" sparkle:edSignature="dbOmPl0RMwsHu1PwAmWP3HSLlL2x8gVDz5izXL/xqG4P3hcrdTjb419V8U8swSlrf1/76Fej4gwTfM/+//8xBg=="/>
+        </item>
+
+        <item>
             <title>1.4.2</title>
             <description><![CDATA[
 <ul>
