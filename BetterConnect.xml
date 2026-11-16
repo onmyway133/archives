@@ -3,6 +3,20 @@
     <channel>
         <title>BetterConnect</title>
         <item>
+            <title>1.0.2</title>
+            <description><![CDATA[
+<ul>
+  <li>Improvements</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 16 Nov 2026 10:15:24 +0100</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/BetterConnect/releases/download/1.0.2/BetterConnect.zip" length="30930196" type="application/octet-stream" sparkle:edSignature="fyOHE87QknqtGPhkHR4ZBQ/rPtuZ73v4lSSBCe7gkgu5MpNafaIdWxY7Z5Mul6noro9BiclPBKkr+HqcLmL4DQ=="/>
+        </item>
+
+        <item>
             <title>1.0.1</title>
             <description><![CDATA[
 <ul>
