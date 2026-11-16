@@ -3,6 +3,20 @@
     <channel>
         <title>Turbo</title>
         <item>
+            <title>1.0.4</title>
+            <description><![CDATA[
+<ul>
+  <li>Improvements</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 16 Nov 2026 10:38:56 +0100</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Turbo/releases/download/1.0.4/Turbo.zip" length="5598408" type="application/octet-stream" sparkle:edSignature="r3VCcUcxZRqhHBen2bHBxekHjob0t5RXi5XRadwfhNKSVkjz8UTavZYOHx/yEAOMDAy8daQt821rtAfv3M0hBQ=="/>
+        </item>
+
+        <item>
             <title>1.0.3</title>
             <description><![CDATA[
 <ul>
