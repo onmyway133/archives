@@ -3,6 +3,20 @@
     <channel>
         <title>SaveMode</title>
         <item>
+            <title>1.0.4</title>
+            <description><![CDATA[
+<ul>
+  <li>Improvements</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 16 Nov 2026 10:38:28 +0100</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/SaveMode/releases/download/1.0.4/SaveMode.zip" length="9848961" type="application/octet-stream" sparkle:edSignature="4S1fWlkOy78BugGCTMU7GRSFYIZe7vDY0qi7AwHKZ9HGBrraAfEjAbnT9vnuM7xs/wDRYQqMkRNBfv7nJiVjCw=="/>
+        </item>
+
+        <item>
             <title>1.0.3</title>
             <description><![CDATA[
 <ul>
