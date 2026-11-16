@@ -3,6 +3,20 @@
     <channel>
         <title>Almighty</title>
         <item>
+            <title>2.13.7</title>
+            <description><![CDATA[
+<ul>
+  <li>Improvements</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 16 Nov 2026 10:00:40 +0100</pubDate>
+            <sparkle:version>115</sparkle:version>
+            <sparkle:shortVersionString>2.13.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Almighty/releases/download/2.13.7/Almighty.zip" length="55020893" type="application/octet-stream" sparkle:edSignature="c2cGVjsVk82aGYw7TcaXln6NsVqVBRaGs+t7762+9McYaD+Eu1nCDKDFbmu48VkCQF1U/of9M6EcupozHox+BA=="/>
+        </item>
+
+        <item>
             <title>2.13.6</title>
             <description><![CDATA[
 <ul>
