@@ -3,6 +3,19 @@
     <channel>
         <title>Starview</title>
         <item>
+            <title>1.7.7</title>
+            <description><![CDATA[
+<ul>
+  <li>Improvements</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 18 Nov 2026 00:31:50 +0100</pubDate>
+            <sparkle:version>37</sparkle:version>
+            <sparkle:shortVersionString>1.7.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Starview/releases/download/1.7.7/Starview.zip" length="43281904" type="application/octet-stream" sparkle:edSignature="uSaPMvqgomyvYSx4JsRn4QcigR0bQOB4QODJZXzQNEdJCjs5jWBWb46HRbeZsn6x3zEBhRTlKo9mvy+iasOgBQ=="/>
+        </item>
+        <item>
             <title>1.7.6</title>
             <description><![CDATA[
 <ul>
