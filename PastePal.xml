@@ -3,6 +3,19 @@
     <channel>
         <title>PastePal Standalone</title>
                                                                                                                                                                                                                                                 <item>
+            <title>2.22.4</title>
+            <description><![CDATA[
+<ul>
+  <li>Improvements</li>
+</ul>
+]]></description>
+            <pubDate>Tue, 17 Nov 2026 23:59:10 +0100</pubDate>
+            <sparkle:version>245</sparkle:version>
+            <sparkle:shortVersionString>2.22.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.22.4/PastePal.zip" length="37708299" type="application/octet-stream" sparkle:edSignature="sB1W9/WCFBtW+Ouiu3pYCc6My0NXziaaQMXH2D+AgFKIRvwmBkp6su3siXGhxOnYj8OJygGsAE6Z4E3eX99QBw=="/>
+        </item>
+        <item>
             <title>2.22.3</title>
             <description><![CDATA[
 <ul>
