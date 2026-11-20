@@ -3,6 +3,20 @@
     <channel>
         <title>Almighty</title>
         <item>
+            <title>2.13.9</title>
+            <description><![CDATA[
+<ul>
+  <li>New Cursor Effect tweak: leave a trail of colorful smoke, fairy dust, a comet, bubbles, snow or emoji behind the pointer</li>
+  <li>Pick a style and size with a live preview, and the effect pauses itself when the pointer rests</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 20 Nov 2026 22:13:04 +0100</pubDate>
+            <sparkle:version>117</sparkle:version>
+            <sparkle:shortVersionString>2.13.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Almighty/releases/download/2.13.9/Almighty.zip" length="55118613" type="application/octet-stream" sparkle:edSignature="IPp4qG1rtrewpYVTNNmipVtZy1WQ3JGAO9l/gAJnMGgnGpPpIPzKbI9o+cHZ2MIjNZ0OLN/YIUDw4/aVEPQDBA=="/>
+        </item>
+        <item>
             <title>2.13.8</title>
             <description><![CDATA[
 <ul>
