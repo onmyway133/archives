@@ -3,6 +3,25 @@
     <channel>
         <title>MacDestroyer</title>
         <item>
+            <title>1.2.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Get MacDestroyer Pro, pay what you want on Gumroad, even $0</li>
+  <li>Pro unlocks the grenade, shuriken, energy wave and nuke, plus comic hits, fire colors, party mode and slow motion</li>
+  <li>Pro replaces Scrap, so everything unlocks at once with your license key</li>
+  <li>A new Pro window shows every weapon and effect it adds</li>
+  <li>Enter your license key from the menu bar or Settings, About</li>
+  <li>The nine original weapons stay free</li>
+</ul>
+]]></description>
+            <pubDate>Sat, 21 Nov 2026 23:33:11 +0100</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/MacDestroyer/releases/download/1.2.0/MacDestroyer.zip" length="17295476" type="application/octet-stream" sparkle:edSignature="t4NvV6+8ocBvSsDjvb0Ie+FUfrnTL1YjFoqMhyDE5gC3ndxC1Gz8KW7LEkpBN0dwR+ruv/MfjLO2pgzc2y3kAA=="/>
+        </item>
+
+        <item>
             <title>1.1.2</title>
             <description><![CDATA[
 <ul>
