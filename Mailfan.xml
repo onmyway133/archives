@@ -3,6 +3,19 @@
     <channel>
         <title>Mailfan</title>
         <item>
+            <title>1.0.3</title>
+            <description><![CDATA[
+<ul>
+  <li>Press Backspace to delete the selected messages in the mail list</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 23 Nov 2026 21:44:52 +0100</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Mailfan/releases/download/1.0.3/Mailfan.zip" length="31366418" type="application/octet-stream" sparkle:edSignature="uIJTJxXC5j/wRlJr74HvJ3FpMdWfbrqJUNF+ZqBJWQh6Rp8fyA6A2AGwqOYKnEmXKXA9KoB39g+1NiHPCZUyDQ=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <description><![CDATA[
 <ul>
