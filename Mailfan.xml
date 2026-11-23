@@ -3,6 +3,19 @@
     <channel>
         <title>Mailfan</title>
         <item>
+            <title>1.0.2</title>
+            <description><![CDATA[
+<ul>
+  <li>Mailfan now counts how many people use it each day, with a random install ID and nothing from your mail</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 23 Nov 2026 16:51:41 +0100</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Mailfan/releases/download/1.0.2/Mailfan.zip" length="31366587" type="application/octet-stream" sparkle:edSignature="PyipACJBWEq/43s14D0R6T/pYhwnbYAmAWzBSY/NOSr+3yOjbNlyNkPWuXWc5FyUUAx0SeJFacTdp1h+7rWSCw=="/>
+        </item>
+        <item>
             <title>1.0.1</title>
             <description><![CDATA[
 <ul>
