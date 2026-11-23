@@ -3,6 +3,30 @@
     <channel>
         <title>Mailfan</title>
         <item>
+            <title>1.0.1</title>
+            <description><![CDATA[
+<ul>
+  <li>Meeting invites show as a card with Add to Calendar</li>
+  <li>Run Mailfan actions from Shortcuts</li>
+  <li>Recipients are suggested from your Contacts as you type</li>
+  <li>Quoted text in replies tucks away behind Show Quotes</li>
+  <li>Links in mail open without tracking parameters</li>
+  <li>Sign-in emails get an Open Link button</li>
+  <li>See the sender's domain at a glance, open their website from the header, and copy their name or email</li>
+  <li>Mailfan tells you when your server marked a message as spam, and Not Junk moves it back</li>
+  <li>Moving mail to Junk now teaches your server's spam filter too</li>
+  <li>Conversations follow your server's own threads on IMAP and JMAP</li>
+  <li>Trusted MCP tokens can send email without asking each time</li>
+  <li>Account settings in clear sections, with account and tag colors picked from a popover</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 23 Nov 2026 16:30:06 +0100</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Mailfan/releases/download/1.0.1/Mailfan.zip" length="31342601" type="application/octet-stream" sparkle:edSignature="+YnvRh34HF1UH7SqbiDYJIXkE1PJn/lXEVz6nAKbJMp6UaaI3Ia9Aqe1c9fdMbJBPweKinZROCzE8/M8yvY8DQ=="/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <description><![CDATA[
 <ul>
