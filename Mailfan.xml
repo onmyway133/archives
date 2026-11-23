@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Mailfan</title>
+        <item>
+            <title>1.0.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Every account in one calm inbox: Gmail, Outlook, iCloud, Yahoo, Fastmail and any IMAP, POP3 or JMAP server</li>
+  <li>Triage from the keyboard with archive, snooze, pin, Reply Later, undo send and a command palette</li>
+  <li>Inbox split into People, Updates and Newsletters, plus rules, templates and send later</li>
+  <li>AI summaries, reply drafts and Ask your inbox with Apple Intelligence, Ollama, LM Studio or your own key</li>
+  <li>Claude, Cursor and other agents can search and draft mail through MCP, with tokens you scope</li>
+  <li>Your mail stays on your Mac</li>
+  <li>Try everything free for 14 days, then keep it with a one-time license</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 23 Nov 2026 13:13:09 +0100</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Mailfan/releases/download/1.0.0/Mailfan.zip" length="31248870" type="application/octet-stream" sparkle:edSignature="Kr0lysqAgNrmkT62P1FJ9dtb1y9DFDrbhc6sK47U147h1FMA4pvEAXRkxX29O4KpQwC8tojqVFnpFGFmb5f9DQ=="/>
+        </item>
+    </channel>
+</rss>
