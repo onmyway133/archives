@@ -3,6 +3,19 @@
     <channel>
         <title>PastePal Standalone</title>
                                                                                                                                                                                                                                                 <item>
+            <title>2.22.5</title>
+            <description><![CDATA[
+<ul>
+  <li>Update windows now come to the front, and PastePal relaunches on its own after updating.</li>
+</ul>
+]]></description>
+            <pubDate>Mon, 23 Nov 2026 12:04:05 +0100</pubDate>
+            <sparkle:version>246</sparkle:version>
+            <sparkle:shortVersionString>2.22.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.22.5/PastePal.zip" length="37718567" type="application/octet-stream" sparkle:edSignature="02gsAU23SSypl3gah2f3YHyDM5GY4xjSMFy1D4CwQMa8QoBxWAvfPbtxgS/yGHRu8tr5rCjWMrfRtTgLiTpYCw=="/>
+        </item>
+        <item>
             <title>2.22.4</title>
             <description><![CDATA[
 <ul>
