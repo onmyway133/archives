@@ -3,6 +3,19 @@
     <channel>
         <title>Mailfan</title>
         <item>
+            <title>1.0.5</title>
+            <description><![CDATA[
+<ul>
+  <li>Mailfan stays steady when you open, move or mark messages while it checks for new mail</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 25 Nov 2026 23:34:19 +0100</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Mailfan/releases/download/1.0.5/Mailfan.zip" length="31385614" type="application/octet-stream" sparkle:edSignature="DMgc20pn40j+fUoL/tByQa5J156lCR0kys/om08sumVvET1MBEuxRdx5S1ckca75pqgfi3ub8Yq8VXWeJnyTDw=="/>
+        </item>
+        <item>
             <title>1.0.4</title>
             <description><![CDATA[
 <ul>
