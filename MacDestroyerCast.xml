@@ -3,6 +3,28 @@
     <channel>
         <title>MacDestroyer</title>
         <item>
+            <title>1.2.1</title>
+            <description><![CDATA[
+<ul>
+  <li>Play with your hands: your webcam watches one hand and gestures fire your weapons</li>
+  <li>Finger gun shoots, a fist fires rockets, point for the laser, and a fast chop slashes</li>
+  <li>Rock on to rain meteors around your aim</li>
+  <li>Thumbs up charges the Energy Wave with Pro</li>
+  <li>Snap to blow it all up</li>
+  <li>Your hand glows on screen while you aim, with an emoji when a gesture lands</li>
+  <li>Pick hands or mouse at the start of each rampage, then count in with 1, 2, 3 fingers</li>
+  <li>Every gesture is listed in Settings, Controls</li>
+  <li>Video stays on your Mac</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 25 Nov 2026 14:29:40 +0100</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/MacDestroyer/releases/download/1.2.1/MacDestroyer.zip" length="17449300" type="application/octet-stream" sparkle:edSignature="kDZqDDBH+y6LlSYrncCZbe79sRiHvF2XQjMpMEWvz6xOh5mrxvE0LvvouFgJFxAM738vSgnab32q5mi9byALCg=="/>
+        </item>
+
+        <item>
             <title>1.2.0</title>
             <description><![CDATA[
 <ul>
