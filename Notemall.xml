@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Notemall</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Wed, 25 Nov 2026 16:11:57 +0100</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>First release of Notemall: fast notes for Mac, kept as plain Markdown files in a folder you choose</li>
+<li>Type / to add headings, to-dos, tables, callouts, code and images</li>
+<li>Link notes with [[ and see every note that links back</li>
+<li>Pick a day for a note and it comes back in Today, with Upcoming and a calendar</li>
+<li>Folders, tags, themes and ⌘K to find or create anything</li>
+<li>Ask your notes with Apple Intelligence, and connect assistants through MCP</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/IndieGoodies/Notemall/releases/download/1.0.0/Notemall.zip" length="30009209" type="application/octet-stream" sparkle:edSignature="6k7PAEnO2Cxqbh0J2D5yO0Xr1pQgNT66uFXJ/KwAtHMv+X4dZn4GRnX3C0FtlW+zutzdsuTs2xsLa4lu3U/7Cg=="/>
+        </item>
+    </channel>
+</rss>
