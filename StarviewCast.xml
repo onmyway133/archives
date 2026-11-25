@@ -3,6 +3,26 @@
     <channel>
         <title>Starview</title>
         <item>
+            <title>1.7.8</title>
+            <description><![CDATA[
+<ul>
+  <li>See a 30-day rank sparkline for each tracked keyword, right in the Rank column</li>
+  <li>See estimated search demand next to Apple's popularity, even when Apple Ads has no score</li>
+  <li>Difficulty now reads Easy, Moderate, Hard or Very hard everywhere</li>
+  <li>Click rank, popularity, demand or difficulty to open its trends chart</li>
+  <li>New Suggest button finds keywords to add for your whole app, from your listing and top keywords</li>
+  <li>Get Apple Ads keyword suggestions without signing in to the Apple Ads website</li>
+  <li>Right-click a keyword for Trends, related suggestions and Remove</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 25 Nov 2026 13:40:57 +0100</pubDate>
+            <sparkle:version>38</sparkle:version>
+            <sparkle:shortVersionString>1.7.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Starview/releases/download/1.7.8/Starview.zip" length="43511050" type="application/octet-stream" sparkle:edSignature="c/+eFd8ydOpeezFb1wfU+x6ytoFqkdEEvOZ7iGn22oTbqR5lPzOj1qBh77QycV+K9XFJ4pZ/40acuv0zfM4+Bw=="/>
+        </item>
+
+        <item>
             <title>1.7.7</title>
             <description><![CDATA[
 <ul>
