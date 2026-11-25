@@ -3,6 +3,20 @@
     <channel>
         <title>Mailfan</title>
         <item>
+            <title>1.0.6</title>
+            <description><![CDATA[
+<ul>
+  <li>Tags and Reply Later reminders sit beside the message preview, so they always show in full in the list</li>
+  <li>Removing a flag or tag now clears it from every message in the conversation</li>
+</ul>
+]]></description>
+            <pubDate>Thu, 26 Nov 2026 00:13:27 +0100</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Mailfan/releases/download/1.0.6/Mailfan.zip" length="31383809" type="application/octet-stream" sparkle:edSignature="e/SCMFiMAIAwv6yiVI3suJezz62LZ+q9SIXENg0KlW+6Cfc9V+kAmbrkIVJAj5SED/kRlk+gzS0zjDd0YGjRAg=="/>
+        </item>
+        <item>
             <title>1.0.5</title>
             <description><![CDATA[
 <ul>
