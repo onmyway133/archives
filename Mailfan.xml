@@ -3,6 +3,20 @@
     <channel>
         <title>Mailfan</title>
         <item>
+            <title>1.0.4</title>
+            <description><![CDATA[
+<ul>
+  <li>The sync icon now spins while Mailfan checks for new mail</li>
+  <li>Mailfan keeps your account passwords in the data protection keychain, so updates no longer ask for your Mac password</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 25 Nov 2026 21:08:39 +0100</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Mailfan/releases/download/1.0.4/Mailfan.zip" length="31381345" type="application/octet-stream" sparkle:edSignature="Qgz7vIQLCg7/fu04yiEAv+RKc3NjB/yWknxTAXOlPFdR3OpFsqGBbXcU+Aj2shbKS9xcimtwJaRn9D4h6pwkDw=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <description><![CDATA[
 <ul>
