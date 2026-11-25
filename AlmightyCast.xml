@@ -3,6 +3,22 @@
     <channel>
         <title>Almighty</title>
         <item>
+            <title>2.14.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Speech models for Dictate now appear in Settings > Packages, where you can download or remove them</li>
+  <li>Downloading a Dictate speech model is more reliable, and an interrupted download starts fresh on the next try</li>
+  <li>Clearer messages when a speech model can't be downloaded, so you know to check your connection or firewall</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 25 Nov 2026 14:25:18 +0100</pubDate>
+            <sparkle:version>118</sparkle:version>
+            <sparkle:shortVersionString>2.14.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Almighty/releases/download/2.14.0/Almighty.zip" length="55084837" type="application/octet-stream" sparkle:edSignature="CgW34Bo/tDFR9B0sfcwqSXKMrBfk2zp2lm36kEfbC4gPOhOAOf4uQ0xyuN6yG1XyyJusgwGI26zBNtyOXarcBQ=="/>
+        </item>
+
+        <item>
             <title>2.13.9</title>
             <description><![CDATA[
 <ul>
