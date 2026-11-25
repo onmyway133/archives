@@ -3,6 +3,21 @@
     <channel>
         <title>Starview</title>
         <item>
+            <title>1.7.9</title>
+            <description><![CDATA[
+<ul>
+  <li>See Starview's demand estimate in Suggest Keywords, next to popularity</li>
+  <li>Suggestions leave out app names, so you get keywords people actually search for</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 25 Nov 2026 14:14:36 +0100</pubDate>
+            <sparkle:version>39</sparkle:version>
+            <sparkle:shortVersionString>1.7.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Starview/releases/download/1.7.9/Starview.zip" length="43518417" type="application/octet-stream" sparkle:edSignature="We9FHJZ9sLbsg81bSjn8aibGBufoLkcxyIW1i9zJliO08SH9b4ggrHaiXXZG/t1Px4y1GL5s+6Yz4Zrut/HXDA=="/>
+        </item>
+
+        <item>
             <title>1.7.8</title>
             <description><![CDATA[
 <ul>
