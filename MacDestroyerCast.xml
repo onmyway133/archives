@@ -3,6 +3,23 @@
     <channel>
         <title>MacDestroyer</title>
         <item>
+            <title>1.2.2</title>
+            <description><![CDATA[
+<ul>
+  <li>Pick the screen and the camera right before a rampage starts</li>
+  <li>Hands play uses the camera on the screen you play on, like a display's own camera</li>
+  <li>Choose a camera for hands play in Settings, Controls</li>
+  <li>Esc now always closes a rampage, even before you pick hands or mouse</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 25 Nov 2026 17:43:08 +0100</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/MacDestroyer/releases/download/1.2.2/MacDestroyer.zip" length="17520693" type="application/octet-stream" sparkle:edSignature="xbbDo5zztJo1vekhHSNmbljcDZeVjHiUcDsM3VyT8/kS0BXTuzBKSBQ2EOyhkIkLPOpVYeYEtW+ai0NVyQmTDg=="/>
+        </item>
+
+        <item>
             <title>1.2.1</title>
             <description><![CDATA[
 <ul>
