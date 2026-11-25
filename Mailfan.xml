@@ -3,6 +3,19 @@
     <channel>
         <title>Mailfan</title>
         <item>
+            <title>1.0.7</title>
+            <description><![CDATA[
+<ul>
+  <li>Hide Quotes now folds the quoted mail away again, so a long reply goes back to its short size</li>
+</ul>
+]]></description>
+            <pubDate>Thu, 26 Nov 2026 00:24:42 +0100</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Mailfan/releases/download/1.0.7/Mailfan.zip" length="31384908" type="application/octet-stream" sparkle:edSignature="Btz14dunklmNXMrAPy2PXUP0U03Ec0aCZ9a3cnDlaz1ZHG2gQmDtla3Hk5krjMAvxO1YNxuQB3SDfjBl7uGTAg=="/>
+        </item>
+        <item>
             <title>1.0.6</title>
             <description><![CDATA[
 <ul>
