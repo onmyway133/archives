@@ -3,6 +3,24 @@
     <channel>
         <title>Notemall</title>
         <item>
+            <title>1.1.0</title>
+            <pubDate>Wed, 25 Nov 2026 21:28:45 +0100</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Turn any folder into a board: drag cards between columns, add or rename columns, and open a card in a side panel</li>
+<li>Type : and two letters to pick an emoji, or type a full shortcode like :tada:</li>
+<li>A menu bar icon for a quick new note and your recent notes from any app, which you can turn off in Settings</li>
+<li>Select several notes and folders in the sidebar and drag them into a folder together</li>
+<li>A tidier sidebar that lists folders, with a + next to search for a new note or board</li>
+<li>Assistants connected through MCP can read boards and move cards</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/IndieGoodies/Notemall/releases/download/1.1.0/Notemall.zip" length="30333690" type="application/octet-stream" sparkle:edSignature="KwswCpWnItudSX/Gs4sr2k6EroHbGXB/MTt6I6bCwy17WRJeZlS+u7J2cNPlhLUDRYtXIzUS6VTDdyFItnDgDQ=="/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <pubDate>Wed, 25 Nov 2026 16:11:57 +0100</pubDate>
             <sparkle:version>1</sparkle:version>
