@@ -3,6 +3,21 @@
     <channel>
         <title>Starview</title>
         <item>
+            <title>1.8.0</title>
+            <description><![CDATA[
+<ul>
+  <li>Ranked Keywords is back. Click Discover to find the keywords your app ranks for, from your title, tracked keywords and keyword ideas</li>
+  <li>See ranks down to 250, so smaller apps find more of their keywords</li>
+</ul>
+]]></description>
+            <pubDate>Wed, 25 Nov 2026 14:47:33 +0100</pubDate>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Starview/releases/download/1.8.0/Starview.zip" length="43619274" type="application/octet-stream" sparkle:edSignature="ugkzI9HAtmm/3K15PlWMa2Yzczdl52FDBUcTrbeEK8wVvzHdPVWmn07QSDZwjYtLW4bfuBv93SibR6FZNdCzBQ=="/>
+        </item>
+
+        <item>
             <title>1.7.9</title>
             <description><![CDATA[
 <ul>
