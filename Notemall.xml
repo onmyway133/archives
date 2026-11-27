@@ -3,6 +3,23 @@
     <channel>
         <title>Notemall</title>
         <item>
+            <title>1.1.1</title>
+            <description><![CDATA[
+<ul>
+  <li>Select several notes in the list with Command or Shift click, then move them to a folder or the trash together</li>
+  <li>Undo and redo moving or trashing notes with Command Z, including notes dragged onto a sidebar folder</li>
+  <li>Copy File URL for notes and folders, with a small Copied message for every copy action</li>
+  <li>Tags now appear together with the note as you switch notes</li>
+  <li>A narrower note list that leaves more room for writing</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 27 Nov 2026 07:25:10 +0100</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Notemall/releases/download/1.1.1/Notemall.zip" length="30379663" type="application/octet-stream" sparkle:edSignature="YODt16st3a6UQ2+bMmE0IQ0Fqx1JPpeBfyUxfFgDXEb4Ox5KNx6BCLbKtw7WOk1bn6WNAta5CfkaS3rFn9liDA=="/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <pubDate>Wed, 25 Nov 2026 21:28:45 +0100</pubDate>
             <sparkle:version>2</sparkle:version>
