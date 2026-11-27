@@ -3,6 +3,22 @@
     <channel>
         <title>Notemall</title>
         <item>
+            <title>1.1.3</title>
+            <description><![CDATA[
+<ul>
+  <li>Open Quickly finds notes by name and folder first. Type "work index" to find the index note in your work folder</li>
+  <li>Turn on Contents in Open Quickly, or press Tab, to search the text inside notes</li>
+  <li>Link to Note opens the same search, so the note you want is quick to find</li>
+  <li>Links include the folder when two notes share a name, so they open the right one</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 27 Nov 2026 22:38:06 +0100</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Notemall/releases/download/1.1.3/Notemall.zip" length="30439288" type="application/octet-stream" sparkle:edSignature="7KijSeqJ4DvfT+hM1DpJ0zrE114gZOEzhuptfJNkw9fR9k5bpGRwHT42UTOOwb/RO1xv82LAZFDc5hUtbDwfAQ=="/>
+        </item>
+        <item>
             <title>1.1.2</title>
             <description><![CDATA[
 <ul>
