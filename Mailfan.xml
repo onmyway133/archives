@@ -3,6 +3,20 @@
     <channel>
         <title>Mailfan</title>
         <item>
+            <title>1.0.8</title>
+            <description><![CDATA[
+<ul>
+  <li>Mailfan reconnects by itself after your Mac wakes or the network changes, so mail keeps syncing</li>
+  <li>When an MCP app wants to send, Send All for 1 Hour lets that app send without asking for the next hour</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 27 Nov 2026 07:24:39 +0100</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Mailfan/releases/download/1.0.8/Mailfan.zip" length="31387553" type="application/octet-stream" sparkle:edSignature="K0bDlN7rgngCj6Dyfn7H00yecK9/ZZ00ioC5g3Obcj2WQ9SK4dwZGPOjZtFHjf/Bp2KwvAOB6Xf52wgxNoOQDw=="/>
+        </item>
+        <item>
             <title>1.0.7</title>
             <description><![CDATA[
 <ul>
