@@ -3,6 +3,21 @@
     <channel>
         <title>Typefu</title>
         <item>
+            <title>1.2.1</title>
+            <description><![CDATA[
+<ul>
+  <li>Return in a "pick from a list" field now picks the highlighted option</li>
+  <li>Turn off emoji suggestions on their own, in Settings or from the menu bar menu</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 27 Nov 2026 22:07:55 +0100</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Typefu/releases/download/1.2.1/Typefu.zip" length="28688790" type="application/octet-stream" sparkle:edSignature="/c24JBSsq3cIjtJOPRAJV73F6syXUe1bU8+ueGE1AGLDVeDG4ts/1wvi2Gcr09QmxPaoZpyeTOGktipKZk8gDA=="/>
+        </item>
+
+        <item>
             <title>1.2.0</title>
             <description><![CDATA[
 <ul>
