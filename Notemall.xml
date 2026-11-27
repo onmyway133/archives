@@ -3,6 +3,19 @@
     <channel>
         <title>Notemall</title>
         <item>
+            <title>1.1.2</title>
+            <description><![CDATA[
+<ul>
+  <li>Command click a link in a list or to-do list to open it</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 27 Nov 2026 21:23:49 +0100</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Notemall/releases/download/1.1.2/Notemall.zip" length="30379874" type="application/octet-stream" sparkle:edSignature="YsnBMPUCuJXZ5jN2u0FaIFzsuPvzGlXPJh2GY75KPExVSsoWOHh0YrBPu+UHFNINwvNY6ZjWjqPOC4RpQ7CJDg=="/>
+        </item>
+        <item>
             <title>1.1.1</title>
             <description><![CDATA[
 <ul>
