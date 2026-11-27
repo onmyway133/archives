@@ -3,6 +3,20 @@
     <channel>
         <title>Mailfan</title>
         <item>
+            <title>1.1.1</title>
+            <description><![CDATA[
+<ul>
+  <li>Deleting, archiving or reporting spam now clears the message from the list instantly</li>
+  <li>Changed your mind? Undo, or press ⌘Z, within 8 seconds to bring it back</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 27 Nov 2026 23:20:28 +0100</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Mailfan/releases/download/1.1.1/Mailfan.zip" length="31441329" type="application/octet-stream" sparkle:edSignature="M6sqYRxriRoFwaTRsxxDeTHbyjwu5Yj22bzyIod95Wpnrwj4q5yn6m5BqbgBbdOR2Yim17tBp5QL0OrAKitLDg=="/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <description><![CDATA[
 <ul>
