@@ -3,6 +3,24 @@
     <channel>
         <title>PastePal Standalone</title>
                                                                                                                                                                                                                                                 <item>
+            <title>2.22.6</title>
+            <description><![CDATA[
+<ul>
+  <li>Export your whole History, not only collections.</li>
+  <li>Turn a secret back into plain text with Convert to Text.</li>
+  <li>Pasted images keep their original colors.</li>
+  <li>Press Forward Delete (Fn + Delete) to delete clips.</li>
+  <li>iCloud Sync, Allow and Ignore settings now work during the free trial.</li>
+  <li>More complete Chinese translations.</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 27 Nov 2026 23:19:04 +0100</pubDate>
+            <sparkle:version>247</sparkle:version>
+            <sparkle:shortVersionString>2.22.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/PastePal/releases/download/2.22.6/PastePal.zip" length="37735655" type="application/octet-stream" sparkle:edSignature="v23jcx2pFIFG/mn5kDK/bq0tAfqg7RsO+B7rOzQxSe0U6enGQszGbKg3g++I7gH4RJnWkX7ZyyTbrGHnKWV+Aw=="/>
+        </item>
+        <item>
             <title>2.22.5</title>
             <description><![CDATA[
 <ul>
