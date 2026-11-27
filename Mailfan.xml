@@ -17,6 +17,20 @@
             <enclosure url="https://github.com/IndieGoodies/Mailfan/releases/download/1.1.0/Mailfan.zip" length="31435415" type="application/octet-stream" sparkle:edSignature="xwY7Dt41eT393B3Oypepj1hklYp+fc5hNprN9nYDtknFHEMXKhT73N7aSck7CCwKXG9jCgXNSXFwNeKASRozDw=="/>
         </item>
         <item>
+            <title>1.0.9</title>
+            <description><![CDATA[
+<ul>
+  <li>Move to Junk is now Report Spam, and Mailfan calls the folder Spam, so it's clear your mail provider learns from it</li>
+  <li>Your reply shows up in the open conversation right after you send it, and new replies appear without reopening the conversation</li>
+</ul>
+]]></description>
+            <pubDate>Fri, 27 Nov 2026 21:35:02 +0100</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Mailfan/releases/download/1.0.9/Mailfan.zip" length="31401398" type="application/octet-stream" sparkle:edSignature="TTa1I/inodhh3g1JOaUKYg5g/UozEEH4RLtNsBi4Wj487Tm3hbFOqghcOjloRQUCCnzSs3nWhjxKvrnwyOa2AA=="/>
+        </item>
+        <item>
             <title>1.0.8</title>
             <description><![CDATA[
 <ul>
