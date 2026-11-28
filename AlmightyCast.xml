@@ -3,6 +3,20 @@
     <channel>
         <title>Almighty</title>
         <item>
+            <title>2.14.1</title>
+            <description><![CDATA[
+<ul>
+  <li>Check for Updates is now in the gear menu of the menu bar window, so getting the latest version takes one click</li>
+</ul>
+]]></description>
+            <pubDate>Sat, 28 Nov 2026 08:49:58 +0100</pubDate>
+            <sparkle:version>119</sparkle:version>
+            <sparkle:shortVersionString>2.14.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/IndieGoodies/Almighty/releases/download/2.14.1/Almighty.zip" length="55085002" type="application/octet-stream" sparkle:edSignature="OpOGq+dD3eLLFSODO6yJXJg57L9WNVW7/P67HWYOftb366ND9lzWTD1mxYQ3gks9xQC7Oghh247iy6TT1AVlBA=="/>
+        </item>
+
+        <item>
             <title>2.14.0</title>
             <description><![CDATA[
 <ul>
